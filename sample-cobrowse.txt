@@ -1,0 +1,136 @@
+{
+  "url": "https://www.nike.com/t/247-impossiblysoft-mens-dri-fit-1-2-zip-top-s9Hx9b/HQ6953-658",
+  "is_pdp": false,
+  "add_to_cart_found": true,
+  "clickable": true,
+  "clickable_error": null,
+  "variants": [
+    {
+      "group_type": "color",
+      "count": 8,
+      "variants": [
+        {
+          "text": "",
+          "image": "https://static.nike.com/a/images/t_PDP_144_v1/f_auto,q_auto:eco/736690bc-118d-40eb-9856-ffe63d26ea4a/M+NK+DF+24.7+IS+HZ.png",
+          "availability": null
+        },
+        {
+          "text": "",
+          "image": "https://static.nike.com/a/images/t_PDP_144_v1/f_auto,q_auto:eco/2900bacb-fff1-40b2-8153-84d8bce2e8ab/M+NK+DF+24.7+IS+HZ.png",
+          "availability": null
+        },
+        {
+          "text": "",
+          "image": "https://static.nike.com/a/images/t_PDP_144_v1/f_auto,q_auto:eco/026639fb-1098-475e-91f5-e6d127af6ccf/M+NK+DF+24.7+IS+HZ.png",
+          "availability": null
+        },
+        {
+          "text": "",
+          "image": "https://static.nike.com/a/images/t_PDP_144_v1/f_auto,q_auto:eco/b519dcab-69ed-47f8-a5e2-ca9f59184105/M+NK+DF+24.7+IS+HZ.png",
+          "availability": null
+        },
+        {
+          "text": "",
+          "image": "https://static.nike.com/a/images/t_PDP_144_v1/f_auto,q_auto:eco/0910609d-1ddb-4bdc-941d-49e24acba8b7/M+NK+DF+24.7+IS+HZ.png",
+          "availability": null
+        },
+        {
+          "text": "",
+          "image": "https://static.nike.com/a/images/t_PDP_144_v1/f_auto,q_auto:eco/5c312105-e054-46f6-80aa-d05f1258cb64/M+NK+DF+24.7+IS+HZ.png",
+          "availability": null
+        },
+        {
+          "text": "",
+          "image": "https://static.nike.com/a/images/t_PDP_144_v1/f_auto,q_auto:eco/6fe0bcb7-c6e7-4949-a6e7-e21ba4917de1/M+NK+DF+24.7+IS+HZ.png",
+          "availability": null
+        },
+        {
+          "text": "",
+          "image": "https://static.nike.com/a/images/t_PDP_144_v1/f_auto,q_auto:eco/e829335b-c8c8-4c40-88fc-6b385c413aa0/M+NK+DF+24.7+IS+HZ.png",
+          "availability": null
+        }
+      ]
+    },
+    {
+      "group_type": "size",
+      "count": 15,
+      "variants": [
+        {
+          "text": "XS",
+          "image": null,
+          "availability": ""
+        },
+        {
+          "text": "S",
+          "image": null,
+          "availability": ""
+        },
+        {
+          "text": "S Tall",
+          "image": null,
+          "availability": ""
+        },
+        {
+          "text": "M",
+          "image": null,
+          "availability": ""
+        },
+        {
+          "text": "M Tall",
+          "image": null,
+          "availability": ""
+        },
+        {
+          "text": "L",
+          "image": null,
+          "availability": ""
+        },
+        {
+          "text": "L Tall",
+          "image": null,
+          "availability": ""
+        },
+        {
+          "text": "XL",
+          "image": null,
+          "availability": ""
+        },
+        {
+          "text": "XL Tall",
+          "image": null,
+          "availability": ""
+        },
+        {
+          "text": "XXL",
+          "image": null,
+          "availability": ""
+        },
+        {
+          "text": "XXL Tall",
+          "image": null,
+          "availability": ""
+        },
+        {
+          "text": "3XL",
+          "image": null,
+          "availability": ""
+        },
+        {
+          "text": "3XL Tall",
+          "image": null,
+          "availability": ""
+        },
+        {
+          "text": "4XL",
+          "image": null,
+          "availability": ""
+        },
+        {
+          "text": "4XL Tall",
+          "image": null,
+          "availability": ""
+        }
+      ]
+    }
+  ]
+}
