@@ -1,0 +1,22 @@
+{
+  "actions": [
+    {
+      "name": "scroll_document",
+      "args": {
+        "direction": "down"
+      },
+      "note": null,
+      "call_id": null
+    }
+  ],
+  "results": [
+    {
+      "name": "scroll_document",
+      "call_id": null,
+      "result": {
+        "status": "ok",
+        "url": "https://www.nike.com/w/jordan-37eef"
+      }
+    }
+  ]
+}

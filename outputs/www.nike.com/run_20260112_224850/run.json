@@ -1,0 +1,7 @@
+{
+  "started_at": "2026-01-12T22:48:50.819325",
+  "start_url": "https://www.nike.com",
+  "host": "www.nike.com",
+  "model_adapter": "GeminiCuaAdapter",
+  "model_name": "gemini-2.5-computer-use-preview-10-2025"
+}

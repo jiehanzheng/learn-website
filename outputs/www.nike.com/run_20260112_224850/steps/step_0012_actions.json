@@ -1,0 +1,20 @@
+{
+  "actions": [
+    {
+      "name": "go_forward",
+      "args": {},
+      "note": null,
+      "call_id": null
+    }
+  ],
+  "results": [
+    {
+      "name": "go_forward",
+      "call_id": null,
+      "result": {
+        "status": "ok",
+        "url": "https://www.nike.com/w/jordan-37eef"
+      }
+    }
+  ]
+}

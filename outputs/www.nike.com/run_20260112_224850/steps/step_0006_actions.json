@@ -1,0 +1,365 @@
+{
+  "actions": [
+    {
+      "name": "click_at",
+      "args": {
+        "y": 156,
+        "x": 726
+      },
+      "note": null,
+      "call_id": null
+    }
+  ],
+  "results": [
+    {
+      "name": "click_at",
+      "call_id": null,
+      "result": {
+        "status": "ok",
+        "url": "https://www.nike.com/t/jordan-flight-club-mens-t-shirt-lWpLnAXE/IQ0543-010",
+        "click": {
+          "raw": {
+            "x": 726.0,
+            "y": 156.0,
+            "normalized": true
+          },
+          "resolved": {
+            "x": 1045.44,
+            "y": 140.4
+          },
+          "element": {
+            "tag": "label",
+            "id": null,
+            "classes": [
+              "u-full-width",
+              "u-full-height",
+              "d-sm-flx",
+              "flx-jc-sm-c",
+              "flx-ai-sm-c"
+            ],
+            "text": "M",
+            "attributes": {
+              "class": "u-full-width u-full-height d-sm-flx flx-jc-sm-c flx-ai-sm-c",
+              "for": "grid-selector-input-M"
+            },
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 1010.3984375,
+              "y": 118,
+              "width": 67.1953125,
+              "height": 46
+            },
+            "selector": "div.nds-grid.pdp-grid.css-qqclnk > div.grid-item.price.pl6-lg > div.size-selector-wrapper.mt5-sm.mb8-sm > fieldset.pdp-grid-selector > div.d-sm-flx.flx-dir-sm-c.flx-dir-lg-cr > div.nds-grid.pt3-sm.pdp-grid-selector-grid > div.css-1jas9ft.nds-grid-item > label.u-full-width.u-full-height.d-sm-flx",
+            "ancestors": [
+              {
+                "tag": "label",
+                "id": null,
+                "classes": [
+                  "u-full-width",
+                  "u-full-height",
+                  "d-sm-flx",
+                  "flx-jc-sm-c",
+                  "flx-ai-sm-c"
+                ],
+                "text": "M",
+                "attributes": {
+                  "class": "u-full-width u-full-height d-sm-flx flx-jc-sm-c flx-ai-sm-c",
+                  "for": "grid-selector-input-M"
+                },
+                "ariaLabel": null,
+                "role": null,
+                "href": null,
+                "rect": {
+                  "x": 1010.3984375,
+                  "y": 118,
+                  "width": 67.1953125,
+                  "height": 46
+                },
+                "selector": "div.nds-grid.pdp-grid.css-qqclnk > div.grid-item.price.pl6-lg > div.size-selector-wrapper.mt5-sm.mb8-sm > fieldset.pdp-grid-selector > div.d-sm-flx.flx-dir-sm-c.flx-dir-lg-cr > div.nds-grid.pt3-sm.pdp-grid-selector-grid > div.css-1jas9ft.nds-grid-item > label.u-full-width.u-full-height.d-sm-flx"
+              },
+              {
+                "tag": "div",
+                "id": null,
+                "classes": [
+                  "css-1jas9ft",
+                  "nds-grid-item"
+                ],
+                "text": "M",
+                "attributes": {
+                  "class": " css-1jas9ft nds-grid-item",
+                  "data-testid": "pdp-grid-selector-item",
+                  "style": "min-width: 63px;"
+                },
+                "ariaLabel": null,
+                "role": null,
+                "href": null,
+                "rect": {
+                  "x": 1009.3984375,
+                  "y": 117,
+                  "width": 69.1953125,
+                  "height": 48
+                },
+                "selector": "main.d-sm-flx.flx-dir-sm-c.flx-jc-sm-c > div.nds-grid.pdp-grid.css-qqclnk > div.grid-item.price.pl6-lg > div.size-selector-wrapper.mt5-sm.mb8-sm > fieldset.pdp-grid-selector > div.d-sm-flx.flx-dir-sm-c.flx-dir-lg-cr > div.nds-grid.pt3-sm.pdp-grid-selector-grid > div.css-1jas9ft.nds-grid-item"
+              },
+              {
+                "tag": "div",
+                "id": null,
+                "classes": [
+                  "nds-grid",
+                  "pt3-sm",
+                  "pdp-grid-selector-grid",
+                  "css-1e1csi1"
+                ],
+                "text": "XS S M L XL XXL",
+                "attributes": {
+                  "class": "nds-grid pt3-sm pdp-grid-selector-grid  css-1e1csi1",
+                  "data-testid": "pdp-grid-selector-grid"
+                },
+                "ariaLabel": null,
+                "role": null,
+                "href": null,
+                "rect": {
+                  "x": 856,
+                  "y": 104,
+                  "width": 376,
+                  "height": 117
+                },
+                "selector": "div > main.d-sm-flx.flx-dir-sm-c.flx-jc-sm-c > div.nds-grid.pdp-grid.css-qqclnk > div.grid-item.price.pl6-lg > div.size-selector-wrapper.mt5-sm.mb8-sm > fieldset.pdp-grid-selector > div.d-sm-flx.flx-dir-sm-c.flx-dir-lg-cr > div.nds-grid.pt3-sm.pdp-grid-selector-grid"
+              },
+              {
+                "tag": "div",
+                "id": null,
+                "classes": [
+                  "d-sm-flx",
+                  "flx-dir-sm-c",
+                  "flx-dir-lg-cr"
+                ],
+                "text": "XS S M L XL XXL",
+                "attributes": {
+                  "class": "d-sm-flx flx-dir-sm-c flx-dir-lg-cr"
+                },
+                "ariaLabel": null,
+                "role": null,
+                "href": null,
+                "rect": {
+                  "x": 856,
+                  "y": 104,
+                  "width": 376,
+                  "height": 117
+                },
+                "selector": "div > div > main.d-sm-flx.flx-dir-sm-c.flx-jc-sm-c > div.nds-grid.pdp-grid.css-qqclnk > div.grid-item.price.pl6-lg > div.size-selector-wrapper.mt5-sm.mb8-sm > fieldset.pdp-grid-selector > div.d-sm-flx.flx-dir-sm-c.flx-dir-lg-cr"
+              },
+              {
+                "tag": "fieldset",
+                "id": null,
+                "classes": [
+                  "pdp-grid-selector"
+                ],
+                "text": "Select Size Size Guide XS S M L XL XXL",
+                "attributes": {
+                  "class": "pdp-grid-selector ",
+                  "data-testid": "pdp-grid-selector"
+                },
+                "ariaLabel": null,
+                "role": null,
+                "href": null,
+                "rect": {
+                  "x": 856,
+                  "y": 80,
+                  "width": 376,
+                  "height": 141
+                },
+                "selector": "body > div > div > main.d-sm-flx.flx-dir-sm-c.flx-jc-sm-c > div.nds-grid.pdp-grid.css-qqclnk > div.grid-item.price.pl6-lg > div.size-selector-wrapper.mt5-sm.mb8-sm > fieldset.pdp-grid-selector"
+              },
+              {
+                "tag": "div",
+                "id": "size-selector",
+                "classes": [
+                  "size-selector-wrapper",
+                  "mt5-sm",
+                  "mb8-sm"
+                ],
+                "text": "Select Size Size Guide XS S M L XL XXL",
+                "attributes": {
+                  "class": "size-selector-wrapper mt5-sm mb8-sm",
+                  "id": "size-selector",
+                  "data-testid": "size-selector"
+                },
+                "ariaLabel": null,
+                "role": null,
+                "href": null,
+                "rect": {
+                  "x": 856,
+                  "y": 80,
+                  "width": 376,
+                  "height": 141
+                },
+                "selector": "#size-selector"
+              },
+              {
+                "tag": "div",
+                "id": null,
+                "classes": [
+                  "grid-item",
+                  "price",
+                  "pl6-lg",
+                  "z1",
+                  "css-1jk6ulu",
+                  "nds-grid-item"
+                ],
+                "text": "$45 Select Size Size Guide XS S M L XL XXL Add to Bag Favorite Shipping You'll see our shipping options at checkout. Free Pickup Find a Store Heavyweight cotton gives this tee a structured feel while \u2026",
+                "attributes": {
+                  "class": "grid-item price pl6-lg z1 css-1jk6ulu nds-grid-item"
+                },
+                "ariaLabel": null,
+                "role": null,
+                "href": null,
+                "rect": {
+                  "x": 832,
+                  "y": -100,
+                  "width": 400,
+                  "height": 1297.5
+                },
+                "selector": "html > body > div > div > main.d-sm-flx.flx-dir-sm-c.flx-jc-sm-c > div.nds-grid.pdp-grid.css-qqclnk > div.grid-item.price.pl6-lg"
+              },
+              {
+                "tag": "div",
+                "id": null,
+                "classes": [
+                  "nds-grid",
+                  "pdp-grid",
+                  "css-qqclnk",
+                  "ehf3nt20"
+                ],
+                "text": "image 1 of 7 Jordan Flight Club Men's T-Shirt $45 Select Size Size Guide XS S M L XL XXL Add to Bag Favorite Shipping You'll see our shipping options at checkout. Free Pickup Find a Store Heavyweight \u2026",
+                "attributes": {
+                  "class": "nds-grid pdp-grid css-qqclnk ehf3nt20",
+                  "style": "width:100%;max-width:1920px;margin:auto"
+                },
+                "ariaLabel": null,
+                "role": null,
+                "href": null,
+                "rect": {
+                  "x": 0,
+                  "y": -204,
+                  "width": 1440,
+                  "height": 1499.5
+                },
+                "selector": "html > body > div > div > main.d-sm-flx.flx-dir-sm-c.flx-jc-sm-c > div.nds-grid.pdp-grid.css-qqclnk"
+              },
+              {
+                "tag": "main",
+                "id": null,
+                "classes": [
+                  "d-sm-flx",
+                  "flx-dir-sm-c",
+                  "flx-jc-sm-c",
+                  "flx-ai-sm-c"
+                ],
+                "text": "Shop New Arrivals Send a Gift Card Members: Free Shipping on Orders $50+ image 1 of 7 Jordan Flight Club Men's T-Shirt $45 Select Size Size Guide XS S M L XL XXL Add to Bag Favorite Shipping You'll se\u2026",
+                "attributes": {
+                  "class": "d-sm-flx flx-dir-sm-c flx-jc-sm-c flx-ai-sm-c",
+                  "data-testid": "pdp-main",
+                  "style": "width:100%;padding-bottom:48px"
+                },
+                "ariaLabel": null,
+                "role": null,
+                "href": null,
+                "rect": {
+                  "x": 0,
+                  "y": -264,
+                  "width": 1440,
+                  "height": 1607.5
+                },
+                "selector": "html > body > div > div > main.d-sm-flx.flx-dir-sm-c.flx-jc-sm-c"
+              },
+              {
+                "tag": "div",
+                "id": "__next",
+                "classes": [],
+                "text": "Shop New Arrivals Send a Gift Card Members: Free Shipping on Orders $50+ image 1 of 7 Jordan Flight Club Men's T-Shirt $45 Select Size Size Guide XS S M L XL XXL Add to Bag Favorite Shipping You'll se\u2026",
+                "attributes": {
+                  "id": "__next",
+                  "data-reactroot": ""
+                },
+                "ariaLabel": null,
+                "role": null,
+                "href": null,
+                "rect": {
+                  "x": 0,
+                  "y": -264,
+                  "width": 1440,
+                  "height": 1607.5
+                },
+                "selector": "#__next"
+              },
+              {
+                "tag": "div",
+                "id": "experience-wrapper",
+                "classes": [],
+                "text": "Shop New Arrivals Send a Gift Card Members: Free Shipping on Orders $50+ image 1 of 7 Jordan Flight Club Men's T-Shirt $45 Select Size Size Guide XS S M L XL XXL Add to Bag Favorite Shipping You'll se\u2026",
+                "attributes": {
+                  "id": "experience-wrapper"
+                },
+                "ariaLabel": null,
+                "role": null,
+                "href": null,
+                "rect": {
+                  "x": 0,
+                  "y": -264,
+                  "width": 1440,
+                  "height": 1607.5
+                },
+                "selector": "#experience-wrapper"
+              },
+              {
+                "tag": "body",
+                "id": null,
+                "classes": [],
+                "text": "Skip to main content Accessibility at Nike Find a Store Help Join Us Sign In Men Women Kids Jordan NikeSKIMS Sport Shop New Arrivals Send a Gift Card Members: Free Shipping on Orders $50+ image 1 of 7\u2026",
+                "attributes": {},
+                "ariaLabel": null,
+                "role": null,
+                "href": null,
+                "rect": {
+                  "x": 0,
+                  "y": -360,
+                  "width": 1440,
+                  "height": 2314.5
+                },
+                "selector": "html > body"
+              },
+              {
+                "tag": "html",
+                "id": null,
+                "classes": [],
+                "text": "Skip to main content Accessibility at Nike Find a Store Help Join Us Sign In Men Women Kids Jordan NikeSKIMS Sport Shop New Arrivals Send a Gift Card Members: Free Shipping on Orders $50+ image 1 of 7\u2026",
+                "attributes": {
+                  "lang": "en-US",
+                  "style": "--eswIconFillColor: #1A1B1E;"
+                },
+                "ariaLabel": null,
+                "role": null,
+                "href": null,
+                "rect": {
+                  "x": 0,
+                  "y": -360,
+                  "width": 1440,
+                  "height": 2314.5
+                },
+                "selector": "html"
+              }
+            ]
+          },
+          "url": "https://www.nike.com/t/jordan-flight-club-mens-t-shirt-lWpLnAXE/IQ0543-010",
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          }
+        }
+      }
+    }
+  ]
+}

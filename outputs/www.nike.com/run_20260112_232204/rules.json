@@ -1,0 +1,43 @@
+{
+  "version": "0.3",
+  "created_at": "2026-01-12T23:23:22.871205",
+  "model": "gemini-3-flash-preview",
+  "rules": {
+    "pdp_url_regex": "nike\\.com/t/[^/]+/[A-Z0-9-]+",
+    "pdp_url_reason": "Based on the captured PDP URL (https://www.nike.com/t/gato-mens-shoes-IZnqPPCC/IB6650-200), Nike uses a consistent structure where '/t/' is followed by a product name slug and a specific style/color code.",
+    "add_to_cart_selector": "button[data-testid='atb-button']",
+    "add_to_cart_selector_reason": "The button specifically identified in the logs as 'Add to Bag' uses the consistent data-testid attribute 'atb-button', which is the most reliable selector for this site.",
+    "clickable_js": "el.getAttribute('aria-disabled') !== 'true' && !el.disabled",
+    "clickable_js_reason": "The button may be visually present but disabled or hidden behind an aria-disabled state if a required variant (like size) has not been selected.",
+    "assertion_proposal": "Look for the appearance of a side cart drawer or a success modal containing the text 'Added to Bag' or a 'View Bag' button.",
+    "assertion_proposal_reason": "As seen in the logs, even when an error occurred, a modal appeared containing 'View Bag'. Under normal conditions, Nike opens a mini-cart or a confirmation modal upon a successful add-to-cart action.",
+    "variant_extraction": {
+      "groups": [
+        {
+          "group_type": "color",
+          "group_reason": "Multiple color swatches are present in a picker container below the price.",
+          "variant_selector": "div#colorway-picker-container a[data-testid^='colorway-link-']",
+          "variant_selector_reason": "Color options are contained within the colorway-picker-container and are represented by links with a specific data-testid prefix.",
+          "variant_text_selector": "img",
+          "variant_text_selector_reason": "The color name is stored in the alt attribute of the image within the anchor tag.",
+          "variant_image_selector": "img",
+          "variant_image_selector_reason": "The image source in the swatch provides a thumbnail of the specific colorway.",
+          "variant_availability_selector": "a",
+          "variant_availability_selector_reason": "Selection state is often managed by classes on the anchor or parent div; unavailable colors are typically removed or visually distinct."
+        },
+        {
+          "group_type": "size",
+          "group_reason": "A grid of size buttons is present under the 'Select Size' label.",
+          "variant_selector": "div[data-testid='pdp-grid-selector-item']",
+          "variant_selector_reason": "Individual size options are wrapped in divs with this specific data-testid attribute.",
+          "variant_text_selector": "label",
+          "variant_text_selector_reason": "The actual size text (e.g., 'M 8 / W 9.5') is contained within the label element.",
+          "variant_image_selector": "",
+          "variant_image_selector_reason": "Sizes do not have unique images.",
+          "variant_availability_selector": "input",
+          "variant_availability_selector_reason": "Nike uses input elements within the size grid; if a size is out of stock, the input or the wrapper div will typically have a 'disabled' attribute or a specific CSS class indicating it is out of stock."
+        }
+      ]
+    }
+  }
+}

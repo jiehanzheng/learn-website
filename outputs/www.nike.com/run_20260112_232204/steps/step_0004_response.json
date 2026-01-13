@@ -1,0 +1,100 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 13 Jan 2026 07:22:27 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "server-timing": "gfet4t7; dur=5519",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    },
+    "body": null
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "media_resolution": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "file_data": null,
+            "function_call": null,
+            "function_response": null,
+            "inline_data": null,
+            "text": "I am now on the \"Men's Shoes & Sneakers\" page.\nThe \"Nike Gato\" and \"Nike Ava Rover\" both show multiple colors available (\"10 Colors\" and \"+5\" next to color swatches), indicating they have variants. The \"Air Jordan 4 Retro\" is \"Coming Soon\" so I can't add it to cart yet.\n\nI will click on the \"Nike Gato\" (the middle one) to go to its PDP, as it clearly has color variants.",
+            "thought": null,
+            "thought_signature": null,
+            "video_metadata": null
+          },
+          {
+            "media_resolution": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "file_data": null,
+            "function_call": {
+              "id": null,
+              "args": {
+                "y": 489,
+                "x": 529
+              },
+              "name": "click_at",
+              "partial_args": null,
+              "will_continue": null
+            },
+            "function_response": null,
+            "inline_data": null,
+            "text": null,
+            "thought": null,
+            "thought_signature": null,
+            "video_metadata": null
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "avg_logprobs": null,
+      "grounding_metadata": null,
+      "index": 0,
+      "logprobs_result": null,
+      "safety_ratings": null,
+      "url_context_metadata": null
+    }
+  ],
+  "create_time": null,
+  "model_version": "gemini-2.5-computer-use-preview-10-2025",
+  "prompt_feedback": null,
+  "response_id": "s_JlaZ-mKtf2jMcPqZzYwQ0",
+  "usage_metadata": {
+    "cache_tokens_details": null,
+    "cached_content_token_count": null,
+    "candidates_token_count": 130,
+    "candidates_tokens_details": null,
+    "prompt_token_count": 7834,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 610
+      },
+      {
+        "modality": "IMAGE",
+        "token_count": 7224
+      }
+    ],
+    "thoughts_token_count": null,
+    "tool_use_prompt_token_count": null,
+    "tool_use_prompt_tokens_details": null,
+    "total_token_count": 7964,
+    "traffic_type": null
+  },
+  "automatic_function_calling_history": null,
+  "parsed": null
+}

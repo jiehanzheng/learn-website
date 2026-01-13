@@ -1,0 +1,20 @@
+{
+  "actions": [
+    {
+      "name": "open_web_browser",
+      "args": {},
+      "note": null,
+      "call_id": null
+    }
+  ],
+  "results": [
+    {
+      "name": "open_web_browser",
+      "call_id": null,
+      "result": {
+        "status": "ok",
+        "url": "https://www.nike.com/"
+      }
+    }
+  ]
+}

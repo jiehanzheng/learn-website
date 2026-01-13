@@ -1,0 +1,158 @@
+{
+  "steps": [
+    {
+      "index": 1,
+      "url": "https://www.nike.com/",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "screenshot": "steps/step_0001.png",
+      "request": "steps/step_0001_request.json",
+      "response": "steps/step_0001_response.json",
+      "actions": "steps/step_0001_actions.json",
+      "ts": 1768288924.5195808,
+      "notes": null
+    },
+    {
+      "index": 2,
+      "url": "https://www.nike.com/",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "screenshot": "steps/step_0002.png",
+      "request": "steps/step_0002_request.json",
+      "response": "steps/step_0002_response.json",
+      "actions": "steps/step_0002_actions.json",
+      "ts": 1768288929.521945,
+      "notes": null
+    },
+    {
+      "index": 3,
+      "url": "https://www.nike.com/",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "screenshot": "steps/step_0003.png",
+      "request": "steps/step_0003_request.json",
+      "response": "steps/step_0003_response.json",
+      "actions": "steps/step_0003_actions.json",
+      "ts": 1768288936.13618,
+      "notes": null
+    },
+    {
+      "index": 4,
+      "url": "https://www.nike.com/men",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "screenshot": "steps/step_0004.png",
+      "request": "steps/step_0004_request.json",
+      "response": "steps/step_0004_response.json",
+      "actions": "steps/step_0004_actions.json",
+      "ts": 1768288942.225348,
+      "notes": null
+    },
+    {
+      "index": 5,
+      "url": "https://www.nike.com/w/mens-shoes-nik1zy7ok",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "screenshot": "steps/step_0005.png",
+      "request": "steps/step_0005_request.json",
+      "response": "steps/step_0005_response.json",
+      "actions": "steps/step_0005_actions.json",
+      "ts": 1768288949.0202959,
+      "notes": null
+    },
+    {
+      "index": 6,
+      "url": "https://www.nike.com/t/gato-mens-shoes-IZnqPPCC/IB6650-200",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "screenshot": "steps/step_0006.png",
+      "request": "steps/step_0006_request.json",
+      "response": "steps/step_0006_response.json",
+      "actions": "steps/step_0006_actions.json",
+      "ts": 1768288956.71786,
+      "notes": null
+    },
+    {
+      "index": 7,
+      "url": "https://www.nike.com/t/gato-mens-shoes-IZnqPPCC/IB6650-200",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "screenshot": "steps/step_0007.png",
+      "request": "steps/step_0007_request.json",
+      "response": "steps/step_0007_response.json",
+      "actions": "steps/step_0007_actions.json",
+      "ts": 1768288963.684918,
+      "notes": null
+    },
+    {
+      "index": 8,
+      "url": "https://www.nike.com/t/gato-mens-shoes-IZnqPPCC/IB6650-200",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "screenshot": "steps/step_0008.png",
+      "request": "steps/step_0008_request.json",
+      "response": "steps/step_0008_response.json",
+      "actions": "steps/step_0008_actions.json",
+      "ts": 1768288969.492382,
+      "notes": null
+    },
+    {
+      "index": 9,
+      "url": "https://www.nike.com/t/gato-mens-shoes-IZnqPPCC/IB6650-200",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "screenshot": "steps/step_0009.png",
+      "request": "steps/step_0009_request.json",
+      "response": "steps/step_0009_response.json",
+      "actions": "steps/step_0009_actions.json",
+      "ts": 1768288975.571622,
+      "notes": null
+    },
+    {
+      "index": 10,
+      "url": "https://www.nike.com/t/gato-mens-shoes-IZnqPPCC/IB6650-200",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "screenshot": "steps/step_0010.png",
+      "request": "steps/step_0010_request.json",
+      "response": "steps/step_0010_response.json",
+      "actions": "steps/step_0010_actions.json",
+      "ts": 1768288982.578676,
+      "notes": null
+    },
+    {
+      "index": 11,
+      "url": "https://www.nike.com/t/gato-mens-shoes-IZnqPPCC/IB6650-200",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "screenshot": "steps/step_0011.png",
+      "request": "steps/step_0011_request.json",
+      "response": "steps/step_0011_response.json",
+      "actions": null,
+      "ts": 1768288989.965017,
+      "notes": null
+    }
+  ]
+}

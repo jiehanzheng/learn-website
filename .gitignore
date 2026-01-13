@@ -4,4 +4,3 @@ __pycache__/
 .env.*
 *.pyc
 playwright/.cache/
-outputs/

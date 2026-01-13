@@ -1,0 +1,228 @@
+{
+  "steps": [
+    {
+      "index": 1,
+      "url": "https://www.nike.com/",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "screenshot": "steps/step_0001.png",
+      "request": "steps/step_0001_request.json",
+      "response": "steps/step_0001_response.json",
+      "actions": "steps/step_0001_actions.json",
+      "ts": 1768286931.023974,
+      "notes": null
+    },
+    {
+      "index": 2,
+      "url": "https://www.nike.com/",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "screenshot": "steps/step_0002.png",
+      "request": "steps/step_0002_request.json",
+      "response": "steps/step_0002_response.json",
+      "actions": "steps/step_0002_actions.json",
+      "ts": 1768286936.742153,
+      "notes": null
+    },
+    {
+      "index": 3,
+      "url": "https://www.nike.com/",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "screenshot": "steps/step_0003.png",
+      "request": "steps/step_0003_request.json",
+      "response": "steps/step_0003_response.json",
+      "actions": "steps/step_0003_actions.json",
+      "ts": 1768286944.589803,
+      "notes": null
+    },
+    {
+      "index": 4,
+      "url": "https://www.nike.com/w/jordan-37eef",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "screenshot": "steps/step_0004.png",
+      "request": "steps/step_0004_request.json",
+      "response": "steps/step_0004_response.json",
+      "actions": "steps/step_0004_actions.json",
+      "ts": 1768286954.9222322,
+      "notes": null
+    },
+    {
+      "index": 5,
+      "url": "https://www.nike.com/w/jordan-37eef",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "screenshot": "steps/step_0005.png",
+      "request": "steps/step_0005_request.json",
+      "response": "steps/step_0005_response.json",
+      "actions": "steps/step_0005_actions.json",
+      "ts": 1768286960.977705,
+      "notes": null
+    },
+    {
+      "index": 6,
+      "url": "https://www.nike.com/t/jordan-flight-club-mens-t-shirt-lWpLnAXE/IQ0543-010",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "screenshot": "steps/step_0006.png",
+      "request": "steps/step_0006_request.json",
+      "response": "steps/step_0006_response.json",
+      "actions": "steps/step_0006_actions.json",
+      "ts": 1768286967.291679,
+      "notes": null
+    },
+    {
+      "index": 7,
+      "url": "https://www.nike.com/t/jordan-flight-club-mens-t-shirt-lWpLnAXE/IQ0543-010",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "screenshot": "steps/step_0007.png",
+      "request": "steps/step_0007_request.json",
+      "response": "steps/step_0007_response.json",
+      "actions": "steps/step_0007_actions.json",
+      "ts": 1768286973.1506538,
+      "notes": null
+    },
+    {
+      "index": 8,
+      "url": "https://www.nike.com/t/jordan-flight-club-mens-t-shirt-lWpLnAXE/IQ0543-010",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "screenshot": "steps/step_0008.png",
+      "request": "steps/step_0008_request.json",
+      "response": "steps/step_0008_response.json",
+      "actions": "steps/step_0008_actions.json",
+      "ts": 1768286979.305517,
+      "notes": null
+    },
+    {
+      "index": 9,
+      "url": "https://www.nike.com/t/jordan-flight-club-mens-t-shirt-lWpLnAXE/IQ0543-010",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "screenshot": "steps/step_0009.png",
+      "request": "steps/step_0009_request.json",
+      "response": "steps/step_0009_response.json",
+      "actions": "steps/step_0009_actions.json",
+      "ts": 1768286985.724582,
+      "notes": null
+    },
+    {
+      "index": 10,
+      "url": "https://www.nike.com/t/jordan-flight-club-mens-t-shirt-lWpLnAXE/IQ0543-010",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "screenshot": "steps/step_0010.png",
+      "request": "steps/step_0010_request.json",
+      "response": "steps/step_0010_response.json",
+      "actions": "steps/step_0010_actions.json",
+      "ts": 1768286991.609368,
+      "notes": null
+    },
+    {
+      "index": 11,
+      "url": "https://www.nike.com/t/jordan-flight-club-mens-t-shirt-lWpLnAXE/IQ0543-010",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "screenshot": "steps/step_0011.png",
+      "request": "steps/step_0011_request.json",
+      "response": "steps/step_0011_response.json",
+      "actions": "steps/step_0011_actions.json",
+      "ts": 1768286997.281434,
+      "notes": null
+    },
+    {
+      "index": 12,
+      "url": "https://www.nike.com/w/jordan-37eef",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "screenshot": "steps/step_0012.png",
+      "request": "steps/step_0012_request.json",
+      "response": "steps/step_0012_response.json",
+      "actions": "steps/step_0012_actions.json",
+      "ts": 1768287005.316778,
+      "notes": null
+    },
+    {
+      "index": 13,
+      "url": "https://www.nike.com/w/jordan-37eef",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "screenshot": "steps/step_0013.png",
+      "request": "steps/step_0013_request.json",
+      "response": "steps/step_0013_response.json",
+      "actions": "steps/step_0013_actions.json",
+      "ts": 1768287012.455137,
+      "notes": null
+    },
+    {
+      "index": 14,
+      "url": "https://www.nike.com/t/jordan-flight-club-mens-t-shirt-lWpLnAXE/IQ0543-010",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "screenshot": "steps/step_0014.png",
+      "request": "steps/step_0014_request.json",
+      "response": "steps/step_0014_response.json",
+      "actions": "steps/step_0014_actions.json",
+      "ts": 1768287018.757759,
+      "notes": null
+    },
+    {
+      "index": 15,
+      "url": "https://www.nike.com/t/jordan-flight-club-mens-t-shirt-lWpLnAXE/IQ0543-010",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "screenshot": "steps/step_0015.png",
+      "request": "steps/step_0015_request.json",
+      "response": "steps/step_0015_response.json",
+      "actions": "steps/step_0015_actions.json",
+      "ts": 1768287024.98654,
+      "notes": null
+    },
+    {
+      "index": 16,
+      "url": "https://www.nike.com/t/jordan-flight-club-mens-t-shirt-lWpLnAXE/IQ0543-010",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "screenshot": "steps/step_0016.png",
+      "request": "steps/step_0016_request.json",
+      "response": "steps/step_0016_response.json",
+      "actions": null,
+      "ts": 1768287031.748875,
+      "notes": null
+    }
+  ]
+}

@@ -1,0 +1,473 @@
+{
+  "actions": [
+    {
+      "name": "click_at",
+      "args": {
+        "y": 489,
+        "x": 529
+      },
+      "note": null,
+      "call_id": null
+    }
+  ],
+  "results": [
+    {
+      "name": "click_at",
+      "call_id": null,
+      "result": {
+        "status": "ok",
+        "url": "https://www.nike.com/w/mens-shoes-nik1zy7ok",
+        "click": {
+          "raw": {
+            "x": 529.0,
+            "y": 489.0,
+            "normalized": true
+          },
+          "resolved": {
+            "x": 761.76,
+            "y": 440.09999999999997
+          },
+          "element": {
+            "tag": "img",
+            "id": null,
+            "classes": [
+              "product-card__hero-image",
+              "css-1fxh5tw"
+            ],
+            "text": "",
+            "attributes": {
+              "alt": "Nike Gato Men's Shoes",
+              "class": "product-card__hero-image css-1fxh5tw",
+              "fetchpriority": "auto",
+              "height": "auto",
+              "loading": "eager",
+              "sizes": "(width < 960px) 318px, (width < 960px) and (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) 592px, (min-width: 960px) 592px",
+              "src": "https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/05e9b05d-aa0e-4198-a879-ee354ac39e75/NIKE+GATO.png",
+              "srcset": "https://static.nike.com/a/images/c_limit,w_318,f_auto/t_product_v1/05e9b05d-aa0e-4198-a879-ee354ac39e75/NIKE+GATO.png 318w, https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/05e9b05d-aa0e-4198-a879-ee354ac39e75/NIKE+GATO.png 592w, https://static.nike.com/a/images/c_limit,w_318,f_auto/t_product_v1/05e9b05d-aa0e-4198-a879-ee354ac39e75/NIKE+GATO.png 400w",
+              "width": "100%"
+            },
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 672,
+              "y": 238,
+              "width": 348,
+              "height": 348
+            },
+            "selector": "section > div.product-grid__items.css-1rkzg9 > div.product-card.product-grid__card.css-o3hy8j > div.product-card__body > figure > a.product-card__img-link-overlay > div.wall-image-loader.css-1la3v4n > img.product-card__hero-image.css-1fxh5tw",
+            "ancestors": [
+              {
+                "tag": "img",
+                "id": null,
+                "classes": [
+                  "product-card__hero-image",
+                  "css-1fxh5tw"
+                ],
+                "text": "",
+                "attributes": {
+                  "alt": "Nike Gato Men's Shoes",
+                  "class": "product-card__hero-image css-1fxh5tw",
+                  "fetchpriority": "auto",
+                  "height": "auto",
+                  "loading": "eager",
+                  "sizes": "(width < 960px) 318px, (width < 960px) and (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) 592px, (min-width: 960px) 592px",
+                  "src": "https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/05e9b05d-aa0e-4198-a879-ee354ac39e75/NIKE+GATO.png",
+                  "srcset": "https://static.nike.com/a/images/c_limit,w_318,f_auto/t_product_v1/05e9b05d-aa0e-4198-a879-ee354ac39e75/NIKE+GATO.png 318w, https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/05e9b05d-aa0e-4198-a879-ee354ac39e75/NIKE+GATO.png 592w, https://static.nike.com/a/images/c_limit,w_318,f_auto/t_product_v1/05e9b05d-aa0e-4198-a879-ee354ac39e75/NIKE+GATO.png 400w",
+                  "width": "100%"
+                },
+                "ariaLabel": null,
+                "role": null,
+                "href": null,
+                "rect": {
+                  "x": 672,
+                  "y": 238,
+                  "width": 348,
+                  "height": 348
+                },
+                "selector": "section > div.product-grid__items.css-1rkzg9 > div.product-card.product-grid__card.css-o3hy8j > div.product-card__body > figure > a.product-card__img-link-overlay > div.wall-image-loader.css-1la3v4n > img.product-card__hero-image.css-1fxh5tw"
+              },
+              {
+                "tag": "div",
+                "id": null,
+                "classes": [
+                  "wall-image-loader",
+                  "css-1la3v4n"
+                ],
+                "text": "",
+                "attributes": {
+                  "class": "wall-image-loader  css-1la3v4n",
+                  "data-testid": "wall-image-loader"
+                },
+                "ariaLabel": null,
+                "role": null,
+                "href": null,
+                "rect": {
+                  "x": 672,
+                  "y": 238,
+                  "width": 348,
+                  "height": 348
+                },
+                "selector": "main > section > div.product-grid__items.css-1rkzg9 > div.product-card.product-grid__card.css-o3hy8j > div.product-card__body > figure > a.product-card__img-link-overlay > div.wall-image-loader.css-1la3v4n"
+              },
+              {
+                "tag": "a",
+                "id": null,
+                "classes": [
+                  "product-card__img-link-overlay"
+                ],
+                "text": "",
+                "attributes": {
+                  "aria-label": "Nike Gato",
+                  "class": "product-card__img-link-overlay",
+                  "data-el-type": "Hero",
+                  "data-testid": "product-card__img-link-overlay",
+                  "href": "https://www.nike.com/t/gato-mens-shoes-IZnqPPCC/HQ6020-007"
+                },
+                "ariaLabel": "Nike Gato",
+                "role": null,
+                "href": "https://www.nike.com/t/gato-mens-shoes-IZnqPPCC/HQ6020-007",
+                "rect": {
+                  "x": 672,
+                  "y": 238,
+                  "width": 348,
+                  "height": 348
+                },
+                "selector": "div.product-grid.css-xwapu9 > main > section > div.product-grid__items.css-1rkzg9 > div.product-card.product-grid__card.css-o3hy8j > div.product-card__body > figure > a.product-card__img-link-overlay"
+              },
+              {
+                "tag": "figure",
+                "id": null,
+                "classes": [],
+                "text": "Nike Gato +5 Just In Nike Gato Men's Shoes 10 Colors $115",
+                "attributes": {},
+                "ariaLabel": null,
+                "role": null,
+                "href": null,
+                "rect": {
+                  "x": 672,
+                  "y": 238,
+                  "width": 348,
+                  "height": 568
+                },
+                "selector": "div.results__body > div.product-grid.css-xwapu9 > main > section > div.product-grid__items.css-1rkzg9 > div.product-card.product-grid__card.css-o3hy8j > div.product-card__body > figure"
+              },
+              {
+                "tag": "div",
+                "id": null,
+                "classes": [
+                  "product-card__body"
+                ],
+                "text": "Nike Gato +5 Just In Nike Gato Men's Shoes 10 Colors $115",
+                "attributes": {
+                  "class": "product-card__body",
+                  "data-el-type": "Card",
+                  "data-testid": "product-card__body"
+                },
+                "ariaLabel": null,
+                "role": null,
+                "href": null,
+                "rect": {
+                  "x": 672,
+                  "y": 238,
+                  "width": 348,
+                  "height": 568
+                },
+                "selector": "div.results.css-zhkvrs > div.results__body > div.product-grid.css-xwapu9 > main > section > div.product-grid__items.css-1rkzg9 > div.product-card.product-grid__card.css-o3hy8j > div.product-card__body"
+              },
+              {
+                "tag": "div",
+                "id": null,
+                "classes": [
+                  "product-card",
+                  "product-grid__card",
+                  "css-o3hy8j"
+                ],
+                "text": "Nike Gato +5 Just In Nike Gato Men's Shoes 10 Colors $115",
+                "attributes": {
+                  "class": "product-card product-grid__card  css-o3hy8j",
+                  "data-product-position": "2",
+                  "data-testid": "product-card"
+                },
+                "ariaLabel": null,
+                "role": null,
+                "href": null,
+                "rect": {
+                  "x": 664,
+                  "y": 238,
+                  "width": 364,
+                  "height": 586
+                },
+                "selector": "div.wall.css-1s0cf0f > div.results.css-zhkvrs > div.results__body > div.product-grid.css-xwapu9 > main > section > div.product-grid__items.css-1rkzg9 > div.product-card.product-grid__card.css-o3hy8j"
+              },
+              {
+                "tag": "div",
+                "id": "skip-to-products",
+                "classes": [
+                  "product-grid__items",
+                  "css-1rkzg9"
+                ],
+                "text": "Air Jordan 4 Retro \"Flight Club\" Coming Soon Air Jordan 4 Retro \"Flight Club\" Men's Shoes $220 Nike Gato +5 Just In Nike Gato Men's Shoes 10 Colors $115 Nike Ava Rover +5 Just In Nike Ava Rover Shoes \u2026",
+                "attributes": {
+                  "class": "product-grid__items css-1rkzg9",
+                  "id": "skip-to-products"
+                },
+                "ariaLabel": null,
+                "role": null,
+                "href": null,
+                "rect": {
+                  "x": 300,
+                  "y": 238,
+                  "width": 1092,
+                  "height": 5313
+                },
+                "selector": "#skip-to-products"
+              },
+              {
+                "tag": "section",
+                "id": null,
+                "classes": [],
+                "text": "Air Jordan 4 Retro \"Flight Club\" Coming Soon Air Jordan 4 Retro \"Flight Club\" Men's Shoes $220 Nike Gato +5 Just In Nike Gato Men's Shoes 10 Colors $115 Nike Ava Rover +5 Just In Nike Ava Rover Shoes \u2026",
+                "attributes": {},
+                "ariaLabel": null,
+                "role": null,
+                "href": null,
+                "rect": {
+                  "x": 300,
+                  "y": 238,
+                  "width": 1092,
+                  "height": 5313
+                },
+                "selector": "div > div > div.wall.css-1s0cf0f > div.results.css-zhkvrs > div.results__body > div.product-grid.css-xwapu9 > main > section"
+              },
+              {
+                "tag": "main",
+                "id": null,
+                "classes": [],
+                "text": "Air Jordan 4 Retro \"Flight Club\" Coming Soon Air Jordan 4 Retro \"Flight Club\" Men's Shoes $220 Nike Gato +5 Just In Nike Gato Men's Shoes 10 Colors $115 Nike Ava Rover +5 Just In Nike Ava Rover Shoes \u2026",
+                "attributes": {},
+                "ariaLabel": null,
+                "role": null,
+                "href": null,
+                "rect": {
+                  "x": 300,
+                  "y": 238,
+                  "width": 1092,
+                  "height": 5753.65625
+                },
+                "selector": "div > div > div > div.wall.css-1s0cf0f > div.results.css-zhkvrs > div.results__body > div.product-grid.css-xwapu9 > main"
+              },
+              {
+                "tag": "div",
+                "id": null,
+                "classes": [
+                  "product-grid",
+                  "css-xwapu9"
+                ],
+                "text": "Air Jordan 4 Retro \"Flight Club\" Coming Soon Air Jordan 4 Retro \"Flight Club\" Men's Shoes $220 Nike Gato +5 Just In Nike Gato Men's Shoes 10 Colors $115 Nike Ava Rover +5 Just In Nike Ava Rover Shoes \u2026",
+                "attributes": {
+                  "class": "product-grid css-xwapu9"
+                },
+                "ariaLabel": null,
+                "role": null,
+                "href": null,
+                "rect": {
+                  "x": 260,
+                  "y": 238,
+                  "width": 1180,
+                  "height": 5833.65625
+                },
+                "selector": "div > div > div > div > div.wall.css-1s0cf0f > div.results.css-zhkvrs > div.results__body > div.product-grid.css-xwapu9"
+              },
+              {
+                "tag": "div",
+                "id": null,
+                "classes": [
+                  "results__body"
+                ],
+                "text": "Pick Up Today Jordan Lifestyle Running Basketball Training & Gym Walking Soccer Skateboarding ACG Football Tennis Golf Baseball Boots Sandals & Slides Track & Field Nike By You Lacrosse Wrestling Gend\u2026",
+                "attributes": {
+                  "class": "results__body"
+                },
+                "ariaLabel": null,
+                "role": null,
+                "href": null,
+                "rect": {
+                  "x": 0,
+                  "y": 238,
+                  "width": 1440,
+                  "height": 5833.65625
+                },
+                "selector": "body > div > div > div > div > div.wall.css-1s0cf0f > div.results.css-zhkvrs > div.results__body"
+              },
+              {
+                "tag": "div",
+                "id": null,
+                "classes": [
+                  "results",
+                  "css-zhkvrs"
+                ],
+                "text": "Men's Shoes & Sneakers(682) Hide Filters Sort By Pick Up Today Jordan Lifestyle Running Basketball Training & Gym Walking Soccer Skateboarding ACG Football Tennis Golf Baseball Boots Sandals & Slides \u2026",
+                "attributes": {
+                  "class": "results    css-zhkvrs"
+                },
+                "ariaLabel": null,
+                "role": null,
+                "href": null,
+                "rect": {
+                  "x": 0,
+                  "y": 156,
+                  "width": 1440,
+                  "height": 5915.65625
+                },
+                "selector": "html > body > div > div > div > div > div.wall.css-1s0cf0f > div.results.css-zhkvrs"
+              },
+              {
+                "tag": "div",
+                "id": "Wall",
+                "classes": [
+                  "wall",
+                  "css-1s0cf0f"
+                ],
+                "text": "Men's Shoes & Sneakers(682) Hide Filters Sort By Pick Up Today Jordan Lifestyle Running Basketball Training & Gym Walking Soccer Skateboarding ACG Football Tennis Golf Baseball Boots Sandals & Slides \u2026",
+                "attributes": {
+                  "class": "wall css-1s0cf0f",
+                  "id": "Wall"
+                },
+                "ariaLabel": null,
+                "role": null,
+                "href": null,
+                "rect": {
+                  "x": 0,
+                  "y": 156,
+                  "width": 1440,
+                  "height": 5915.65625
+                },
+                "selector": "#Wall"
+              },
+              {
+                "tag": "div",
+                "id": "app-root",
+                "classes": [],
+                "text": "skip to products Shop New Arrivals Send a Gift Card Members: Free Shipping on Orders $50+ Men's Shoes & Sneakers(682) Hide Filters Sort By Pick Up Today Jordan Lifestyle Running Basketball Training & \u2026",
+                "attributes": {
+                  "id": "app-root"
+                },
+                "ariaLabel": null,
+                "role": null,
+                "href": null,
+                "rect": {
+                  "x": 0,
+                  "y": 96,
+                  "width": 1440,
+                  "height": 5975.65625
+                },
+                "selector": "#app-root"
+              },
+              {
+                "tag": "div",
+                "id": null,
+                "classes": [],
+                "text": "skip to products Shop New Arrivals Send a Gift Card Members: Free Shipping on Orders $50+ Men's Shoes & Sneakers(682) Hide Filters Sort By Pick Up Today Jordan Lifestyle Running Basketball Training & \u2026",
+                "attributes": {
+                  "data-test": "browseShell"
+                },
+                "ariaLabel": null,
+                "role": null,
+                "href": null,
+                "rect": {
+                  "x": 0,
+                  "y": 96,
+                  "width": 1440,
+                  "height": 5975.65625
+                },
+                "selector": "html > body > div > div > div"
+              },
+              {
+                "tag": "div",
+                "id": "__next",
+                "classes": [],
+                "text": "skip to products Shop New Arrivals Send a Gift Card Members: Free Shipping on Orders $50+ Men's Shoes & Sneakers(682) Hide Filters Sort By Pick Up Today Jordan Lifestyle Running Basketball Training & \u2026",
+                "attributes": {
+                  "id": "__next"
+                },
+                "ariaLabel": null,
+                "role": null,
+                "href": null,
+                "rect": {
+                  "x": 0,
+                  "y": 96,
+                  "width": 1440,
+                  "height": 5975.65625
+                },
+                "selector": "#__next"
+              },
+              {
+                "tag": "div",
+                "id": "experience-wrapper",
+                "classes": [],
+                "text": "skip to products Shop New Arrivals Send a Gift Card Members: Free Shipping on Orders $50+ Men's Shoes & Sneakers(682) Hide Filters Sort By Pick Up Today Jordan Lifestyle Running Basketball Training & \u2026",
+                "attributes": {
+                  "id": "experience-wrapper",
+                  "aria-hidden": "false"
+                },
+                "ariaLabel": null,
+                "role": null,
+                "href": null,
+                "rect": {
+                  "x": 0,
+                  "y": 96,
+                  "width": 1440,
+                  "height": 5975.65625
+                },
+                "selector": "#experience-wrapper"
+              },
+              {
+                "tag": "body",
+                "id": null,
+                "classes": [],
+                "text": "Skip to main content Accessibility at Nike Find a Store Help Join Us Sign In Men Women Kids Jordan NikeSKIMS Sport skip to products Shop New Arrivals Send a Gift Card Members: Free Shipping on Orders \u2026",
+                "attributes": {},
+                "ariaLabel": null,
+                "role": null,
+                "href": null,
+                "rect": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 1440,
+                  "height": 6682.65625
+                },
+                "selector": "html > body"
+              },
+              {
+                "tag": "html",
+                "id": null,
+                "classes": [],
+                "text": "Skip to main content Accessibility at Nike Find a Store Help Join Us Sign In Men Women Kids Jordan NikeSKIMS Sport skip to products Shop New Arrivals Send a Gift Card Members: Free Shipping on Orders \u2026",
+                "attributes": {
+                  "lang": "en-US",
+                  "style": "--eswIconFillColor: #1A1B1E;"
+                },
+                "ariaLabel": null,
+                "role": null,
+                "href": null,
+                "rect": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 1440,
+                  "height": 6682.65625
+                },
+                "selector": "html"
+              }
+            ]
+          },
+          "url": "https://www.nike.com/w/mens-shoes-nik1zy7ok",
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          }
+        }
+      }
+    }
+  ]
+}

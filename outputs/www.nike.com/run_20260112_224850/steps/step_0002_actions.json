@@ -1,0 +1,437 @@
+{
+  "actions": [
+    {
+      "name": "click_at",
+      "args": {
+        "x": 624,
+        "y": 757
+      },
+      "note": null,
+      "call_id": null
+    }
+  ],
+  "results": [
+    {
+      "name": "click_at",
+      "call_id": null,
+      "result": {
+        "status": "ok",
+        "url": "https://www.nike.com/",
+        "click": {
+          "raw": {
+            "x": 624.0,
+            "y": 757.0,
+            "normalized": true
+          },
+          "resolved": {
+            "x": 898.56,
+            "y": 681.3
+          },
+          "element": {
+            "tag": "a",
+            "id": null,
+            "classes": [
+              "_1GPQ9HJJ"
+            ],
+            "text": "",
+            "attributes": {
+              "href": "https://www.nike.com/w/jordan-37eef",
+              "target": "_self",
+              "data-qa": "card-link",
+              "data-analytics-action-id": "1b357eb9-1c36-401f-9ba8-77ecbd1dc8c2",
+              "class": "_1GPQ9HJJ",
+              "data-qa-card-id": "2194a402-73da-4833-81a1-31a10f658c5e",
+              "aria-label": "Luka 5",
+              "tabindex": "0"
+            },
+            "ariaLabel": "Luka 5",
+            "role": null,
+            "href": "https://www.nike.com/w/jordan-37eef",
+            "rect": {
+              "x": 0,
+              "y": 96,
+              "width": 1440,
+              "height": 700
+            },
+            "selector": "div.ncss-row.grid-row > div.grid-col.va-sm-t.ncss-col-lg-12 > div.swiper.swiper-initialized.swiper-horizontal > div.swiper-wrapper > div.swiper-slide.swiper-slide-visible.swiper-slide-fully-visible > div._3rlks-sl.HCg5Qjhn > figure.image-card._3l8ZuNi4 > a._1GPQ9HJJ",
+            "ancestors": [
+              {
+                "tag": "a",
+                "id": null,
+                "classes": [
+                  "_1GPQ9HJJ"
+                ],
+                "text": "",
+                "attributes": {
+                  "href": "https://www.nike.com/w/jordan-37eef",
+                  "target": "_self",
+                  "data-qa": "card-link",
+                  "data-analytics-action-id": "1b357eb9-1c36-401f-9ba8-77ecbd1dc8c2",
+                  "class": "_1GPQ9HJJ",
+                  "data-qa-card-id": "2194a402-73da-4833-81a1-31a10f658c5e",
+                  "aria-label": "Luka 5",
+                  "tabindex": "0"
+                },
+                "ariaLabel": "Luka 5",
+                "role": null,
+                "href": "https://www.nike.com/w/jordan-37eef",
+                "rect": {
+                  "x": 0,
+                  "y": 96,
+                  "width": 1440,
+                  "height": 700
+                },
+                "selector": "div.ncss-row.grid-row > div.grid-col.va-sm-t.ncss-col-lg-12 > div.swiper.swiper-initialized.swiper-horizontal > div.swiper-wrapper > div.swiper-slide.swiper-slide-visible.swiper-slide-fully-visible > div._3rlks-sl.HCg5Qjhn > figure.image-card._3l8ZuNi4 > a._1GPQ9HJJ"
+              },
+              {
+                "tag": "figure",
+                "id": null,
+                "classes": [
+                  "image-card",
+                  "_3l8ZuNi4"
+                ],
+                "text": "LUKA 5 Every defender's worst nightmare \u2014 and some nice shoes. Shop",
+                "attributes": {
+                  "data-is-carousel-content": "true",
+                  "data-analytics-has-landmark": "false",
+                  "data-qa": "image-card",
+                  "data-index": "0",
+                  "class": "image-card _3l8ZuNi4",
+                  "data-action-hashkeys": "e7087ed6e060ec588ae49b39f16464b055a44dc3c8ddda009ecc0ec6530a846b"
+                },
+                "ariaLabel": null,
+                "role": null,
+                "href": null,
+                "rect": {
+                  "x": 0,
+                  "y": 96,
+                  "width": 1440,
+                  "height": 700
+                },
+                "selector": "div.grid.Z25uR9U5.fluid > div.ncss-row.grid-row > div.grid-col.va-sm-t.ncss-col-lg-12 > div.swiper.swiper-initialized.swiper-horizontal > div.swiper-wrapper > div.swiper-slide.swiper-slide-visible.swiper-slide-fully-visible > div._3rlks-sl.HCg5Qjhn > figure.image-card._3l8ZuNi4"
+              },
+              {
+                "tag": "div",
+                "id": null,
+                "classes": [
+                  "_3rlks-sl",
+                  "HCg5Qjhn"
+                ],
+                "text": "LUKA 5 Every defender's worst nightmare \u2014 and some nice shoes. Shop",
+                "attributes": {
+                  "data-analytics-placement-id": "c6392b11-e21b-4ffc-af7e-d1af4743dd8c_2",
+                  "data-is-carousel-content": "true",
+                  "data-action-hashkeys": "e7087ed6e060ec588ae49b39f16464b055a44dc3c8ddda009ecc0ec6530a846b",
+                  "data-click-mod": "63dd90dee9c80aa5bdffcb59b58df78ee2a86360ab59c9c24e8bd973d5734103",
+                  "data-index": "1",
+                  "data-collection-id": "c6392b11-e21b-4ffc-af7e-d1af4743dd8c",
+                  "data-item-count": "4",
+                  "data-analytics-has-landmark": "true",
+                  "data-qa": "autoplay-carousel-item",
+                  "class": "_3rlks-sl HCg5Qjhn"
+                },
+                "ariaLabel": null,
+                "role": null,
+                "href": null,
+                "rect": {
+                  "x": 0,
+                  "y": 96,
+                  "width": 1440,
+                  "height": 700
+                },
+                "selector": "div > div.grid.Z25uR9U5.fluid > div.ncss-row.grid-row > div.grid-col.va-sm-t.ncss-col-lg-12 > div.swiper.swiper-initialized.swiper-horizontal > div.swiper-wrapper > div.swiper-slide.swiper-slide-visible.swiper-slide-fully-visible > div._3rlks-sl.HCg5Qjhn"
+              },
+              {
+                "tag": "div",
+                "id": null,
+                "classes": [
+                  "swiper-slide",
+                  "swiper-slide-visible",
+                  "swiper-slide-fully-visible",
+                  "swiper-slide-active"
+                ],
+                "text": "LUKA 5 Every defender's worst nightmare \u2014 and some nice shoes. Shop",
+                "attributes": {
+                  "class": "swiper-slide swiper-slide-visible swiper-slide-fully-visible swiper-slide-active",
+                  "data-swiper-autoplay": "7000",
+                  "role": "group",
+                  "aria-label": "Slide 2 of 4",
+                  "data-swiper-slide-index": "1",
+                  "style": "width: 1440px;",
+                  "aria-hidden": "false"
+                },
+                "ariaLabel": "Slide 2 of 4",
+                "role": "group",
+                "href": null,
+                "rect": {
+                  "x": 0,
+                  "y": 96,
+                  "width": 1440,
+                  "height": 700
+                },
+                "selector": "div > div > div.grid.Z25uR9U5.fluid > div.ncss-row.grid-row > div.grid-col.va-sm-t.ncss-col-lg-12 > div.swiper.swiper-initialized.swiper-horizontal > div.swiper-wrapper > div.swiper-slide.swiper-slide-visible.swiper-slide-fully-visible"
+              },
+              {
+                "tag": "div",
+                "id": "swiper-wrapper-f3c1d13ac310d7863",
+                "classes": [
+                  "swiper-wrapper"
+                ],
+                "text": "JUST DO THE WORK Gym wear that goes as hard as you do. Explore Watch LUKA 5 Every defender's worst nightmare \u2014 and some nice shoes. Shop BUILT TO DISRUPT Shox Z is minimalist by design, yet anything b\u2026",
+                "attributes": {
+                  "class": "swiper-wrapper",
+                  "id": "swiper-wrapper-f3c1d13ac310d7863",
+                  "aria-live": "off",
+                  "style": "transition-duration: 0ms; transform: translate3d(-1440px, 0px, 0px); transition-delay: 0ms;"
+                },
+                "ariaLabel": null,
+                "role": null,
+                "href": null,
+                "rect": {
+                  "x": -1440,
+                  "y": 96,
+                  "width": 1440,
+                  "height": 700
+                },
+                "selector": "#swiper-wrapper-f3c1d13ac310d7863"
+              },
+              {
+                "tag": "div",
+                "id": "swiper-2194a402-73da-4833-81a1-31a10f658c5e",
+                "classes": [
+                  "swiper",
+                  "swiper-initialized",
+                  "swiper-horizontal",
+                  "swiper-watch-progress",
+                  "MDDLJwBF"
+                ],
+                "text": "JUST DO THE WORK Gym wear that goes as hard as you do. Explore Watch LUKA 5 Every defender's worst nightmare \u2014 and some nice shoes. Shop BUILT TO DISRUPT Shox Z is minimalist by design, yet anything b\u2026",
+                "attributes": {
+                  "class": "swiper swiper-initialized swiper-horizontal swiper-watch-progress MDDLJwBF",
+                  "id": "swiper-2194a402-73da-4833-81a1-31a10f658c5e",
+                  "aria-label": "Autoplay carousel"
+                },
+                "ariaLabel": "Autoplay carousel",
+                "role": null,
+                "href": null,
+                "rect": {
+                  "x": 0,
+                  "y": 96,
+                  "width": 1440,
+                  "height": 700
+                },
+                "selector": "#swiper-2194a402-73da-4833-81a1-31a10f658c5e"
+              },
+              {
+                "tag": "div",
+                "id": "16feedb5-5774-4865-945c-dbc807c7a1df",
+                "classes": [
+                  "grid-col",
+                  "va-sm-t",
+                  "ncss-col-lg-12",
+                  "ncss-col-md-12",
+                  "ncss-col-sm-12",
+                  "ncss-col-lg-offset-0",
+                  "ncss-col-md-offset-0",
+                  "ncss-col-sm-offset-0"
+                ],
+                "text": "JUST DO THE WORK Gym wear that goes as hard as you do. Explore Watch LUKA 5 Every defender's worst nightmare \u2014 and some nice shoes. Shop BUILT TO DISRUPT Shox Z is minimalist by design, yet anything b\u2026",
+                "attributes": {
+                  "id": "16feedb5-5774-4865-945c-dbc807c7a1df",
+                  "data-qa": "grid-col",
+                  "class": "grid-col va-sm-t ncss-col-lg-12 ncss-col-md-12 ncss-col-sm-12 ncss-col-lg-offset-0 ncss-col-md-offset-0 ncss-col-sm-offset-0"
+                },
+                "ariaLabel": null,
+                "role": null,
+                "href": null,
+                "rect": {
+                  "x": 0,
+                  "y": 96,
+                  "width": 1440,
+                  "height": 700
+                },
+                "selector": "#16feedb5-5774-4865-945c-dbc807c7a1df"
+              },
+              {
+                "tag": "div",
+                "id": "1215b0d8-b890-4e00-bb0f-5c34f1da09ff",
+                "classes": [
+                  "ncss-row",
+                  "grid-row"
+                ],
+                "text": "JUST DO THE WORK Gym wear that goes as hard as you do. Explore Watch LUKA 5 Every defender's worst nightmare \u2014 and some nice shoes. Shop BUILT TO DISRUPT Shox Z is minimalist by design, yet anything b\u2026",
+                "attributes": {
+                  "id": "1215b0d8-b890-4e00-bb0f-5c34f1da09ff",
+                  "data-qa": "grid-row",
+                  "class": "ncss-row grid-row"
+                },
+                "ariaLabel": null,
+                "role": null,
+                "href": null,
+                "rect": {
+                  "x": 0,
+                  "y": 96,
+                  "width": 1440,
+                  "height": 700
+                },
+                "selector": "#1215b0d8-b890-4e00-bb0f-5c34f1da09ff"
+              },
+              {
+                "tag": "div",
+                "id": "61eb3292-fe87-4692-b5c3-cb315a3bfc0c",
+                "classes": [
+                  "grid",
+                  "Z25uR9U5",
+                  "fluid",
+                  "_2IK2ad9n",
+                  "_1WKaQgke",
+                  "css-17qcvnv",
+                  "css-1vtn5w7"
+                ],
+                "text": "JUST DO THE WORK Gym wear that goes as hard as you do. Explore Watch LUKA 5 Every defender's worst nightmare \u2014 and some nice shoes. Shop BUILT TO DISRUPT Shox Z is minimalist by design, yet anything b\u2026",
+                "attributes": {
+                  "id": "61eb3292-fe87-4692-b5c3-cb315a3bfc0c",
+                  "data-qa": "grid",
+                  "data-container-type": "autoplay",
+                  "data-fluid-grid": "true",
+                  "class": "grid Z25uR9U5 fluid _2IK2ad9n _1WKaQgke css-17qcvnv css-1vtn5w7",
+                  "style": "position: relative;"
+                },
+                "ariaLabel": null,
+                "role": null,
+                "href": null,
+                "rect": {
+                  "x": 0,
+                  "y": 96,
+                  "width": 1440,
+                  "height": 700
+                },
+                "selector": "#61eb3292-fe87-4692-b5c3-cb315a3bfc0c"
+              },
+              {
+                "tag": "div",
+                "id": null,
+                "classes": [],
+                "text": "JUST DO THE WORK Gym wear that goes as hard as you do. Explore Watch LUKA 5 Every defender's worst nightmare \u2014 and some nice shoes. Shop BUILT TO DISRUPT Shox Z is minimalist by design, yet anything b\u2026",
+                "attributes": {
+                  "role": "main"
+                },
+                "ariaLabel": null,
+                "role": "main",
+                "href": null,
+                "rect": {
+                  "x": 0,
+                  "y": 96,
+                  "width": 1440,
+                  "height": 3137.3828125
+                },
+                "selector": "html > body > div > div > div > div"
+              },
+              {
+                "tag": "div",
+                "id": "ciclp-app",
+                "classes": [],
+                "text": "JUST DO THE WORK Gym wear that goes as hard as you do. Explore Watch LUKA 5 Every defender's worst nightmare \u2014 and some nice shoes. Shop BUILT TO DISRUPT Shox Z is minimalist by design, yet anything b\u2026",
+                "attributes": {
+                  "id": "ciclp-app",
+                  "class": ""
+                },
+                "ariaLabel": null,
+                "role": null,
+                "href": null,
+                "rect": {
+                  "x": 0,
+                  "y": 96,
+                  "width": 1440,
+                  "height": 3193.3828125
+                },
+                "selector": "#ciclp-app"
+              },
+              {
+                "tag": "div",
+                "id": "__next",
+                "classes": [],
+                "text": "JUST DO THE WORK Gym wear that goes as hard as you do. Explore Watch LUKA 5 Every defender's worst nightmare \u2014 and some nice shoes. Shop BUILT TO DISRUPT Shox Z is minimalist by design, yet anything b\u2026",
+                "attributes": {
+                  "id": "__next",
+                  "data-reactroot": ""
+                },
+                "ariaLabel": null,
+                "role": null,
+                "href": null,
+                "rect": {
+                  "x": 0,
+                  "y": 96,
+                  "width": 1440,
+                  "height": 3193.3828125
+                },
+                "selector": "#__next"
+              },
+              {
+                "tag": "div",
+                "id": "experience-wrapper",
+                "classes": [],
+                "text": "JUST DO THE WORK Gym wear that goes as hard as you do. Explore Watch LUKA 5 Every defender's worst nightmare \u2014 and some nice shoes. Shop BUILT TO DISRUPT Shox Z is minimalist by design, yet anything b\u2026",
+                "attributes": {
+                  "id": "experience-wrapper"
+                },
+                "ariaLabel": null,
+                "role": null,
+                "href": null,
+                "rect": {
+                  "x": 0,
+                  "y": 96,
+                  "width": 1440,
+                  "height": 3193.3828125
+                },
+                "selector": "#experience-wrapper"
+              },
+              {
+                "tag": "body",
+                "id": null,
+                "classes": [],
+                "text": "Skip to main content Accessibility at Nike Find a Store Help Join Us Sign In Men Women Kids Jordan NikeSKIMS Sport JUST DO THE WORK Gym wear that goes as hard as you do. Explore Watch LUKA 5 Every def\u2026",
+                "attributes": {},
+                "ariaLabel": null,
+                "role": null,
+                "href": null,
+                "rect": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 1440,
+                  "height": 3928.3828125
+                },
+                "selector": "html > body"
+              },
+              {
+                "tag": "html",
+                "id": null,
+                "classes": [],
+                "text": "Skip to main content Accessibility at Nike Find a Store Help Join Us Sign In Men Women Kids Jordan NikeSKIMS Sport JUST DO THE WORK Gym wear that goes as hard as you do. Explore Watch LUKA 5 Every def\u2026",
+                "attributes": {
+                  "lang": "en-US",
+                  "style": "--eswIconFillColor: #1A1B1E;"
+                },
+                "ariaLabel": null,
+                "role": null,
+                "href": null,
+                "rect": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 1440,
+                  "height": 3928.3828125
+                },
+                "selector": "html"
+              }
+            ]
+          },
+          "url": "https://www.nike.com/",
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          }
+        }
+      }
+    }
+  ]
+}

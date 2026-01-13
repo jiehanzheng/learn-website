@@ -1,0 +1,3281 @@
+model: gemini-3-flash-preview
+created_at: 2026-01-12T23:02:20.151647
+
+You are a rules authoring model. Produce a JSON object that matches the provided schema.
+Use the captured click element + ancestry info to infer a single selector for the Add to Cart button.
+Use the captured PDP URLs to derive a PDP URL regex.
+Each click may include CUA model text from the step that produced the action.
+Provide reasoning in English for each field that asks for a reason.
+Return JSON only. No markdown.
+
+Captured data:
+{
+  "run_dir": "outputs/www.nike.com/run_20260112_224850",
+  "click_count": 10,
+  "clicks": [
+    {
+      "step_index": 2,
+      "url": "https://www.nike.com/",
+      "action": "click_at",
+      "model_text": [
+        {
+          "text": "I have successfully opened the web browser and landed on the Nike homepage.\nThe task is to navigate to 1 PDP and click \"Add to Cart\".\n\nI can see a \"Shop\" button (y=757, x=624) related to \"LUKA 5\" in the main banner. This seems like a good starting point to find a product. Alternatively, I can use the search bar at the top right (y=72, x=848) or browse categories like \"Men\", \"Women\", etc.\n\nSince the \"LUKA 5\" section has a \"Shop\" button, I'll click that to see if it takes me to a product or a category page.",
+          "thought": false
+        }
+      ],
+      "element": {
+        "tag": "a",
+        "id": null,
+        "classes": [
+          "_1GPQ9HJJ"
+        ],
+        "text": "",
+        "attributes": {
+          "href": "https://www.nike.com/w/jordan-37eef",
+          "target": "_self",
+          "data-qa": "card-link",
+          "data-analytics-action-id": "1b357eb9-1c36-401f-9ba8-77ecbd1dc8c2",
+          "class": "_1GPQ9HJJ",
+          "data-qa-card-id": "2194a402-73da-4833-81a1-31a10f658c5e",
+          "aria-label": "Luka 5",
+          "tabindex": "0"
+        },
+        "ariaLabel": "Luka 5",
+        "role": null,
+        "href": "https://www.nike.com/w/jordan-37eef",
+        "rect": {
+          "x": 0,
+          "y": 96,
+          "width": 1440,
+          "height": 700
+        },
+        "selector": "div.ncss-row.grid-row > div.grid-col.va-sm-t.ncss-col-lg-12 > div.swiper.swiper-initialized.swiper-horizontal > div.swiper-wrapper > div.swiper-slide.swiper-slide-visible.swiper-slide-fully-visible > div._3rlks-sl.HCg5Qjhn > figure.image-card._3l8ZuNi4 > a._1GPQ9HJJ",
+        "ancestors": [
+          {
+            "tag": "a",
+            "id": null,
+            "classes": [
+              "_1GPQ9HJJ"
+            ],
+            "text": "",
+            "attributes": {
+              "href": "https://www.nike.com/w/jordan-37eef",
+              "target": "_self",
+              "data-qa": "card-link",
+              "data-analytics-action-id": "1b357eb9-1c36-401f-9ba8-77ecbd1dc8c2",
+              "class": "_1GPQ9HJJ",
+              "data-qa-card-id": "2194a402-73da-4833-81a1-31a10f658c5e",
+              "aria-label": "Luka 5",
+              "tabindex": "0"
+            },
+            "ariaLabel": "Luka 5",
+            "role": null,
+            "href": "https://www.nike.com/w/jordan-37eef",
+            "rect": {
+              "x": 0,
+              "y": 96,
+              "width": 1440,
+              "height": 700
+            },
+            "selector": "div.ncss-row.grid-row > div.grid-col.va-sm-t.ncss-col-lg-12 > div.swiper.swiper-initialized.swiper-horizontal > div.swiper-wrapper > div.swiper-slide.swiper-slide-visible.swiper-slide-fully-visible > div._3rlks-sl.HCg5Qjhn > figure.image-card._3l8ZuNi4 > a._1GPQ9HJJ"
+          },
+          {
+            "tag": "figure",
+            "id": null,
+            "classes": [
+              "image-card",
+              "_3l8ZuNi4"
+            ],
+            "text": "LUKA 5 Every defender's worst nightmare \u2014 and some nice shoes. Shop",
+            "attributes": {
+              "data-is-carousel-content": "true",
+              "data-analytics-has-landmark": "false",
+              "data-qa": "image-card",
+              "data-index": "0",
+              "class": "image-card _3l8ZuNi4",
+              "data-action-hashkeys": "e7087ed6e060ec588ae49b39f16464b055a44dc3c8ddda009ecc0ec6530a846b"
+            },
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 0,
+              "y": 96,
+              "width": 1440,
+              "height": 700
+            },
+            "selector": "div.grid.Z25uR9U5.fluid > div.ncss-row.grid-row > div.grid-col.va-sm-t.ncss-col-lg-12 > div.swiper.swiper-initialized.swiper-horizontal > div.swiper-wrapper > div.swiper-slide.swiper-slide-visible.swiper-slide-fully-visible > div._3rlks-sl.HCg5Qjhn > figure.image-card._3l8ZuNi4"
+          },
+          {
+            "tag": "div",
+            "id": null,
+            "classes": [
+              "_3rlks-sl",
+              "HCg5Qjhn"
+            ],
+            "text": "LUKA 5 Every defender's worst nightmare \u2014 and some nice shoes. Shop",
+            "attributes": {
+              "data-analytics-placement-id": "c6392b11-e21b-4ffc-af7e-d1af4743dd8c_2",
+              "data-is-carousel-content": "true",
+              "data-action-hashkeys": "e7087ed6e060ec588ae49b39f16464b055a44dc3c8ddda009ecc0ec6530a846b",
+              "data-click-mod": "63dd90dee9c80aa5bdffcb59b58df78ee2a86360ab59c9c24e8bd973d5734103",
+              "data-index": "1",
+              "data-collection-id": "c6392b11-e21b-4ffc-af7e-d1af4743dd8c",
+              "data-item-count": "4",
+              "data-analytics-has-landmark": "true",
+              "data-qa": "autoplay-carousel-item",
+              "class": "_3rlks-sl HCg5Qjhn"
+            },
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 0,
+              "y": 96,
+              "width": 1440,
+              "height": 700
+            },
+            "selector": "div > div.grid.Z25uR9U5.fluid > div.ncss-row.grid-row > div.grid-col.va-sm-t.ncss-col-lg-12 > div.swiper.swiper-initialized.swiper-horizontal > div.swiper-wrapper > div.swiper-slide.swiper-slide-visible.swiper-slide-fully-visible > div._3rlks-sl.HCg5Qjhn"
+          },
+          {
+            "tag": "div",
+            "id": null,
+            "classes": [
+              "swiper-slide",
+              "swiper-slide-visible",
+              "swiper-slide-fully-visible",
+              "swiper-slide-active"
+            ],
+            "text": "LUKA 5 Every defender's worst nightmare \u2014 and some nice shoes. Shop",
+            "attributes": {
+              "class": "swiper-slide swiper-slide-visible swiper-slide-fully-visible swiper-slide-active",
+              "data-swiper-autoplay": "7000",
+              "role": "group",
+              "aria-label": "Slide 2 of 4",
+              "data-swiper-slide-index": "1",
+              "style": "width: 1440px;",
+              "aria-hidden": "false"
+            },
+            "ariaLabel": "Slide 2 of 4",
+            "role": "group",
+            "href": null,
+            "rect": {
+              "x": 0,
+              "y": 96,
+              "width": 1440,
+              "height": 700
+            },
+            "selector": "div > div > div.grid.Z25uR9U5.fluid > div.ncss-row.grid-row > div.grid-col.va-sm-t.ncss-col-lg-12 > div.swiper.swiper-initialized.swiper-horizontal > div.swiper-wrapper > div.swiper-slide.swiper-slide-visible.swiper-slide-fully-visible"
+          },
+          {
+            "tag": "div",
+            "id": "swiper-wrapper-f3c1d13ac310d7863",
+            "classes": [
+              "swiper-wrapper"
+            ],
+            "text": "JUST DO THE WORK Gym wear that goes as hard as you do. Explore Watch LUKA 5 Every defender's worst nightmare \u2014 and some nice shoes. Shop BUILT TO DISRUPT Shox Z is minimalist by design, yet anything b\u2026",
+            "attributes": {
+              "class": "swiper-wrapper",
+              "id": "swiper-wrapper-f3c1d13ac310d7863",
+              "aria-live": "off",
+              "style": "transition-duration: 0ms; transform: translate3d(-1440px, 0px, 0px); transition-delay: 0ms;"
+            },
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": -1440,
+              "y": 96,
+              "width": 1440,
+              "height": 700
+            },
+            "selector": "#swiper-wrapper-f3c1d13ac310d7863"
+          },
+          {
+            "tag": "div",
+            "id": "swiper-2194a402-73da-4833-81a1-31a10f658c5e",
+            "classes": [
+              "swiper",
+              "swiper-initialized",
+              "swiper-horizontal",
+              "swiper-watch-progress",
+              "MDDLJwBF"
+            ],
+            "text": "JUST DO THE WORK Gym wear that goes as hard as you do. Explore Watch LUKA 5 Every defender's worst nightmare \u2014 and some nice shoes. Shop BUILT TO DISRUPT Shox Z is minimalist by design, yet anything b\u2026",
+            "attributes": {
+              "class": "swiper swiper-initialized swiper-horizontal swiper-watch-progress MDDLJwBF",
+              "id": "swiper-2194a402-73da-4833-81a1-31a10f658c5e",
+              "aria-label": "Autoplay carousel"
+            },
+            "ariaLabel": "Autoplay carousel",
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 0,
+              "y": 96,
+              "width": 1440,
+              "height": 700
+            },
+            "selector": "#swiper-2194a402-73da-4833-81a1-31a10f658c5e"
+          },
+          {
+            "tag": "div",
+            "id": "16feedb5-5774-4865-945c-dbc807c7a1df",
+            "classes": [
+              "grid-col",
+              "va-sm-t",
+              "ncss-col-lg-12",
+              "ncss-col-md-12",
+              "ncss-col-sm-12",
+              "ncss-col-lg-offset-0",
+              "ncss-col-md-offset-0",
+              "ncss-col-sm-offset-0"
+            ],
+            "text": "JUST DO THE WORK Gym wear that goes as hard as you do. Explore Watch LUKA 5 Every defender's worst nightmare \u2014 and some nice shoes. Shop BUILT TO DISRUPT Shox Z is minimalist by design, yet anything b\u2026",
+            "attributes": {
+              "id": "16feedb5-5774-4865-945c-dbc807c7a1df",
+              "data-qa": "grid-col",
+              "class": "grid-col va-sm-t ncss-col-lg-12 ncss-col-md-12 ncss-col-sm-12 ncss-col-lg-offset-0 ncss-col-md-offset-0 ncss-col-sm-offset-0"
+            },
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 0,
+              "y": 96,
+              "width": 1440,
+              "height": 700
+            },
+            "selector": "#16feedb5-5774-4865-945c-dbc807c7a1df"
+          },
+          {
+            "tag": "div",
+            "id": "1215b0d8-b890-4e00-bb0f-5c34f1da09ff",
+            "classes": [
+              "ncss-row",
+              "grid-row"
+            ],
+            "text": "JUST DO THE WORK Gym wear that goes as hard as you do. Explore Watch LUKA 5 Every defender's worst nightmare \u2014 and some nice shoes. Shop BUILT TO DISRUPT Shox Z is minimalist by design, yet anything b\u2026",
+            "attributes": {
+              "id": "1215b0d8-b890-4e00-bb0f-5c34f1da09ff",
+              "data-qa": "grid-row",
+              "class": "ncss-row grid-row"
+            },
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 0,
+              "y": 96,
+              "width": 1440,
+              "height": 700
+            },
+            "selector": "#1215b0d8-b890-4e00-bb0f-5c34f1da09ff"
+          },
+          {
+            "tag": "div",
+            "id": "61eb3292-fe87-4692-b5c3-cb315a3bfc0c",
+            "classes": [
+              "grid",
+              "Z25uR9U5",
+              "fluid",
+              "_2IK2ad9n",
+              "_1WKaQgke",
+              "css-17qcvnv",
+              "css-1vtn5w7"
+            ],
+            "text": "JUST DO THE WORK Gym wear that goes as hard as you do. Explore Watch LUKA 5 Every defender's worst nightmare \u2014 and some nice shoes. Shop BUILT TO DISRUPT Shox Z is minimalist by design, yet anything b\u2026",
+            "attributes": {
+              "id": "61eb3292-fe87-4692-b5c3-cb315a3bfc0c",
+              "data-qa": "grid",
+              "data-container-type": "autoplay",
+              "data-fluid-grid": "true",
+              "class": "grid Z25uR9U5 fluid _2IK2ad9n _1WKaQgke css-17qcvnv css-1vtn5w7",
+              "style": "position: relative;"
+            },
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 0,
+              "y": 96,
+              "width": 1440,
+              "height": 700
+            },
+            "selector": "#61eb3292-fe87-4692-b5c3-cb315a3bfc0c"
+          },
+          {
+            "tag": "div",
+            "id": null,
+            "classes": [],
+            "text": "JUST DO THE WORK Gym wear that goes as hard as you do. Explore Watch LUKA 5 Every defender's worst nightmare \u2014 and some nice shoes. Shop BUILT TO DISRUPT Shox Z is minimalist by design, yet anything b\u2026",
+            "attributes": {
+              "role": "main"
+            },
+            "ariaLabel": null,
+            "role": "main",
+            "href": null,
+            "rect": {
+              "x": 0,
+              "y": 96,
+              "width": 1440,
+              "height": 3137.3828125
+            },
+            "selector": "html > body > div > div > div > div"
+          },
+          {
+            "tag": "div",
+            "id": "ciclp-app",
+            "classes": [],
+            "text": "JUST DO THE WORK Gym wear that goes as hard as you do. Explore Watch LUKA 5 Every defender's worst nightmare \u2014 and some nice shoes. Shop BUILT TO DISRUPT Shox Z is minimalist by design, yet anything b\u2026",
+            "attributes": {
+              "id": "ciclp-app",
+              "class": ""
+            },
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 0,
+              "y": 96,
+              "width": 1440,
+              "height": 3193.3828125
+            },
+            "selector": "#ciclp-app"
+          },
+          {
+            "tag": "div",
+            "id": "__next",
+            "classes": [],
+            "text": "JUST DO THE WORK Gym wear that goes as hard as you do. Explore Watch LUKA 5 Every defender's worst nightmare \u2014 and some nice shoes. Shop BUILT TO DISRUPT Shox Z is minimalist by design, yet anything b\u2026",
+            "attributes": {
+              "id": "__next",
+              "data-reactroot": ""
+            },
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 0,
+              "y": 96,
+              "width": 1440,
+              "height": 3193.3828125
+            },
+            "selector": "#__next"
+          },
+          {
+            "tag": "div",
+            "id": "experience-wrapper",
+            "classes": [],
+            "text": "JUST DO THE WORK Gym wear that goes as hard as you do. Explore Watch LUKA 5 Every defender's worst nightmare \u2014 and some nice shoes. Shop BUILT TO DISRUPT Shox Z is minimalist by design, yet anything b\u2026",
+            "attributes": {
+              "id": "experience-wrapper"
+            },
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 0,
+              "y": 96,
+              "width": 1440,
+              "height": 3193.3828125
+            },
+            "selector": "#experience-wrapper"
+          },
+          {
+            "tag": "body",
+            "id": null,
+            "classes": [],
+            "text": "Skip to main content Accessibility at Nike Find a Store Help Join Us Sign In Men Women Kids Jordan NikeSKIMS Sport JUST DO THE WORK Gym wear that goes as hard as you do. Explore Watch LUKA 5 Every def\u2026",
+            "attributes": {},
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1440,
+              "height": 3928.3828125
+            },
+            "selector": "html > body"
+          },
+          {
+            "tag": "html",
+            "id": null,
+            "classes": [],
+            "text": "Skip to main content Accessibility at Nike Find a Store Help Join Us Sign In Men Women Kids Jordan NikeSKIMS Sport JUST DO THE WORK Gym wear that goes as hard as you do. Explore Watch LUKA 5 Every def\u2026",
+            "attributes": {
+              "lang": "en-US",
+              "style": "--eswIconFillColor: #1A1B1E;"
+            },
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1440,
+              "height": 3928.3828125
+            },
+            "selector": "html"
+          }
+        ]
+      },
+      "click_point": {
+        "x": 898.56,
+        "y": 681.3
+      },
+      "source": "steps"
+    },
+    {
+      "step_index": 4,
+      "url": "https://www.nike.com/w/jordan-37eef",
+      "action": "click_at",
+      "model_text": [
+        {
+          "text": "I have scrolled down.\nI see a \"Jordan Flight Club Men's T-Shirt\" (y=514, x=564) and \"Jordan Flight Men's Woven Pants\" (y=503, x=838) that are not marked as \"Coming Soon\".\n\nI will click on the \"Jordan Flight Club Men's T-Shirt\" to go to its PDP.",
+          "thought": false
+        }
+      ],
+      "element": {
+        "tag": "a",
+        "id": null,
+        "classes": [
+          "product-card__link-overlay"
+        ],
+        "text": "Jordan Flight Club",
+        "attributes": {
+          "class": "product-card__link-overlay",
+          "data-testid": "product-card__link-overlay",
+          "href": "https://www.nike.com/t/jordan-flight-club-mens-t-shirt-lWpLnAXE/IQ0543-010",
+          "tabindex": "-1"
+        },
+        "ariaLabel": null,
+        "role": null,
+        "href": "https://www.nike.com/t/jordan-flight-club-mens-t-shirt-lWpLnAXE/IQ0543-010",
+        "rect": {
+          "x": 672,
+          "y": 69,
+          "width": 348,
+          "height": 533
+        },
+        "selector": "div.product-grid.css-xwapu9 > main > section > div.product-grid__items.css-1rkzg9 > div.product-card.product-grid__card.css-o3hy8j > div.product-card__body > figure > a.product-card__link-overlay",
+        "ancestors": [
+          {
+            "tag": "a",
+            "id": null,
+            "classes": [
+              "product-card__link-overlay"
+            ],
+            "text": "Jordan Flight Club",
+            "attributes": {
+              "class": "product-card__link-overlay",
+              "data-testid": "product-card__link-overlay",
+              "href": "https://www.nike.com/t/jordan-flight-club-mens-t-shirt-lWpLnAXE/IQ0543-010",
+              "tabindex": "-1"
+            },
+            "ariaLabel": null,
+            "role": null,
+            "href": "https://www.nike.com/t/jordan-flight-club-mens-t-shirt-lWpLnAXE/IQ0543-010",
+            "rect": {
+              "x": 672,
+              "y": 69,
+              "width": 348,
+              "height": 533
+            },
+            "selector": "div.product-grid.css-xwapu9 > main > section > div.product-grid__items.css-1rkzg9 > div.product-card.product-grid__card.css-o3hy8j > div.product-card__body > figure > a.product-card__link-overlay"
+          },
+          {
+            "tag": "figure",
+            "id": null,
+            "classes": [],
+            "text": "Jordan Flight Club Jordan Flight Club Men's T-Shirt 2 Colors $45",
+            "attributes": {},
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 672,
+              "y": 69,
+              "width": 348,
+              "height": 533
+            },
+            "selector": "div.results__body > div.product-grid.css-xwapu9 > main > section > div.product-grid__items.css-1rkzg9 > div.product-card.product-grid__card.css-o3hy8j > div.product-card__body > figure"
+          },
+          {
+            "tag": "div",
+            "id": null,
+            "classes": [
+              "product-card__body"
+            ],
+            "text": "Jordan Flight Club Jordan Flight Club Men's T-Shirt 2 Colors $45",
+            "attributes": {
+              "class": "product-card__body",
+              "data-el-type": "Card",
+              "data-testid": "product-card__body"
+            },
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 672,
+              "y": 69,
+              "width": 348,
+              "height": 533
+            },
+            "selector": "div.results.css-zhkvrs > div.results__body > div.product-grid.css-xwapu9 > main > section > div.product-grid__items.css-1rkzg9 > div.product-card.product-grid__card.css-o3hy8j > div.product-card__body"
+          },
+          {
+            "tag": "div",
+            "id": null,
+            "classes": [
+              "product-card",
+              "product-grid__card",
+              "css-o3hy8j"
+            ],
+            "text": "Jordan Flight Club Jordan Flight Club Men's T-Shirt 2 Colors $45",
+            "attributes": {
+              "class": "product-card product-grid__card  css-o3hy8j",
+              "data-product-position": "5",
+              "data-testid": "product-card"
+            },
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 664,
+              "y": 69,
+              "width": 364,
+              "height": 551
+            },
+            "selector": "div.wall.css-1s0cf0f > div.results.css-zhkvrs > div.results__body > div.product-grid.css-xwapu9 > main > section > div.product-grid__items.css-1rkzg9 > div.product-card.product-grid__card.css-o3hy8j"
+          },
+          {
+            "tag": "div",
+            "id": "skip-to-products",
+            "classes": [
+              "product-grid__items",
+              "css-1rkzg9"
+            ],
+            "text": "Air Jordan 4 Retro \"Flight Club\" Coming Soon Air Jordan 4 Retro \"Flight Club\" Men's Shoes $220 Air Jordan 4 Retro \"Flight Club\" Coming Soon Air Jordan 4 Retro \"Flight Club\" Big Kids' Shoes $165 Jordan\u2026",
+            "attributes": {
+              "class": "product-grid__items css-1rkzg9",
+              "id": "skip-to-products"
+            },
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 300,
+              "y": -482,
+              "width": 1092,
+              "height": 4587
+            },
+            "selector": "#skip-to-products"
+          },
+          {
+            "tag": "section",
+            "id": null,
+            "classes": [],
+            "text": "Air Jordan 4 Retro \"Flight Club\" Coming Soon Air Jordan 4 Retro \"Flight Club\" Men's Shoes $220 Air Jordan 4 Retro \"Flight Club\" Coming Soon Air Jordan 4 Retro \"Flight Club\" Big Kids' Shoes $165 Jordan\u2026",
+            "attributes": {},
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 300,
+              "y": -482,
+              "width": 1092,
+              "height": 4587
+            },
+            "selector": "div > div > div.wall.css-1s0cf0f > div.results.css-zhkvrs > div.results__body > div.product-grid.css-xwapu9 > main > section"
+          },
+          {
+            "tag": "main",
+            "id": null,
+            "classes": [],
+            "text": "Air Jordan 4 Retro \"Flight Club\" Coming Soon Air Jordan 4 Retro \"Flight Club\" Men's Shoes $220 Air Jordan 4 Retro \"Flight Club\" Coming Soon Air Jordan 4 Retro \"Flight Club\" Big Kids' Shoes $165 Jordan\u2026",
+            "attributes": {},
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 300,
+              "y": -482,
+              "width": 1092,
+              "height": 5362.65625
+            },
+            "selector": "div > div > div > div.wall.css-1s0cf0f > div.results.css-zhkvrs > div.results__body > div.product-grid.css-xwapu9 > main"
+          },
+          {
+            "tag": "div",
+            "id": null,
+            "classes": [
+              "product-grid",
+              "css-xwapu9"
+            ],
+            "text": "Air Jordan 4 Retro \"Flight Club\" Coming Soon Air Jordan 4 Retro \"Flight Club\" Men's Shoes $220 Air Jordan 4 Retro \"Flight Club\" Coming Soon Air Jordan 4 Retro \"Flight Club\" Big Kids' Shoes $165 Jordan\u2026",
+            "attributes": {
+              "class": "product-grid css-xwapu9"
+            },
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 260,
+              "y": -482,
+              "width": 1180,
+              "height": 5442.65625
+            },
+            "selector": "div > div > div > div > div.wall.css-1s0cf0f > div.results.css-zhkvrs > div.results__body > div.product-grid.css-xwapu9"
+          },
+          {
+            "tag": "div",
+            "id": null,
+            "classes": [
+              "results__body"
+            ],
+            "text": "Pick Up Today Shoes Tops and T-Shirts Shorts Sports Bras Hoodies and Pullovers Jackets & Vests Pants and Tights Compression and Baselayer Tracksuits Socks Accessories and Equipment Gender Kids Color B\u2026",
+            "attributes": {
+              "class": "results__body"
+            },
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 0,
+              "y": -482,
+              "width": 1440,
+              "height": 5442.65625
+            },
+            "selector": "body > div > div > div > div > div.wall.css-1s0cf0f > div.results.css-zhkvrs > div.results__body"
+          },
+          {
+            "tag": "div",
+            "id": null,
+            "classes": [
+              "results",
+              "css-zhkvrs"
+            ],
+            "text": "Jordan Products(1457) Hide Filters Sort By Pick Up Today Shoes Tops and T-Shirts Shorts Sports Bras Hoodies and Pullovers Jackets & Vests Pants and Tights Compression and Baselayer Tracksuits Socks Ac\u2026",
+            "attributes": {
+              "class": "results    css-zhkvrs"
+            },
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 0,
+              "y": -564,
+              "width": 1440,
+              "height": 5524.65625
+            },
+            "selector": "html > body > div > div > div > div > div.wall.css-1s0cf0f > div.results.css-zhkvrs"
+          },
+          {
+            "tag": "div",
+            "id": "Wall",
+            "classes": [
+              "wall",
+              "css-1s0cf0f"
+            ],
+            "text": "Jordan Products(1457) Hide Filters Sort By Pick Up Today Shoes Tops and T-Shirts Shorts Sports Bras Hoodies and Pullovers Jackets & Vests Pants and Tights Compression and Baselayer Tracksuits Socks Ac\u2026",
+            "attributes": {
+              "class": "wall css-1s0cf0f",
+              "id": "Wall"
+            },
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 0,
+              "y": -564,
+              "width": 1440,
+              "height": 5524.65625
+            },
+            "selector": "#Wall"
+          },
+          {
+            "tag": "div",
+            "id": "app-root",
+            "classes": [],
+            "text": "skip to products Shop New Arrivals Send a Gift Card Members: Free Shipping on Orders $50+ Jordan Products(1457) Hide Filters Sort By Pick Up Today Shoes Tops and T-Shirts Shorts Sports Bras Hoodies an\u2026",
+            "attributes": {
+              "id": "app-root"
+            },
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 0,
+              "y": -624,
+              "width": 1440,
+              "height": 5584.65625
+            },
+            "selector": "#app-root"
+          },
+          {
+            "tag": "div",
+            "id": null,
+            "classes": [],
+            "text": "skip to products Shop New Arrivals Send a Gift Card Members: Free Shipping on Orders $50+ Jordan Products(1457) Hide Filters Sort By Pick Up Today Shoes Tops and T-Shirts Shorts Sports Bras Hoodies an\u2026",
+            "attributes": {
+              "data-test": "browseShell"
+            },
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 0,
+              "y": -624,
+              "width": 1440,
+              "height": 5584.65625
+            },
+            "selector": "html > body > div > div > div"
+          },
+          {
+            "tag": "div",
+            "id": "__next",
+            "classes": [],
+            "text": "skip to products Shop New Arrivals Send a Gift Card Members: Free Shipping on Orders $50+ Jordan Products(1457) Hide Filters Sort By Pick Up Today Shoes Tops and T-Shirts Shorts Sports Bras Hoodies an\u2026",
+            "attributes": {
+              "id": "__next"
+            },
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 0,
+              "y": -624,
+              "width": 1440,
+              "height": 5584.65625
+            },
+            "selector": "#__next"
+          },
+          {
+            "tag": "div",
+            "id": "experience-wrapper",
+            "classes": [],
+            "text": "skip to products Shop New Arrivals Send a Gift Card Members: Free Shipping on Orders $50+ Jordan Products(1457) Hide Filters Sort By Pick Up Today Shoes Tops and T-Shirts Shorts Sports Bras Hoodies an\u2026",
+            "attributes": {
+              "id": "experience-wrapper",
+              "aria-hidden": "false"
+            },
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 0,
+              "y": -624,
+              "width": 1440,
+              "height": 5584.65625
+            },
+            "selector": "#experience-wrapper"
+          },
+          {
+            "tag": "body",
+            "id": null,
+            "classes": [],
+            "text": "Skip to main content Accessibility at Nike Find a Store Help Join Us Sign In Men Women Kids Jordan NikeSKIMS Sport skip to products Shop New Arrivals Send a Gift Card Members: Free Shipping on Orders \u2026",
+            "attributes": {},
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 0,
+              "y": -720,
+              "width": 1440,
+              "height": 6291.65625
+            },
+            "selector": "html > body"
+          },
+          {
+            "tag": "html",
+            "id": null,
+            "classes": [],
+            "text": "Skip to main content Accessibility at Nike Find a Store Help Join Us Sign In Men Women Kids Jordan NikeSKIMS Sport skip to products Shop New Arrivals Send a Gift Card Members: Free Shipping on Orders \u2026",
+            "attributes": {
+              "lang": "en-US",
+              "style": "--eswIconFillColor: #1A1B1E;"
+            },
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 0,
+              "y": -720,
+              "width": 1440,
+              "height": 6291.65625
+            },
+            "selector": "html"
+          }
+        ]
+      },
+      "click_point": {
+        "x": 812.16,
+        "y": 475.20000000000005
+      },
+      "source": "steps"
+    },
+    {
+      "step_index": 6,
+      "url": "https://www.nike.com/t/jordan-flight-club-mens-t-shirt-lWpLnAXE/IQ0543-010",
+      "action": "click_at",
+      "model_text": [
+        {
+          "text": "Okay, after scrolling down, I can see the \"Select Size\" options (XS, S, M, L, XL, XXL) above the \"Add to Bag\" button.\nI need to select a size before adding to the bag. I'll select size 'M' (y=156, x=726).",
+          "thought": false
+        }
+      ],
+      "element": {
+        "tag": "label",
+        "id": null,
+        "classes": [
+          "u-full-width",
+          "u-full-height",
+          "d-sm-flx",
+          "flx-jc-sm-c",
+          "flx-ai-sm-c"
+        ],
+        "text": "M",
+        "attributes": {
+          "class": "u-full-width u-full-height d-sm-flx flx-jc-sm-c flx-ai-sm-c",
+          "for": "grid-selector-input-M"
+        },
+        "ariaLabel": null,
+        "role": null,
+        "href": null,
+        "rect": {
+          "x": 1010.3984375,
+          "y": 118,
+          "width": 67.1953125,
+          "height": 46
+        },
+        "selector": "div.nds-grid.pdp-grid.css-qqclnk > div.grid-item.price.pl6-lg > div.size-selector-wrapper.mt5-sm.mb8-sm > fieldset.pdp-grid-selector > div.d-sm-flx.flx-dir-sm-c.flx-dir-lg-cr > div.nds-grid.pt3-sm.pdp-grid-selector-grid > div.css-1jas9ft.nds-grid-item > label.u-full-width.u-full-height.d-sm-flx",
+        "ancestors": [
+          {
+            "tag": "label",
+            "id": null,
+            "classes": [
+              "u-full-width",
+              "u-full-height",
+              "d-sm-flx",
+              "flx-jc-sm-c",
+              "flx-ai-sm-c"
+            ],
+            "text": "M",
+            "attributes": {
+              "class": "u-full-width u-full-height d-sm-flx flx-jc-sm-c flx-ai-sm-c",
+              "for": "grid-selector-input-M"
+            },
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 1010.3984375,
+              "y": 118,
+              "width": 67.1953125,
+              "height": 46
+            },
+            "selector": "div.nds-grid.pdp-grid.css-qqclnk > div.grid-item.price.pl6-lg > div.size-selector-wrapper.mt5-sm.mb8-sm > fieldset.pdp-grid-selector > div.d-sm-flx.flx-dir-sm-c.flx-dir-lg-cr > div.nds-grid.pt3-sm.pdp-grid-selector-grid > div.css-1jas9ft.nds-grid-item > label.u-full-width.u-full-height.d-sm-flx"
+          },
+          {
+            "tag": "div",
+            "id": null,
+            "classes": [
+              "css-1jas9ft",
+              "nds-grid-item"
+            ],
+            "text": "M",
+            "attributes": {
+              "class": " css-1jas9ft nds-grid-item",
+              "data-testid": "pdp-grid-selector-item",
+              "style": "min-width: 63px;"
+            },
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 1009.3984375,
+              "y": 117,
+              "width": 69.1953125,
+              "height": 48
+            },
+            "selector": "main.d-sm-flx.flx-dir-sm-c.flx-jc-sm-c > div.nds-grid.pdp-grid.css-qqclnk > div.grid-item.price.pl6-lg > div.size-selector-wrapper.mt5-sm.mb8-sm > fieldset.pdp-grid-selector > div.d-sm-flx.flx-dir-sm-c.flx-dir-lg-cr > div.nds-grid.pt3-sm.pdp-grid-selector-grid > div.css-1jas9ft.nds-grid-item"
+          },
+          {
+            "tag": "div",
+            "id": null,
+            "classes": [
+              "nds-grid",
+              "pt3-sm",
+              "pdp-grid-selector-grid",
+              "css-1e1csi1"
+            ],
+            "text": "XS S M L XL XXL",
+            "attributes": {
+              "class": "nds-grid pt3-sm pdp-grid-selector-grid  css-1e1csi1",
+              "data-testid": "pdp-grid-selector-grid"
+            },
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 856,
+              "y": 104,
+              "width": 376,
+              "height": 117
+            },
+            "selector": "div > main.d-sm-flx.flx-dir-sm-c.flx-jc-sm-c > div.nds-grid.pdp-grid.css-qqclnk > div.grid-item.price.pl6-lg > div.size-selector-wrapper.mt5-sm.mb8-sm > fieldset.pdp-grid-selector > div.d-sm-flx.flx-dir-sm-c.flx-dir-lg-cr > div.nds-grid.pt3-sm.pdp-grid-selector-grid"
+          },
+          {
+            "tag": "div",
+            "id": null,
+            "classes": [
+              "d-sm-flx",
+              "flx-dir-sm-c",
+              "flx-dir-lg-cr"
+            ],
+            "text": "XS S M L XL XXL",
+            "attributes": {
+              "class": "d-sm-flx flx-dir-sm-c flx-dir-lg-cr"
+            },
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 856,
+              "y": 104,
+              "width": 376,
+              "height": 117
+            },
+            "selector": "div > div > main.d-sm-flx.flx-dir-sm-c.flx-jc-sm-c > div.nds-grid.pdp-grid.css-qqclnk > div.grid-item.price.pl6-lg > div.size-selector-wrapper.mt5-sm.mb8-sm > fieldset.pdp-grid-selector > div.d-sm-flx.flx-dir-sm-c.flx-dir-lg-cr"
+          },
+          {
+            "tag": "fieldset",
+            "id": null,
+            "classes": [
+              "pdp-grid-selector"
+            ],
+            "text": "Select Size Size Guide XS S M L XL XXL",
+            "attributes": {
+              "class": "pdp-grid-selector ",
+              "data-testid": "pdp-grid-selector"
+            },
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 856,
+              "y": 80,
+              "width": 376,
+              "height": 141
+            },
+            "selector": "body > div > div > main.d-sm-flx.flx-dir-sm-c.flx-jc-sm-c > div.nds-grid.pdp-grid.css-qqclnk > div.grid-item.price.pl6-lg > div.size-selector-wrapper.mt5-sm.mb8-sm > fieldset.pdp-grid-selector"
+          },
+          {
+            "tag": "div",
+            "id": "size-selector",
+            "classes": [
+              "size-selector-wrapper",
+              "mt5-sm",
+              "mb8-sm"
+            ],
+            "text": "Select Size Size Guide XS S M L XL XXL",
+            "attributes": {
+              "class": "size-selector-wrapper mt5-sm mb8-sm",
+              "id": "size-selector",
+              "data-testid": "size-selector"
+            },
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 856,
+              "y": 80,
+              "width": 376,
+              "height": 141
+            },
+            "selector": "#size-selector"
+          },
+          {
+            "tag": "div",
+            "id": null,
+            "classes": [
+              "grid-item",
+              "price",
+              "pl6-lg",
+              "z1",
+              "css-1jk6ulu",
+              "nds-grid-item"
+            ],
+            "text": "$45 Select Size Size Guide XS S M L XL XXL Add to Bag Favorite Shipping You'll see our shipping options at checkout. Free Pickup Find a Store Heavyweight cotton gives this tee a structured feel while \u2026",
+            "attributes": {
+              "class": "grid-item price pl6-lg z1 css-1jk6ulu nds-grid-item"
+            },
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 832,
+              "y": -100,
+              "width": 400,
+              "height": 1297.5
+            },
+            "selector": "html > body > div > div > main.d-sm-flx.flx-dir-sm-c.flx-jc-sm-c > div.nds-grid.pdp-grid.css-qqclnk > div.grid-item.price.pl6-lg"
+          },
+          {
+            "tag": "div",
+            "id": null,
+            "classes": [
+              "nds-grid",
+              "pdp-grid",
+              "css-qqclnk",
+              "ehf3nt20"
+            ],
+            "text": "image 1 of 7 Jordan Flight Club Men's T-Shirt $45 Select Size Size Guide XS S M L XL XXL Add to Bag Favorite Shipping You'll see our shipping options at checkout. Free Pickup Find a Store Heavyweight \u2026",
+            "attributes": {
+              "class": "nds-grid pdp-grid css-qqclnk ehf3nt20",
+              "style": "width:100%;max-width:1920px;margin:auto"
+            },
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 0,
+              "y": -204,
+              "width": 1440,
+              "height": 1499.5
+            },
+            "selector": "html > body > div > div > main.d-sm-flx.flx-dir-sm-c.flx-jc-sm-c > div.nds-grid.pdp-grid.css-qqclnk"
+          },
+          {
+            "tag": "main",
+            "id": null,
+            "classes": [
+              "d-sm-flx",
+              "flx-dir-sm-c",
+              "flx-jc-sm-c",
+              "flx-ai-sm-c"
+            ],
+            "text": "Shop New Arrivals Send a Gift Card Members: Free Shipping on Orders $50+ image 1 of 7 Jordan Flight Club Men's T-Shirt $45 Select Size Size Guide XS S M L XL XXL Add to Bag Favorite Shipping You'll se\u2026",
+            "attributes": {
+              "class": "d-sm-flx flx-dir-sm-c flx-jc-sm-c flx-ai-sm-c",
+              "data-testid": "pdp-main",
+              "style": "width:100%;padding-bottom:48px"
+            },
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 0,
+              "y": -264,
+              "width": 1440,
+              "height": 1607.5
+            },
+            "selector": "html > body > div > div > main.d-sm-flx.flx-dir-sm-c.flx-jc-sm-c"
+          },
+          {
+            "tag": "div",
+            "id": "__next",
+            "classes": [],
+            "text": "Shop New Arrivals Send a Gift Card Members: Free Shipping on Orders $50+ image 1 of 7 Jordan Flight Club Men's T-Shirt $45 Select Size Size Guide XS S M L XL XXL Add to Bag Favorite Shipping You'll se\u2026",
+            "attributes": {
+              "id": "__next",
+              "data-reactroot": ""
+            },
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 0,
+              "y": -264,
+              "width": 1440,
+              "height": 1607.5
+            },
+            "selector": "#__next"
+          },
+          {
+            "tag": "div",
+            "id": "experience-wrapper",
+            "classes": [],
+            "text": "Shop New Arrivals Send a Gift Card Members: Free Shipping on Orders $50+ image 1 of 7 Jordan Flight Club Men's T-Shirt $45 Select Size Size Guide XS S M L XL XXL Add to Bag Favorite Shipping You'll se\u2026",
+            "attributes": {
+              "id": "experience-wrapper"
+            },
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 0,
+              "y": -264,
+              "width": 1440,
+              "height": 1607.5
+            },
+            "selector": "#experience-wrapper"
+          },
+          {
+            "tag": "body",
+            "id": null,
+            "classes": [],
+            "text": "Skip to main content Accessibility at Nike Find a Store Help Join Us Sign In Men Women Kids Jordan NikeSKIMS Sport Shop New Arrivals Send a Gift Card Members: Free Shipping on Orders $50+ image 1 of 7\u2026",
+            "attributes": {},
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 0,
+              "y": -360,
+              "width": 1440,
+              "height": 2314.5
+            },
+            "selector": "html > body"
+          },
+          {
+            "tag": "html",
+            "id": null,
+            "classes": [],
+            "text": "Skip to main content Accessibility at Nike Find a Store Help Join Us Sign In Men Women Kids Jordan NikeSKIMS Sport Shop New Arrivals Send a Gift Card Members: Free Shipping on Orders $50+ image 1 of 7\u2026",
+            "attributes": {
+              "lang": "en-US",
+              "style": "--eswIconFillColor: #1A1B1E;"
+            },
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 0,
+              "y": -360,
+              "width": 1440,
+              "height": 2314.5
+            },
+            "selector": "html"
+          }
+        ]
+      },
+      "click_point": {
+        "x": 1045.44,
+        "y": 140.4
+      },
+      "source": "steps"
+    },
+    {
+      "step_index": 7,
+      "url": "https://www.nike.com/t/jordan-flight-club-mens-t-shirt-lWpLnAXE/IQ0543-010",
+      "action": "click_at",
+      "model_text": [
+        {
+          "text": "I have selected size 'M'. Now I can click \"Add to Bag\" (y=492, x=725).",
+          "thought": false
+        }
+      ],
+      "element": {
+        "tag": "span",
+        "id": null,
+        "classes": [
+          "ripple"
+        ],
+        "text": "",
+        "attributes": {
+          "class": "ripple"
+        },
+        "ariaLabel": null,
+        "role": null,
+        "href": null,
+        "rect": {
+          "x": 754,
+          "y": 154,
+          "width": 580,
+          "height": 580
+        },
+        "selector": "div > main.d-sm-flx.flx-dir-sm-c.flx-jc-sm-c > div.nds-grid.pdp-grid.css-qqclnk > div.grid-item.price.pl6-lg > div.add-to-bag.mb8-sm > div > button.nds-btn.mb3-sm.css-dnr0el > span.ripple",
+        "ancestors": [
+          {
+            "tag": "span",
+            "id": null,
+            "classes": [
+              "ripple"
+            ],
+            "text": "",
+            "attributes": {
+              "class": "ripple"
+            },
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 754,
+              "y": 154,
+              "width": 580,
+              "height": 580
+            },
+            "selector": "div > main.d-sm-flx.flx-dir-sm-c.flx-jc-sm-c > div.nds-grid.pdp-grid.css-qqclnk > div.grid-item.price.pl6-lg > div.add-to-bag.mb8-sm > div > button.nds-btn.mb3-sm.css-dnr0el > span.ripple"
+          },
+          {
+            "tag": "button",
+            "id": null,
+            "classes": [
+              "nds-btn",
+              "mb3-sm",
+              "css-dnr0el",
+              "btn-primary-dark",
+              "btn-lg"
+            ],
+            "text": "Add to Bag",
+            "attributes": {
+              "aria-label": "Add to Bag",
+              "class": "nds-btn mb3-sm css-dnr0el btn-primary-dark  btn-lg",
+              "type": "button",
+              "data-testid": "atb-button"
+            },
+            "ariaLabel": "Add to Bag",
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 856,
+              "y": 414,
+              "width": 376,
+              "height": 60
+            },
+            "selector": "div > div > main.d-sm-flx.flx-dir-sm-c.flx-jc-sm-c > div.nds-grid.pdp-grid.css-qqclnk > div.grid-item.price.pl6-lg > div.add-to-bag.mb8-sm > div > button.nds-btn.mb3-sm.css-dnr0el"
+          },
+          {
+            "tag": "div",
+            "id": null,
+            "classes": [],
+            "text": "Add to Bag",
+            "attributes": {},
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 856,
+              "y": 414,
+              "width": 376,
+              "height": 60
+            },
+            "selector": "body > div > div > main.d-sm-flx.flx-dir-sm-c.flx-jc-sm-c > div.nds-grid.pdp-grid.css-qqclnk > div.grid-item.price.pl6-lg > div.add-to-bag.mb8-sm > div"
+          },
+          {
+            "tag": "div",
+            "id": null,
+            "classes": [
+              "add-to-bag",
+              "mb8-sm"
+            ],
+            "text": "Add to Bag Favorite",
+            "attributes": {
+              "class": "add-to-bag mb8-sm",
+              "data-testid": "buying-tools-container"
+            },
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 856,
+              "y": 414,
+              "width": 376,
+              "height": 132
+            },
+            "selector": "html > body > div > div > main.d-sm-flx.flx-dir-sm-c.flx-jc-sm-c > div.nds-grid.pdp-grid.css-qqclnk > div.grid-item.price.pl6-lg > div.add-to-bag.mb8-sm"
+          },
+          {
+            "tag": "div",
+            "id": null,
+            "classes": [
+              "grid-item",
+              "price",
+              "pl6-lg",
+              "z1",
+              "css-1jk6ulu",
+              "nds-grid-item"
+            ],
+            "text": "$45 Just a few left. Order soon. Select Size Size Guide XS S M L XL XXL Add to Bag Favorite Shipping You'll see our shipping options at checkout. Free Pickup Find a Store Heavyweight cotton gives this\u2026",
+            "attributes": {
+              "class": "grid-item price pl6-lg z1 css-1jk6ulu nds-grid-item"
+            },
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 832,
+              "y": -100,
+              "width": 400,
+              "height": 1353.5
+            },
+            "selector": "html > body > div > div > main.d-sm-flx.flx-dir-sm-c.flx-jc-sm-c > div.nds-grid.pdp-grid.css-qqclnk > div.grid-item.price.pl6-lg"
+          },
+          {
+            "tag": "div",
+            "id": null,
+            "classes": [
+              "nds-grid",
+              "pdp-grid",
+              "css-qqclnk",
+              "ehf3nt20"
+            ],
+            "text": "image 1 of 7 Jordan Flight Club Men's T-Shirt $45 Just a few left. Order soon. Select Size Size Guide XS S M L XL XXL Add to Bag Favorite Shipping You'll see our shipping options at checkout. Free Pic\u2026",
+            "attributes": {
+              "class": "nds-grid pdp-grid css-qqclnk ehf3nt20",
+              "style": "width:100%;max-width:1920px;margin:auto"
+            },
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 0,
+              "y": -204,
+              "width": 1440,
+              "height": 1555.5
+            },
+            "selector": "html > body > div > div > main.d-sm-flx.flx-dir-sm-c.flx-jc-sm-c > div.nds-grid.pdp-grid.css-qqclnk"
+          },
+          {
+            "tag": "main",
+            "id": null,
+            "classes": [
+              "d-sm-flx",
+              "flx-dir-sm-c",
+              "flx-jc-sm-c",
+              "flx-ai-sm-c"
+            ],
+            "text": "Shop New Arrivals Send a Gift Card Members: Free Shipping on Orders $50+ image 1 of 7 Jordan Flight Club Men's T-Shirt $45 Just a few left. Order soon. Select Size Size Guide XS S M L XL XXL Add to Ba\u2026",
+            "attributes": {
+              "class": "d-sm-flx flx-dir-sm-c flx-jc-sm-c flx-ai-sm-c",
+              "data-testid": "pdp-main",
+              "style": "width:100%;padding-bottom:48px"
+            },
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 0,
+              "y": -264,
+              "width": 1440,
+              "height": 1663.5
+            },
+            "selector": "html > body > div > div > main.d-sm-flx.flx-dir-sm-c.flx-jc-sm-c"
+          },
+          {
+            "tag": "div",
+            "id": "__next",
+            "classes": [],
+            "text": "Shop New Arrivals Send a Gift Card Members: Free Shipping on Orders $50+ image 1 of 7 Jordan Flight Club Men's T-Shirt $45 Just a few left. Order soon. Select Size Size Guide XS S M L XL XXL Add to Ba\u2026",
+            "attributes": {
+              "id": "__next",
+              "data-reactroot": ""
+            },
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 0,
+              "y": -264,
+              "width": 1440,
+              "height": 1663.5
+            },
+            "selector": "#__next"
+          },
+          {
+            "tag": "div",
+            "id": "experience-wrapper",
+            "classes": [],
+            "text": "Shop New Arrivals Send a Gift Card Members: Free Shipping on Orders $50+ image 1 of 7 Jordan Flight Club Men's T-Shirt $45 Just a few left. Order soon. Select Size Size Guide XS S M L XL XXL Add to Ba\u2026",
+            "attributes": {
+              "id": "experience-wrapper"
+            },
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 0,
+              "y": -264,
+              "width": 1440,
+              "height": 1663.5
+            },
+            "selector": "#experience-wrapper"
+          },
+          {
+            "tag": "body",
+            "id": null,
+            "classes": [],
+            "text": "Skip to main content Accessibility at Nike Find a Store Help Join Us Sign In Men Women Kids Jordan NikeSKIMS Sport Shop New Arrivals Send a Gift Card Members: Free Shipping on Orders $50+ image 1 of 7\u2026",
+            "attributes": {},
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 0,
+              "y": -360,
+              "width": 1440,
+              "height": 2370.5
+            },
+            "selector": "html > body"
+          },
+          {
+            "tag": "html",
+            "id": null,
+            "classes": [],
+            "text": "Skip to main content Accessibility at Nike Find a Store Help Join Us Sign In Men Women Kids Jordan NikeSKIMS Sport Shop New Arrivals Send a Gift Card Members: Free Shipping on Orders $50+ image 1 of 7\u2026",
+            "attributes": {
+              "lang": "en-US",
+              "style": "--eswIconFillColor: #1A1B1E;"
+            },
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 0,
+              "y": -360,
+              "width": 1440,
+              "height": 2370.5
+            },
+            "selector": "html"
+          }
+        ]
+      },
+      "click_point": {
+        "x": 1044.0,
+        "y": 442.8
+      },
+      "source": "steps"
+    },
+    {
+      "step_index": 8,
+      "url": "https://www.nike.com/t/jordan-flight-club-mens-t-shirt-lWpLnAXE/IQ0543-010",
+      "action": "click_at",
+      "model_text": [
+        {
+          "text": "An \"Error\" pop-up appeared saying \"We had an issue with your request... try refreshing the page.\"\nIt seems clicking \"Add to Bag\" resulted in an error.\nI will close the error pop-up by clicking the 'X' (y=405, x=640) and then try clicking \"Add to Bag\" again, as sometimes these are transient issues. If it fails again, I might try refreshing or going back.",
+          "thought": false
+        }
+      ],
+      "element": {
+        "tag": "button",
+        "id": null,
+        "classes": [
+          "nds-btn",
+          "nds-button--icon-only",
+          "modal-ui-close",
+          "css-1pto8ls",
+          "ex41m6f0",
+          "btn-secondary-dark"
+        ],
+        "text": "",
+        "attributes": {
+          "aria-label": "Close",
+          "class": "nds-btn nds-button--icon-only modal-ui-close css-1pto8ls ex41m6f0 btn-secondary-dark ",
+          "type": "button",
+          "modalappearance": "base",
+          "data-testid": "modal-close-button"
+        },
+        "ariaLabel": "Close",
+        "role": null,
+        "href": null,
+        "rect": {
+          "x": 903,
+          "y": 347.6015625,
+          "width": 36,
+          "height": 36
+        },
+        "selector": "div.modal-portal-content-wrapper.modal-enter-done > div > div.css-lulp55.e1mocx0m0 > div.e1i5x44y0.base.css-113jcce > section.css-1f379of.e1k4uanx0 > div.css-a6yc7c.eqelnlg0 > div.close-btn-container > button.nds-btn.nds-button--icon-only.modal-ui-close",
+        "ancestors": [
+          {
+            "tag": "button",
+            "id": null,
+            "classes": [
+              "nds-btn",
+              "nds-button--icon-only",
+              "modal-ui-close",
+              "css-1pto8ls",
+              "ex41m6f0",
+              "btn-secondary-dark"
+            ],
+            "text": "",
+            "attributes": {
+              "aria-label": "Close",
+              "class": "nds-btn nds-button--icon-only modal-ui-close css-1pto8ls ex41m6f0 btn-secondary-dark ",
+              "type": "button",
+              "modalappearance": "base",
+              "data-testid": "modal-close-button"
+            },
+            "ariaLabel": "Close",
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 903,
+              "y": 347.6015625,
+              "width": 36,
+              "height": 36
+            },
+            "selector": "div.modal-portal-content-wrapper.modal-enter-done > div > div.css-lulp55.e1mocx0m0 > div.e1i5x44y0.base.css-113jcce > section.css-1f379of.e1k4uanx0 > div.css-a6yc7c.eqelnlg0 > div.close-btn-container > button.nds-btn.nds-button--icon-only.modal-ui-close"
+          },
+          {
+            "tag": "div",
+            "id": null,
+            "classes": [
+              "close-btn-container"
+            ],
+            "text": "",
+            "attributes": {
+              "class": "close-btn-container"
+            },
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 903,
+              "y": 347.6015625,
+              "width": 36,
+              "height": 36
+            },
+            "selector": "div > div.modal-portal-content-wrapper.modal-enter-done > div > div.css-lulp55.e1mocx0m0 > div.e1i5x44y0.base.css-113jcce > section.css-1f379of.e1k4uanx0 > div.css-a6yc7c.eqelnlg0 > div.close-btn-container"
+          },
+          {
+            "tag": "div",
+            "id": null,
+            "classes": [
+              "css-a6yc7c",
+              "eqelnlg0"
+            ],
+            "text": "Error We had an issue with your request. If you continue experiencing issues, try refreshing the page. [ Code: 4DB3A115 ] View Bag",
+            "attributes": {
+              "class": "css-a6yc7c eqelnlg0"
+            },
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 500,
+              "y": 343.6015625,
+              "width": 460,
+              "height": 212.796875
+            },
+            "selector": "div > div > div.modal-portal-content-wrapper.modal-enter-done > div > div.css-lulp55.e1mocx0m0 > div.e1i5x44y0.base.css-113jcce > section.css-1f379of.e1k4uanx0 > div.css-a6yc7c.eqelnlg0"
+          },
+          {
+            "tag": "section",
+            "id": null,
+            "classes": [
+              "css-1f379of",
+              "e1k4uanx0"
+            ],
+            "text": "Error We had an issue with your request. If you continue experiencing issues, try refreshing the page. [ Code: 4DB3A115 ] View Bag",
+            "attributes": {
+              "class": "css-1f379of e1k4uanx0",
+              "appearance": "base"
+            },
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 452,
+              "y": 295.6015625,
+              "width": 536,
+              "height": 308.796875
+            },
+            "selector": "body.nds-no-scroll > div > div > div.modal-portal-content-wrapper.modal-enter-done > div > div.css-lulp55.e1mocx0m0 > div.e1i5x44y0.base.css-113jcce > section.css-1f379of.e1k4uanx0"
+          },
+          {
+            "tag": "div",
+            "id": null,
+            "classes": [
+              "e1i5x44y0",
+              "base",
+              "css-113jcce",
+              "ejfruub0"
+            ],
+            "text": "Error We had an issue with your request. If you continue experiencing issues, try refreshing the page. [ Code: 4DB3A115 ] View Bag",
+            "attributes": {
+              "class": "e1i5x44y0 base css-113jcce ejfruub0",
+              "role": "modal",
+              "aria-labelledby": "modal-error"
+            },
+            "ariaLabel": null,
+            "role": "modal",
+            "href": null,
+            "rect": {
+              "x": 452,
+              "y": 295.6015625,
+              "width": 536,
+              "height": 308.796875
+            },
+            "selector": "html > body.nds-no-scroll > div > div > div.modal-portal-content-wrapper.modal-enter-done > div > div.css-lulp55.e1mocx0m0 > div.e1i5x44y0.base.css-113jcce"
+          },
+          {
+            "tag": "div",
+            "id": null,
+            "classes": [
+              "css-lulp55",
+              "e1mocx0m0"
+            ],
+            "text": "Error We had an issue with your request. If you continue experiencing issues, try refreshing the page. [ Code: 4DB3A115 ] View Bag",
+            "attributes": {
+              "class": "css-lulp55 e1mocx0m0",
+              "data-testid": "modal-backdrop"
+            },
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1440,
+              "height": 900
+            },
+            "selector": "html > body.nds-no-scroll > div > div > div.modal-portal-content-wrapper.modal-enter-done > div > div.css-lulp55.e1mocx0m0"
+          },
+          {
+            "tag": "div",
+            "id": null,
+            "classes": [],
+            "text": "Error We had an issue with your request. If you continue experiencing issues, try refreshing the page. [ Code: 4DB3A115 ] View Bag",
+            "attributes": {},
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 0,
+              "y": -360,
+              "width": 1440,
+              "height": 0
+            },
+            "selector": "html > body.nds-no-scroll > div > div > div.modal-portal-content-wrapper.modal-enter-done > div"
+          },
+          {
+            "tag": "div",
+            "id": null,
+            "classes": [
+              "modal-portal-content-wrapper",
+              "modal-enter-done"
+            ],
+            "text": "Error We had an issue with your request. If you continue experiencing issues, try refreshing the page. [ Code: 4DB3A115 ] View Bag",
+            "attributes": {
+              "class": "modal-portal-content-wrapper modal-enter-done"
+            },
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 0,
+              "y": -360,
+              "width": 1440,
+              "height": 0
+            },
+            "selector": "html > body.nds-no-scroll > div > div > div.modal-portal-content-wrapper.modal-enter-done"
+          },
+          {
+            "tag": "div",
+            "id": null,
+            "classes": [],
+            "text": "Error We had an issue with your request. If you continue experiencing issues, try refreshing the page. [ Code: 4DB3A115 ] View Bag",
+            "attributes": {},
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 0,
+              "y": -360,
+              "width": 1440,
+              "height": 0
+            },
+            "selector": "html > body.nds-no-scroll > div > div"
+          },
+          {
+            "tag": "div",
+            "id": "modal-root",
+            "classes": [],
+            "text": "Error We had an issue with your request. If you continue experiencing issues, try refreshing the page. [ Code: 4DB3A115 ] View Bag",
+            "attributes": {
+              "id": "modal-root"
+            },
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 0,
+              "y": -360,
+              "width": 1440,
+              "height": 0
+            },
+            "selector": "#modal-root"
+          },
+          {
+            "tag": "body",
+            "id": null,
+            "classes": [
+              "nds-no-scroll"
+            ],
+            "text": "Error We had an issue with your request. If you continue experiencing issues, try refreshing the page. [ Code: 4DB3A115 ] View Bag Skip to main content Accessibility at Nike Find a Store Help Join Us \u2026",
+            "attributes": {
+              "class": "nds-no-scroll",
+              "style": "position: fixed; top: -360px; left: 0px; right: 0px; overflow: hidden;"
+            },
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 0,
+              "y": -360,
+              "width": 1440,
+              "height": 2370.5
+            },
+            "selector": "html > body.nds-no-scroll"
+          },
+          {
+            "tag": "html",
+            "id": null,
+            "classes": [],
+            "text": "Error We had an issue with your request. If you continue experiencing issues, try refreshing the page. [ Code: 4DB3A115 ] View Bag Skip to main content Accessibility at Nike Find a Store Help Join Us \u2026",
+            "attributes": {
+              "lang": "en-US",
+              "style": "--eswIconFillColor: #1A1B1E;"
+            },
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1440,
+              "height": 0
+            },
+            "selector": "html"
+          }
+        ]
+      },
+      "click_point": {
+        "x": 921.6,
+        "y": 364.5
+      },
+      "source": "steps"
+    },
+    {
+      "step_index": 9,
+      "url": "https://www.nike.com/t/jordan-flight-club-mens-t-shirt-lWpLnAXE/IQ0543-010",
+      "action": "click_at",
+      "model_text": [
+        {
+          "text": "I closed the error pop-up. Size 'M' (y=218, x=726) is still selected.\nI will try clicking \"Add to Bag\" (y=492, x=725) again.",
+          "thought": false
+        }
+      ],
+      "element": {
+        "tag": "span",
+        "id": null,
+        "classes": [
+          "ripple"
+        ],
+        "text": "",
+        "attributes": {
+          "class": "ripple"
+        },
+        "ariaLabel": null,
+        "role": null,
+        "href": null,
+        "rect": {
+          "x": 754,
+          "y": 154,
+          "width": 580,
+          "height": 580
+        },
+        "selector": "div > main.d-sm-flx.flx-dir-sm-c.flx-jc-sm-c > div.nds-grid.pdp-grid.css-qqclnk > div.grid-item.price.pl6-lg > div.add-to-bag.mb8-sm > div > button.nds-btn.mb3-sm.css-dnr0el > span.ripple",
+        "ancestors": [
+          {
+            "tag": "span",
+            "id": null,
+            "classes": [
+              "ripple"
+            ],
+            "text": "",
+            "attributes": {
+              "class": "ripple"
+            },
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 754,
+              "y": 154,
+              "width": 580,
+              "height": 580
+            },
+            "selector": "div > main.d-sm-flx.flx-dir-sm-c.flx-jc-sm-c > div.nds-grid.pdp-grid.css-qqclnk > div.grid-item.price.pl6-lg > div.add-to-bag.mb8-sm > div > button.nds-btn.mb3-sm.css-dnr0el > span.ripple"
+          },
+          {
+            "tag": "button",
+            "id": null,
+            "classes": [
+              "nds-btn",
+              "mb3-sm",
+              "css-dnr0el",
+              "btn-primary-dark",
+              "btn-lg"
+            ],
+            "text": "Add to Bag",
+            "attributes": {
+              "aria-label": "Add to Bag",
+              "class": "nds-btn mb3-sm css-dnr0el btn-primary-dark  btn-lg",
+              "type": "button",
+              "data-testid": "atb-button"
+            },
+            "ariaLabel": "Add to Bag",
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 856,
+              "y": 414,
+              "width": 376,
+              "height": 60
+            },
+            "selector": "div > div > main.d-sm-flx.flx-dir-sm-c.flx-jc-sm-c > div.nds-grid.pdp-grid.css-qqclnk > div.grid-item.price.pl6-lg > div.add-to-bag.mb8-sm > div > button.nds-btn.mb3-sm.css-dnr0el"
+          },
+          {
+            "tag": "div",
+            "id": null,
+            "classes": [],
+            "text": "Add to Bag",
+            "attributes": {},
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 856,
+              "y": 414,
+              "width": 376,
+              "height": 60
+            },
+            "selector": "body > div > div > main.d-sm-flx.flx-dir-sm-c.flx-jc-sm-c > div.nds-grid.pdp-grid.css-qqclnk > div.grid-item.price.pl6-lg > div.add-to-bag.mb8-sm > div"
+          },
+          {
+            "tag": "div",
+            "id": null,
+            "classes": [
+              "add-to-bag",
+              "mb8-sm"
+            ],
+            "text": "Add to Bag Favorite",
+            "attributes": {
+              "class": "add-to-bag mb8-sm",
+              "data-testid": "buying-tools-container"
+            },
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 856,
+              "y": 414,
+              "width": 376,
+              "height": 132
+            },
+            "selector": "html > body > div > div > main.d-sm-flx.flx-dir-sm-c.flx-jc-sm-c > div.nds-grid.pdp-grid.css-qqclnk > div.grid-item.price.pl6-lg > div.add-to-bag.mb8-sm"
+          },
+          {
+            "tag": "div",
+            "id": null,
+            "classes": [
+              "grid-item",
+              "price",
+              "pl6-lg",
+              "z1",
+              "css-1jk6ulu",
+              "nds-grid-item"
+            ],
+            "text": "$45 Just a few left. Order soon. Select Size Size Guide XS S M L XL XXL Add to Bag Favorite Shipping You'll see our shipping options at checkout. Free Pickup Find a Store Heavyweight cotton gives this\u2026",
+            "attributes": {
+              "class": "grid-item price pl6-lg z1 css-1jk6ulu nds-grid-item"
+            },
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 832,
+              "y": -100,
+              "width": 400,
+              "height": 1353.5
+            },
+            "selector": "html > body > div > div > main.d-sm-flx.flx-dir-sm-c.flx-jc-sm-c > div.nds-grid.pdp-grid.css-qqclnk > div.grid-item.price.pl6-lg"
+          },
+          {
+            "tag": "div",
+            "id": null,
+            "classes": [
+              "nds-grid",
+              "pdp-grid",
+              "css-qqclnk",
+              "ehf3nt20"
+            ],
+            "text": "image 1 of 7 Jordan Flight Club Men's T-Shirt $45 Just a few left. Order soon. Select Size Size Guide XS S M L XL XXL Add to Bag Favorite Shipping You'll see our shipping options at checkout. Free Pic\u2026",
+            "attributes": {
+              "class": "nds-grid pdp-grid css-qqclnk ehf3nt20",
+              "style": "width:100%;max-width:1920px;margin:auto"
+            },
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 0,
+              "y": -204,
+              "width": 1440,
+              "height": 1555.5
+            },
+            "selector": "html > body > div > div > main.d-sm-flx.flx-dir-sm-c.flx-jc-sm-c > div.nds-grid.pdp-grid.css-qqclnk"
+          },
+          {
+            "tag": "main",
+            "id": null,
+            "classes": [
+              "d-sm-flx",
+              "flx-dir-sm-c",
+              "flx-jc-sm-c",
+              "flx-ai-sm-c"
+            ],
+            "text": "Shop New Arrivals Send a Gift Card Members: Free Shipping on Orders $50+ image 1 of 7 Jordan Flight Club Men's T-Shirt $45 Just a few left. Order soon. Select Size Size Guide XS S M L XL XXL Add to Ba\u2026",
+            "attributes": {
+              "class": "d-sm-flx flx-dir-sm-c flx-jc-sm-c flx-ai-sm-c",
+              "data-testid": "pdp-main",
+              "style": "width:100%;padding-bottom:48px"
+            },
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 0,
+              "y": -264,
+              "width": 1440,
+              "height": 1663.5
+            },
+            "selector": "html > body > div > div > main.d-sm-flx.flx-dir-sm-c.flx-jc-sm-c"
+          },
+          {
+            "tag": "div",
+            "id": "__next",
+            "classes": [],
+            "text": "Shop New Arrivals Send a Gift Card Members: Free Shipping on Orders $50+ image 1 of 7 Jordan Flight Club Men's T-Shirt $45 Just a few left. Order soon. Select Size Size Guide XS S M L XL XXL Add to Ba\u2026",
+            "attributes": {
+              "id": "__next",
+              "data-reactroot": ""
+            },
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 0,
+              "y": -264,
+              "width": 1440,
+              "height": 1663.5
+            },
+            "selector": "#__next"
+          },
+          {
+            "tag": "div",
+            "id": "experience-wrapper",
+            "classes": [],
+            "text": "Shop New Arrivals Send a Gift Card Members: Free Shipping on Orders $50+ image 1 of 7 Jordan Flight Club Men's T-Shirt $45 Just a few left. Order soon. Select Size Size Guide XS S M L XL XXL Add to Ba\u2026",
+            "attributes": {
+              "id": "experience-wrapper"
+            },
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 0,
+              "y": -264,
+              "width": 1440,
+              "height": 1663.5
+            },
+            "selector": "#experience-wrapper"
+          },
+          {
+            "tag": "body",
+            "id": null,
+            "classes": [],
+            "text": "Skip to main content Accessibility at Nike Find a Store Help Join Us Sign In Men Women Kids Jordan NikeSKIMS Sport Shop New Arrivals Send a Gift Card Members: Free Shipping on Orders $50+ image 1 of 7\u2026",
+            "attributes": {
+              "class": "",
+              "style": ""
+            },
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 0,
+              "y": -360,
+              "width": 1440,
+              "height": 2370.5
+            },
+            "selector": "html > body"
+          },
+          {
+            "tag": "html",
+            "id": null,
+            "classes": [],
+            "text": "Skip to main content Accessibility at Nike Find a Store Help Join Us Sign In Men Women Kids Jordan NikeSKIMS Sport Shop New Arrivals Send a Gift Card Members: Free Shipping on Orders $50+ image 1 of 7\u2026",
+            "attributes": {
+              "lang": "en-US",
+              "style": "--eswIconFillColor: #1A1B1E;"
+            },
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 0,
+              "y": -360,
+              "width": 1440,
+              "height": 2370.5
+            },
+            "selector": "html"
+          }
+        ]
+      },
+      "click_point": {
+        "x": 1044.0,
+        "y": 442.8
+      },
+      "source": "steps"
+    },
+    {
+      "step_index": 10,
+      "url": "https://www.nike.com/t/jordan-flight-club-mens-t-shirt-lWpLnAXE/IQ0543-010",
+      "action": "click_at",
+      "model_text": [
+        {
+          "text": "The same error occurred again. It seems adding this specific item to the bag is problematic right now.\nThe error message suggests refreshing the page. I will try that. I'll close the pop-up first, then refresh.",
+          "thought": false
+        }
+      ],
+      "element": {
+        "tag": "button",
+        "id": null,
+        "classes": [
+          "nds-btn",
+          "nds-button--icon-only",
+          "modal-ui-close",
+          "css-1pto8ls",
+          "ex41m6f0",
+          "btn-secondary-dark"
+        ],
+        "text": "",
+        "attributes": {
+          "aria-label": "Close",
+          "class": "nds-btn nds-button--icon-only modal-ui-close css-1pto8ls ex41m6f0 btn-secondary-dark ",
+          "type": "button",
+          "modalappearance": "base",
+          "data-testid": "modal-close-button"
+        },
+        "ariaLabel": "Close",
+        "role": null,
+        "href": null,
+        "rect": {
+          "x": 903,
+          "y": 347.6015625,
+          "width": 36,
+          "height": 36
+        },
+        "selector": "div.modal-portal-content-wrapper.modal-enter-done > div > div.css-lulp55.e1mocx0m0 > div.e1i5x44y0.base.css-113jcce > section.css-1f379of.e1k4uanx0 > div.css-a6yc7c.eqelnlg0 > div.close-btn-container > button.nds-btn.nds-button--icon-only.modal-ui-close",
+        "ancestors": [
+          {
+            "tag": "button",
+            "id": null,
+            "classes": [
+              "nds-btn",
+              "nds-button--icon-only",
+              "modal-ui-close",
+              "css-1pto8ls",
+              "ex41m6f0",
+              "btn-secondary-dark"
+            ],
+            "text": "",
+            "attributes": {
+              "aria-label": "Close",
+              "class": "nds-btn nds-button--icon-only modal-ui-close css-1pto8ls ex41m6f0 btn-secondary-dark ",
+              "type": "button",
+              "modalappearance": "base",
+              "data-testid": "modal-close-button"
+            },
+            "ariaLabel": "Close",
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 903,
+              "y": 347.6015625,
+              "width": 36,
+              "height": 36
+            },
+            "selector": "div.modal-portal-content-wrapper.modal-enter-done > div > div.css-lulp55.e1mocx0m0 > div.e1i5x44y0.base.css-113jcce > section.css-1f379of.e1k4uanx0 > div.css-a6yc7c.eqelnlg0 > div.close-btn-container > button.nds-btn.nds-button--icon-only.modal-ui-close"
+          },
+          {
+            "tag": "div",
+            "id": null,
+            "classes": [
+              "close-btn-container"
+            ],
+            "text": "",
+            "attributes": {
+              "class": "close-btn-container"
+            },
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 903,
+              "y": 347.6015625,
+              "width": 36,
+              "height": 36
+            },
+            "selector": "div > div.modal-portal-content-wrapper.modal-enter-done > div > div.css-lulp55.e1mocx0m0 > div.e1i5x44y0.base.css-113jcce > section.css-1f379of.e1k4uanx0 > div.css-a6yc7c.eqelnlg0 > div.close-btn-container"
+          },
+          {
+            "tag": "div",
+            "id": null,
+            "classes": [
+              "css-a6yc7c",
+              "eqelnlg0"
+            ],
+            "text": "Error We had an issue with your request. If you continue experiencing issues, try refreshing the page. [ Code: 4DB3A115 ] View Bag",
+            "attributes": {
+              "class": "css-a6yc7c eqelnlg0"
+            },
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 500,
+              "y": 343.6015625,
+              "width": 460,
+              "height": 212.796875
+            },
+            "selector": "div > div > div.modal-portal-content-wrapper.modal-enter-done > div > div.css-lulp55.e1mocx0m0 > div.e1i5x44y0.base.css-113jcce > section.css-1f379of.e1k4uanx0 > div.css-a6yc7c.eqelnlg0"
+          },
+          {
+            "tag": "section",
+            "id": null,
+            "classes": [
+              "css-1f379of",
+              "e1k4uanx0"
+            ],
+            "text": "Error We had an issue with your request. If you continue experiencing issues, try refreshing the page. [ Code: 4DB3A115 ] View Bag",
+            "attributes": {
+              "class": "css-1f379of e1k4uanx0",
+              "appearance": "base"
+            },
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 452,
+              "y": 295.6015625,
+              "width": 536,
+              "height": 308.796875
+            },
+            "selector": "body.nds-no-scroll > div > div > div.modal-portal-content-wrapper.modal-enter-done > div > div.css-lulp55.e1mocx0m0 > div.e1i5x44y0.base.css-113jcce > section.css-1f379of.e1k4uanx0"
+          },
+          {
+            "tag": "div",
+            "id": null,
+            "classes": [
+              "e1i5x44y0",
+              "base",
+              "css-113jcce",
+              "ejfruub0"
+            ],
+            "text": "Error We had an issue with your request. If you continue experiencing issues, try refreshing the page. [ Code: 4DB3A115 ] View Bag",
+            "attributes": {
+              "class": "e1i5x44y0 base css-113jcce ejfruub0",
+              "role": "modal",
+              "aria-labelledby": "modal-error"
+            },
+            "ariaLabel": null,
+            "role": "modal",
+            "href": null,
+            "rect": {
+              "x": 452,
+              "y": 295.6015625,
+              "width": 536,
+              "height": 308.796875
+            },
+            "selector": "html > body.nds-no-scroll > div > div > div.modal-portal-content-wrapper.modal-enter-done > div > div.css-lulp55.e1mocx0m0 > div.e1i5x44y0.base.css-113jcce"
+          },
+          {
+            "tag": "div",
+            "id": null,
+            "classes": [
+              "css-lulp55",
+              "e1mocx0m0"
+            ],
+            "text": "Error We had an issue with your request. If you continue experiencing issues, try refreshing the page. [ Code: 4DB3A115 ] View Bag",
+            "attributes": {
+              "class": "css-lulp55 e1mocx0m0",
+              "data-testid": "modal-backdrop"
+            },
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1440,
+              "height": 900
+            },
+            "selector": "html > body.nds-no-scroll > div > div > div.modal-portal-content-wrapper.modal-enter-done > div > div.css-lulp55.e1mocx0m0"
+          },
+          {
+            "tag": "div",
+            "id": null,
+            "classes": [],
+            "text": "Error We had an issue with your request. If you continue experiencing issues, try refreshing the page. [ Code: 4DB3A115 ] View Bag",
+            "attributes": {},
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 0,
+              "y": -360,
+              "width": 1440,
+              "height": 0
+            },
+            "selector": "html > body.nds-no-scroll > div > div > div.modal-portal-content-wrapper.modal-enter-done > div"
+          },
+          {
+            "tag": "div",
+            "id": null,
+            "classes": [
+              "modal-portal-content-wrapper",
+              "modal-enter-done"
+            ],
+            "text": "Error We had an issue with your request. If you continue experiencing issues, try refreshing the page. [ Code: 4DB3A115 ] View Bag",
+            "attributes": {
+              "class": "modal-portal-content-wrapper modal-enter-done"
+            },
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 0,
+              "y": -360,
+              "width": 1440,
+              "height": 0
+            },
+            "selector": "html > body.nds-no-scroll > div > div > div.modal-portal-content-wrapper.modal-enter-done"
+          },
+          {
+            "tag": "div",
+            "id": null,
+            "classes": [],
+            "text": "Error We had an issue with your request. If you continue experiencing issues, try refreshing the page. [ Code: 4DB3A115 ] View Bag",
+            "attributes": {},
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 0,
+              "y": -360,
+              "width": 1440,
+              "height": 0
+            },
+            "selector": "html > body.nds-no-scroll > div > div"
+          },
+          {
+            "tag": "div",
+            "id": "modal-root",
+            "classes": [],
+            "text": "Error We had an issue with your request. If you continue experiencing issues, try refreshing the page. [ Code: 4DB3A115 ] View Bag",
+            "attributes": {
+              "id": "modal-root"
+            },
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 0,
+              "y": -360,
+              "width": 1440,
+              "height": 0
+            },
+            "selector": "#modal-root"
+          },
+          {
+            "tag": "body",
+            "id": null,
+            "classes": [
+              "nds-no-scroll"
+            ],
+            "text": "Error We had an issue with your request. If you continue experiencing issues, try refreshing the page. [ Code: 4DB3A115 ] View Bag Skip to main content Accessibility at Nike Find a Store Help Join Us \u2026",
+            "attributes": {
+              "class": "nds-no-scroll",
+              "style": "position: fixed; top: -360px; left: 0px; right: 0px; overflow: hidden;"
+            },
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 0,
+              "y": -360,
+              "width": 1440,
+              "height": 2370.5
+            },
+            "selector": "html > body.nds-no-scroll"
+          },
+          {
+            "tag": "html",
+            "id": null,
+            "classes": [],
+            "text": "Error We had an issue with your request. If you continue experiencing issues, try refreshing the page. [ Code: 4DB3A115 ] View Bag Skip to main content Accessibility at Nike Find a Store Help Join Us \u2026",
+            "attributes": {
+              "lang": "en-US",
+              "style": "--eswIconFillColor: #1A1B1E;"
+            },
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1440,
+              "height": 0
+            },
+            "selector": "html"
+          }
+        ]
+      },
+      "click_point": {
+        "x": 921.6,
+        "y": 364.5
+      },
+      "source": "steps"
+    },
+    {
+      "step_index": 13,
+      "url": "https://www.nike.com/t/jordan-flight-club-mens-t-shirt-lWpLnAXE/IQ0543-010",
+      "action": "click_at",
+      "model_text": [
+        {
+          "text": "I am back on the T-shirt page. The page looks refreshed.\nI need to select a size again. I will select 'M' (y=156, x=726) and then try \"Add to Bag\" (y=430, x=725).",
+          "thought": false
+        }
+      ],
+      "element": {
+        "tag": "label",
+        "id": null,
+        "classes": [
+          "u-full-width",
+          "u-full-height",
+          "d-sm-flx",
+          "flx-jc-sm-c",
+          "flx-ai-sm-c"
+        ],
+        "text": "M",
+        "attributes": {
+          "class": "u-full-width u-full-height d-sm-flx flx-jc-sm-c flx-ai-sm-c",
+          "for": "grid-selector-input-M"
+        },
+        "ariaLabel": null,
+        "role": null,
+        "href": null,
+        "rect": {
+          "x": 1010.3984375,
+          "y": 118,
+          "width": 67.1953125,
+          "height": 46
+        },
+        "selector": "div.nds-grid.pdp-grid.css-qqclnk > div.grid-item.price.pl6-lg > div.size-selector-wrapper.mt5-sm.mb8-sm > fieldset.pdp-grid-selector > div.d-sm-flx.flx-dir-sm-c.flx-dir-lg-cr > div.nds-grid.pt3-sm.pdp-grid-selector-grid > div.css-1jas9ft.nds-grid-item > label.u-full-width.u-full-height.d-sm-flx",
+        "ancestors": [
+          {
+            "tag": "label",
+            "id": null,
+            "classes": [
+              "u-full-width",
+              "u-full-height",
+              "d-sm-flx",
+              "flx-jc-sm-c",
+              "flx-ai-sm-c"
+            ],
+            "text": "M",
+            "attributes": {
+              "class": "u-full-width u-full-height d-sm-flx flx-jc-sm-c flx-ai-sm-c",
+              "for": "grid-selector-input-M"
+            },
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 1010.3984375,
+              "y": 118,
+              "width": 67.1953125,
+              "height": 46
+            },
+            "selector": "div.nds-grid.pdp-grid.css-qqclnk > div.grid-item.price.pl6-lg > div.size-selector-wrapper.mt5-sm.mb8-sm > fieldset.pdp-grid-selector > div.d-sm-flx.flx-dir-sm-c.flx-dir-lg-cr > div.nds-grid.pt3-sm.pdp-grid-selector-grid > div.css-1jas9ft.nds-grid-item > label.u-full-width.u-full-height.d-sm-flx"
+          },
+          {
+            "tag": "div",
+            "id": null,
+            "classes": [
+              "css-1jas9ft",
+              "nds-grid-item"
+            ],
+            "text": "M",
+            "attributes": {
+              "class": " css-1jas9ft nds-grid-item",
+              "data-testid": "pdp-grid-selector-item",
+              "style": "min-width: 63px;"
+            },
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 1009.3984375,
+              "y": 117,
+              "width": 69.1953125,
+              "height": 48
+            },
+            "selector": "main.d-sm-flx.flx-dir-sm-c.flx-jc-sm-c > div.nds-grid.pdp-grid.css-qqclnk > div.grid-item.price.pl6-lg > div.size-selector-wrapper.mt5-sm.mb8-sm > fieldset.pdp-grid-selector > div.d-sm-flx.flx-dir-sm-c.flx-dir-lg-cr > div.nds-grid.pt3-sm.pdp-grid-selector-grid > div.css-1jas9ft.nds-grid-item"
+          },
+          {
+            "tag": "div",
+            "id": null,
+            "classes": [
+              "nds-grid",
+              "pt3-sm",
+              "pdp-grid-selector-grid",
+              "css-1e1csi1"
+            ],
+            "text": "XS S M L XL XXL",
+            "attributes": {
+              "class": "nds-grid pt3-sm pdp-grid-selector-grid  css-1e1csi1",
+              "data-testid": "pdp-grid-selector-grid"
+            },
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 856,
+              "y": 104,
+              "width": 376,
+              "height": 117
+            },
+            "selector": "div > main.d-sm-flx.flx-dir-sm-c.flx-jc-sm-c > div.nds-grid.pdp-grid.css-qqclnk > div.grid-item.price.pl6-lg > div.size-selector-wrapper.mt5-sm.mb8-sm > fieldset.pdp-grid-selector > div.d-sm-flx.flx-dir-sm-c.flx-dir-lg-cr > div.nds-grid.pt3-sm.pdp-grid-selector-grid"
+          },
+          {
+            "tag": "div",
+            "id": null,
+            "classes": [
+              "d-sm-flx",
+              "flx-dir-sm-c",
+              "flx-dir-lg-cr"
+            ],
+            "text": "XS S M L XL XXL",
+            "attributes": {
+              "class": "d-sm-flx flx-dir-sm-c flx-dir-lg-cr"
+            },
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 856,
+              "y": 104,
+              "width": 376,
+              "height": 117
+            },
+            "selector": "div > div > main.d-sm-flx.flx-dir-sm-c.flx-jc-sm-c > div.nds-grid.pdp-grid.css-qqclnk > div.grid-item.price.pl6-lg > div.size-selector-wrapper.mt5-sm.mb8-sm > fieldset.pdp-grid-selector > div.d-sm-flx.flx-dir-sm-c.flx-dir-lg-cr"
+          },
+          {
+            "tag": "fieldset",
+            "id": null,
+            "classes": [
+              "pdp-grid-selector"
+            ],
+            "text": "Select Size Size Guide XS S M L XL XXL",
+            "attributes": {
+              "class": "pdp-grid-selector ",
+              "data-testid": "pdp-grid-selector"
+            },
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 856,
+              "y": 80,
+              "width": 376,
+              "height": 141
+            },
+            "selector": "body > div > div > main.d-sm-flx.flx-dir-sm-c.flx-jc-sm-c > div.nds-grid.pdp-grid.css-qqclnk > div.grid-item.price.pl6-lg > div.size-selector-wrapper.mt5-sm.mb8-sm > fieldset.pdp-grid-selector"
+          },
+          {
+            "tag": "div",
+            "id": "size-selector",
+            "classes": [
+              "size-selector-wrapper",
+              "mt5-sm",
+              "mb8-sm"
+            ],
+            "text": "Select Size Size Guide XS S M L XL XXL",
+            "attributes": {
+              "class": "size-selector-wrapper mt5-sm mb8-sm",
+              "id": "size-selector",
+              "data-testid": "size-selector"
+            },
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 856,
+              "y": 80,
+              "width": 376,
+              "height": 141
+            },
+            "selector": "#size-selector"
+          },
+          {
+            "tag": "div",
+            "id": null,
+            "classes": [
+              "grid-item",
+              "price",
+              "pl6-lg",
+              "z1",
+              "css-1jk6ulu",
+              "nds-grid-item"
+            ],
+            "text": "$45 Select Size Size Guide XS S M L XL XXL Add to Bag Favorite Shipping You'll see our shipping options at checkout. Free Pickup Find a Store Heavyweight cotton gives this tee a structured feel while \u2026",
+            "attributes": {
+              "class": "grid-item price pl6-lg z1 css-1jk6ulu nds-grid-item"
+            },
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 832,
+              "y": -100,
+              "width": 400,
+              "height": 1297.5
+            },
+            "selector": "html > body > div > div > main.d-sm-flx.flx-dir-sm-c.flx-jc-sm-c > div.nds-grid.pdp-grid.css-qqclnk > div.grid-item.price.pl6-lg"
+          },
+          {
+            "tag": "div",
+            "id": null,
+            "classes": [
+              "nds-grid",
+              "pdp-grid",
+              "css-qqclnk",
+              "ehf3nt20"
+            ],
+            "text": "image 1 of 7 Jordan Flight Club Men's T-Shirt $45 Select Size Size Guide XS S M L XL XXL Add to Bag Favorite Shipping You'll see our shipping options at checkout. Free Pickup Find a Store Heavyweight \u2026",
+            "attributes": {
+              "class": "nds-grid pdp-grid css-qqclnk ehf3nt20",
+              "style": "width:100%;max-width:1920px;margin:auto"
+            },
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 0,
+              "y": -204,
+              "width": 1440,
+              "height": 2229.015625
+            },
+            "selector": "html > body > div > div > main.d-sm-flx.flx-dir-sm-c.flx-jc-sm-c > div.nds-grid.pdp-grid.css-qqclnk"
+          },
+          {
+            "tag": "main",
+            "id": null,
+            "classes": [
+              "d-sm-flx",
+              "flx-dir-sm-c",
+              "flx-jc-sm-c",
+              "flx-ai-sm-c"
+            ],
+            "text": "Shop New Arrivals Send a Gift Card Members: Free Shipping on Orders $50+ image 1 of 7 Jordan Flight Club Men's T-Shirt $45 Select Size Size Guide XS S M L XL XXL Add to Bag Favorite Shipping You'll se\u2026",
+            "attributes": {
+              "class": "d-sm-flx flx-dir-sm-c flx-jc-sm-c flx-ai-sm-c",
+              "data-testid": "pdp-main",
+              "style": "width:100%;padding-bottom:48px"
+            },
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 0,
+              "y": -264,
+              "width": 1440,
+              "height": 2337.015625
+            },
+            "selector": "html > body > div > div > main.d-sm-flx.flx-dir-sm-c.flx-jc-sm-c"
+          },
+          {
+            "tag": "div",
+            "id": "__next",
+            "classes": [],
+            "text": "Shop New Arrivals Send a Gift Card Members: Free Shipping on Orders $50+ image 1 of 7 Jordan Flight Club Men's T-Shirt $45 Select Size Size Guide XS S M L XL XXL Add to Bag Favorite Shipping You'll se\u2026",
+            "attributes": {
+              "id": "__next",
+              "data-reactroot": ""
+            },
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 0,
+              "y": -264,
+              "width": 1440,
+              "height": 2337.015625
+            },
+            "selector": "#__next"
+          },
+          {
+            "tag": "div",
+            "id": "experience-wrapper",
+            "classes": [],
+            "text": "Shop New Arrivals Send a Gift Card Members: Free Shipping on Orders $50+ image 1 of 7 Jordan Flight Club Men's T-Shirt $45 Select Size Size Guide XS S M L XL XXL Add to Bag Favorite Shipping You'll se\u2026",
+            "attributes": {
+              "id": "experience-wrapper"
+            },
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 0,
+              "y": -264,
+              "width": 1440,
+              "height": 2337.015625
+            },
+            "selector": "#experience-wrapper"
+          },
+          {
+            "tag": "body",
+            "id": null,
+            "classes": [],
+            "text": "Skip to main content Accessibility at Nike Find a Store Help Join Us Sign In Men Women Kids Jordan NikeSKIMS Sport Shop New Arrivals Send a Gift Card Members: Free Shipping on Orders $50+ image 1 of 7\u2026",
+            "attributes": {},
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 0,
+              "y": -360,
+              "width": 1440,
+              "height": 3044.015625
+            },
+            "selector": "html > body"
+          },
+          {
+            "tag": "html",
+            "id": null,
+            "classes": [],
+            "text": "Skip to main content Accessibility at Nike Find a Store Help Join Us Sign In Men Women Kids Jordan NikeSKIMS Sport Shop New Arrivals Send a Gift Card Members: Free Shipping on Orders $50+ image 1 of 7\u2026",
+            "attributes": {
+              "lang": "en-US",
+              "style": "--eswIconFillColor: #1A1B1E;"
+            },
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 0,
+              "y": -360,
+              "width": 1440,
+              "height": 3044.015625
+            },
+            "selector": "html"
+          }
+        ]
+      },
+      "click_point": {
+        "x": 1045.44,
+        "y": 140.4
+      },
+      "source": "steps"
+    },
+    {
+      "step_index": 14,
+      "url": "https://www.nike.com/t/jordan-flight-club-mens-t-shirt-lWpLnAXE/IQ0543-010",
+      "action": "click_at",
+      "model_text": [
+        {
+          "text": "I have selected 'M' (y=218, x=726) again. Now clicking \"Add to Bag\" (y=492, x=725). It also says \"Just a few left. Order soon.\" above the size selection.",
+          "thought": false
+        }
+      ],
+      "element": {
+        "tag": "span",
+        "id": null,
+        "classes": [
+          "ripple"
+        ],
+        "text": "",
+        "attributes": {
+          "class": "ripple"
+        },
+        "ariaLabel": null,
+        "role": null,
+        "href": null,
+        "rect": {
+          "x": 754,
+          "y": 154,
+          "width": 580,
+          "height": 580
+        },
+        "selector": "div > main.d-sm-flx.flx-dir-sm-c.flx-jc-sm-c > div.nds-grid.pdp-grid.css-qqclnk > div.grid-item.price.pl6-lg > div.add-to-bag.mb8-sm > div > button.nds-btn.mb3-sm.css-dnr0el > span.ripple",
+        "ancestors": [
+          {
+            "tag": "span",
+            "id": null,
+            "classes": [
+              "ripple"
+            ],
+            "text": "",
+            "attributes": {
+              "class": "ripple"
+            },
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 754,
+              "y": 154,
+              "width": 580,
+              "height": 580
+            },
+            "selector": "div > main.d-sm-flx.flx-dir-sm-c.flx-jc-sm-c > div.nds-grid.pdp-grid.css-qqclnk > div.grid-item.price.pl6-lg > div.add-to-bag.mb8-sm > div > button.nds-btn.mb3-sm.css-dnr0el > span.ripple"
+          },
+          {
+            "tag": "button",
+            "id": null,
+            "classes": [
+              "nds-btn",
+              "mb3-sm",
+              "css-dnr0el",
+              "btn-primary-dark",
+              "btn-lg"
+            ],
+            "text": "Add to Bag",
+            "attributes": {
+              "aria-label": "Add to Bag",
+              "class": "nds-btn mb3-sm css-dnr0el btn-primary-dark  btn-lg",
+              "type": "button",
+              "data-testid": "atb-button"
+            },
+            "ariaLabel": "Add to Bag",
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 856,
+              "y": 414,
+              "width": 376,
+              "height": 60
+            },
+            "selector": "div > div > main.d-sm-flx.flx-dir-sm-c.flx-jc-sm-c > div.nds-grid.pdp-grid.css-qqclnk > div.grid-item.price.pl6-lg > div.add-to-bag.mb8-sm > div > button.nds-btn.mb3-sm.css-dnr0el"
+          },
+          {
+            "tag": "div",
+            "id": null,
+            "classes": [],
+            "text": "Add to Bag",
+            "attributes": {},
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 856,
+              "y": 414,
+              "width": 376,
+              "height": 60
+            },
+            "selector": "body > div > div > main.d-sm-flx.flx-dir-sm-c.flx-jc-sm-c > div.nds-grid.pdp-grid.css-qqclnk > div.grid-item.price.pl6-lg > div.add-to-bag.mb8-sm > div"
+          },
+          {
+            "tag": "div",
+            "id": null,
+            "classes": [
+              "add-to-bag",
+              "mb8-sm"
+            ],
+            "text": "Add to Bag Favorite",
+            "attributes": {
+              "class": "add-to-bag mb8-sm",
+              "data-testid": "buying-tools-container"
+            },
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 856,
+              "y": 414,
+              "width": 376,
+              "height": 132
+            },
+            "selector": "html > body > div > div > main.d-sm-flx.flx-dir-sm-c.flx-jc-sm-c > div.nds-grid.pdp-grid.css-qqclnk > div.grid-item.price.pl6-lg > div.add-to-bag.mb8-sm"
+          },
+          {
+            "tag": "div",
+            "id": null,
+            "classes": [
+              "grid-item",
+              "price",
+              "pl6-lg",
+              "z1",
+              "css-1jk6ulu",
+              "nds-grid-item"
+            ],
+            "text": "$45 Just a few left. Order soon. Select Size Size Guide XS S M L XL XXL Add to Bag Favorite Shipping You'll see our shipping options at checkout. Free Pickup Find a Store Heavyweight cotton gives this\u2026",
+            "attributes": {
+              "class": "grid-item price pl6-lg z1 css-1jk6ulu nds-grid-item"
+            },
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 832,
+              "y": -100,
+              "width": 400,
+              "height": 1353.5
+            },
+            "selector": "html > body > div > div > main.d-sm-flx.flx-dir-sm-c.flx-jc-sm-c > div.nds-grid.pdp-grid.css-qqclnk > div.grid-item.price.pl6-lg"
+          },
+          {
+            "tag": "div",
+            "id": null,
+            "classes": [
+              "nds-grid",
+              "pdp-grid",
+              "css-qqclnk",
+              "ehf3nt20"
+            ],
+            "text": "image 1 of 7 Jordan Flight Club Men's T-Shirt $45 Just a few left. Order soon. Select Size Size Guide XS S M L XL XXL Add to Bag Favorite Shipping You'll see our shipping options at checkout. Free Pic\u2026",
+            "attributes": {
+              "class": "nds-grid pdp-grid css-qqclnk ehf3nt20",
+              "style": "width:100%;max-width:1920px;margin:auto"
+            },
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 0,
+              "y": -204,
+              "width": 1440,
+              "height": 2285.015625
+            },
+            "selector": "html > body > div > div > main.d-sm-flx.flx-dir-sm-c.flx-jc-sm-c > div.nds-grid.pdp-grid.css-qqclnk"
+          },
+          {
+            "tag": "main",
+            "id": null,
+            "classes": [
+              "d-sm-flx",
+              "flx-dir-sm-c",
+              "flx-jc-sm-c",
+              "flx-ai-sm-c"
+            ],
+            "text": "Shop New Arrivals Send a Gift Card Members: Free Shipping on Orders $50+ image 1 of 7 Jordan Flight Club Men's T-Shirt $45 Just a few left. Order soon. Select Size Size Guide XS S M L XL XXL Add to Ba\u2026",
+            "attributes": {
+              "class": "d-sm-flx flx-dir-sm-c flx-jc-sm-c flx-ai-sm-c",
+              "data-testid": "pdp-main",
+              "style": "width:100%;padding-bottom:48px"
+            },
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 0,
+              "y": -264,
+              "width": 1440,
+              "height": 2393.015625
+            },
+            "selector": "html > body > div > div > main.d-sm-flx.flx-dir-sm-c.flx-jc-sm-c"
+          },
+          {
+            "tag": "div",
+            "id": "__next",
+            "classes": [],
+            "text": "Shop New Arrivals Send a Gift Card Members: Free Shipping on Orders $50+ image 1 of 7 Jordan Flight Club Men's T-Shirt $45 Just a few left. Order soon. Select Size Size Guide XS S M L XL XXL Add to Ba\u2026",
+            "attributes": {
+              "id": "__next",
+              "data-reactroot": ""
+            },
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 0,
+              "y": -264,
+              "width": 1440,
+              "height": 2393.015625
+            },
+            "selector": "#__next"
+          },
+          {
+            "tag": "div",
+            "id": "experience-wrapper",
+            "classes": [],
+            "text": "Shop New Arrivals Send a Gift Card Members: Free Shipping on Orders $50+ image 1 of 7 Jordan Flight Club Men's T-Shirt $45 Just a few left. Order soon. Select Size Size Guide XS S M L XL XXL Add to Ba\u2026",
+            "attributes": {
+              "id": "experience-wrapper"
+            },
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 0,
+              "y": -264,
+              "width": 1440,
+              "height": 2393.015625
+            },
+            "selector": "#experience-wrapper"
+          },
+          {
+            "tag": "body",
+            "id": null,
+            "classes": [],
+            "text": "Skip to main content Accessibility at Nike Find a Store Help Join Us Sign In Men Women Kids Jordan NikeSKIMS Sport Shop New Arrivals Send a Gift Card Members: Free Shipping on Orders $50+ image 1 of 7\u2026",
+            "attributes": {},
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 0,
+              "y": -360,
+              "width": 1440,
+              "height": 3100.015625
+            },
+            "selector": "html > body"
+          },
+          {
+            "tag": "html",
+            "id": null,
+            "classes": [],
+            "text": "Skip to main content Accessibility at Nike Find a Store Help Join Us Sign In Men Women Kids Jordan NikeSKIMS Sport Shop New Arrivals Send a Gift Card Members: Free Shipping on Orders $50+ image 1 of 7\u2026",
+            "attributes": {
+              "lang": "en-US",
+              "style": "--eswIconFillColor: #1A1B1E;"
+            },
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 0,
+              "y": -360,
+              "width": 1440,
+              "height": 3100.015625
+            },
+            "selector": "html"
+          }
+        ]
+      },
+      "click_point": {
+        "x": 1044.0,
+        "y": 442.8
+      },
+      "source": "steps"
+    },
+    {
+      "step_index": 15,
+      "url": "https://www.nike.com/t/jordan-flight-club-mens-t-shirt-lWpLnAXE/IQ0543-010",
+      "action": "click_at",
+      "model_text": [
+        {
+          "text": "The error [Code: 4DB3A115] occurred again even after refreshing. It seems there's a persistent issue with adding this item to the bag, or maybe with the \"Add to Bag\" functionality on this page right now.\n\nSince the task is to click \"Add to Cart\" on 1 PDP and I am encountering a persistent error preventing the successful addition *after* the click, I will call `pdp_complete` acknowledging I clicked the button, but note the error. Then I will call `finish` as I have attempted it on one PDP. It's possible the \"View Bag\" button (y=591, x=499) might show it was added despite the error, but the error message suggests it wasn't. I will close the error first.",
+          "thought": false
+        }
+      ],
+      "element": {
+        "tag": "button",
+        "id": null,
+        "classes": [
+          "nds-btn",
+          "nds-button--icon-only",
+          "modal-ui-close",
+          "css-1pto8ls",
+          "ex41m6f0",
+          "btn-secondary-dark"
+        ],
+        "text": "",
+        "attributes": {
+          "aria-label": "Close",
+          "class": "nds-btn nds-button--icon-only modal-ui-close css-1pto8ls ex41m6f0 btn-secondary-dark ",
+          "type": "button",
+          "modalappearance": "base",
+          "data-testid": "modal-close-button"
+        },
+        "ariaLabel": "Close",
+        "role": null,
+        "href": null,
+        "rect": {
+          "x": 903,
+          "y": 347.6015625,
+          "width": 36,
+          "height": 36
+        },
+        "selector": "div.modal-portal-content-wrapper.modal-enter-done > div > div.css-lulp55.e1mocx0m0 > div.e1i5x44y0.base.css-113jcce > section.css-1f379of.e1k4uanx0 > div.css-a6yc7c.eqelnlg0 > div.close-btn-container > button.nds-btn.nds-button--icon-only.modal-ui-close",
+        "ancestors": [
+          {
+            "tag": "button",
+            "id": null,
+            "classes": [
+              "nds-btn",
+              "nds-button--icon-only",
+              "modal-ui-close",
+              "css-1pto8ls",
+              "ex41m6f0",
+              "btn-secondary-dark"
+            ],
+            "text": "",
+            "attributes": {
+              "aria-label": "Close",
+              "class": "nds-btn nds-button--icon-only modal-ui-close css-1pto8ls ex41m6f0 btn-secondary-dark ",
+              "type": "button",
+              "modalappearance": "base",
+              "data-testid": "modal-close-button"
+            },
+            "ariaLabel": "Close",
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 903,
+              "y": 347.6015625,
+              "width": 36,
+              "height": 36
+            },
+            "selector": "div.modal-portal-content-wrapper.modal-enter-done > div > div.css-lulp55.e1mocx0m0 > div.e1i5x44y0.base.css-113jcce > section.css-1f379of.e1k4uanx0 > div.css-a6yc7c.eqelnlg0 > div.close-btn-container > button.nds-btn.nds-button--icon-only.modal-ui-close"
+          },
+          {
+            "tag": "div",
+            "id": null,
+            "classes": [
+              "close-btn-container"
+            ],
+            "text": "",
+            "attributes": {
+              "class": "close-btn-container"
+            },
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 903,
+              "y": 347.6015625,
+              "width": 36,
+              "height": 36
+            },
+            "selector": "div > div.modal-portal-content-wrapper.modal-enter-done > div > div.css-lulp55.e1mocx0m0 > div.e1i5x44y0.base.css-113jcce > section.css-1f379of.e1k4uanx0 > div.css-a6yc7c.eqelnlg0 > div.close-btn-container"
+          },
+          {
+            "tag": "div",
+            "id": null,
+            "classes": [
+              "css-a6yc7c",
+              "eqelnlg0"
+            ],
+            "text": "Error We had an issue with your request. If you continue experiencing issues, try refreshing the page. [ Code: 4DB3A115 ] View Bag",
+            "attributes": {
+              "class": "css-a6yc7c eqelnlg0"
+            },
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 500,
+              "y": 343.6015625,
+              "width": 460,
+              "height": 212.796875
+            },
+            "selector": "div > div > div.modal-portal-content-wrapper.modal-enter-done > div > div.css-lulp55.e1mocx0m0 > div.e1i5x44y0.base.css-113jcce > section.css-1f379of.e1k4uanx0 > div.css-a6yc7c.eqelnlg0"
+          },
+          {
+            "tag": "section",
+            "id": null,
+            "classes": [
+              "css-1f379of",
+              "e1k4uanx0"
+            ],
+            "text": "Error We had an issue with your request. If you continue experiencing issues, try refreshing the page. [ Code: 4DB3A115 ] View Bag",
+            "attributes": {
+              "class": "css-1f379of e1k4uanx0",
+              "appearance": "base"
+            },
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 452,
+              "y": 295.6015625,
+              "width": 536,
+              "height": 308.796875
+            },
+            "selector": "body.nds-no-scroll > div > div > div.modal-portal-content-wrapper.modal-enter-done > div > div.css-lulp55.e1mocx0m0 > div.e1i5x44y0.base.css-113jcce > section.css-1f379of.e1k4uanx0"
+          },
+          {
+            "tag": "div",
+            "id": null,
+            "classes": [
+              "e1i5x44y0",
+              "base",
+              "css-113jcce",
+              "ejfruub0"
+            ],
+            "text": "Error We had an issue with your request. If you continue experiencing issues, try refreshing the page. [ Code: 4DB3A115 ] View Bag",
+            "attributes": {
+              "class": "e1i5x44y0 base css-113jcce ejfruub0",
+              "role": "modal",
+              "aria-labelledby": "modal-error"
+            },
+            "ariaLabel": null,
+            "role": "modal",
+            "href": null,
+            "rect": {
+              "x": 452,
+              "y": 295.6015625,
+              "width": 536,
+              "height": 308.796875
+            },
+            "selector": "html > body.nds-no-scroll > div > div > div.modal-portal-content-wrapper.modal-enter-done > div > div.css-lulp55.e1mocx0m0 > div.e1i5x44y0.base.css-113jcce"
+          },
+          {
+            "tag": "div",
+            "id": null,
+            "classes": [
+              "css-lulp55",
+              "e1mocx0m0"
+            ],
+            "text": "Error We had an issue with your request. If you continue experiencing issues, try refreshing the page. [ Code: 4DB3A115 ] View Bag",
+            "attributes": {
+              "class": "css-lulp55 e1mocx0m0",
+              "data-testid": "modal-backdrop"
+            },
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1440,
+              "height": 900
+            },
+            "selector": "html > body.nds-no-scroll > div > div > div.modal-portal-content-wrapper.modal-enter-done > div > div.css-lulp55.e1mocx0m0"
+          },
+          {
+            "tag": "div",
+            "id": null,
+            "classes": [],
+            "text": "Error We had an issue with your request. If you continue experiencing issues, try refreshing the page. [ Code: 4DB3A115 ] View Bag",
+            "attributes": {},
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 0,
+              "y": -360,
+              "width": 1440,
+              "height": 0
+            },
+            "selector": "html > body.nds-no-scroll > div > div > div.modal-portal-content-wrapper.modal-enter-done > div"
+          },
+          {
+            "tag": "div",
+            "id": null,
+            "classes": [
+              "modal-portal-content-wrapper",
+              "modal-enter-done"
+            ],
+            "text": "Error We had an issue with your request. If you continue experiencing issues, try refreshing the page. [ Code: 4DB3A115 ] View Bag",
+            "attributes": {
+              "class": "modal-portal-content-wrapper modal-enter-done"
+            },
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 0,
+              "y": -360,
+              "width": 1440,
+              "height": 0
+            },
+            "selector": "html > body.nds-no-scroll > div > div > div.modal-portal-content-wrapper.modal-enter-done"
+          },
+          {
+            "tag": "div",
+            "id": null,
+            "classes": [],
+            "text": "Error We had an issue with your request. If you continue experiencing issues, try refreshing the page. [ Code: 4DB3A115 ] View Bag",
+            "attributes": {},
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 0,
+              "y": -360,
+              "width": 1440,
+              "height": 0
+            },
+            "selector": "html > body.nds-no-scroll > div > div"
+          },
+          {
+            "tag": "div",
+            "id": "modal-root",
+            "classes": [],
+            "text": "Error We had an issue with your request. If you continue experiencing issues, try refreshing the page. [ Code: 4DB3A115 ] View Bag",
+            "attributes": {
+              "id": "modal-root"
+            },
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 0,
+              "y": -360,
+              "width": 1440,
+              "height": 0
+            },
+            "selector": "#modal-root"
+          },
+          {
+            "tag": "body",
+            "id": null,
+            "classes": [
+              "nds-no-scroll"
+            ],
+            "text": "Error We had an issue with your request. If you continue experiencing issues, try refreshing the page. [ Code: 4DB3A115 ] View Bag Skip to main content Accessibility at Nike Find a Store Help Join Us \u2026",
+            "attributes": {
+              "class": "nds-no-scroll",
+              "style": "position: fixed; top: -360px; left: 0px; right: 0px; overflow: hidden;"
+            },
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 0,
+              "y": -360,
+              "width": 1440,
+              "height": 3100.015625
+            },
+            "selector": "html > body.nds-no-scroll"
+          },
+          {
+            "tag": "html",
+            "id": null,
+            "classes": [],
+            "text": "Error We had an issue with your request. If you continue experiencing issues, try refreshing the page. [ Code: 4DB3A115 ] View Bag Skip to main content Accessibility at Nike Find a Store Help Join Us \u2026",
+            "attributes": {
+              "lang": "en-US",
+              "style": "--eswIconFillColor: #1A1B1E;"
+            },
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1440,
+              "height": 0
+            },
+            "selector": "html"
+          }
+        ]
+      },
+      "click_point": {
+        "x": 920.16,
+        "y": 364.5
+      },
+      "source": "steps"
+    }
+  ]
+}

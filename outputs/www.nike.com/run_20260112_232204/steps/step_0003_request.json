@@ -1,0 +1,305 @@
+{
+  "model": "gemini-2.5-computer-use-preview-10-2025",
+  "system_instruction": "You are a browser automation agent. Use the provided tools to act on the page. Only call supported actions. For each PDP, click the Add to Cart button, then call `pdp_complete` with an argument has_variants=true or false. Ensure you collect PDPs with and without variants according to the user's targets. For variant PDPs, click multiple variant options (size/color/etc.) to capture their elements. After all required PDPs are done, call `finish`.",
+  "temperature": 0.2,
+  "exclude_actions": [],
+  "config": {
+    "http_options": null,
+    "should_return_http_response": null,
+    "system_instruction": "You are a browser automation agent. Use the provided tools to act on the page. Only call supported actions. For each PDP, click the Add to Cart button, then call `pdp_complete` with an argument has_variants=true or false. Ensure you collect PDPs with and without variants according to the user's targets. For variant PDPs, click multiple variant options (size/color/etc.) to capture their elements. After all required PDPs are done, call `finish`.",
+    "temperature": 0.2,
+    "top_p": null,
+    "top_k": null,
+    "candidate_count": null,
+    "max_output_tokens": null,
+    "stop_sequences": null,
+    "response_logprobs": null,
+    "logprobs": null,
+    "presence_penalty": null,
+    "frequency_penalty": null,
+    "seed": null,
+    "response_mime_type": null,
+    "response_schema": null,
+    "response_json_schema": null,
+    "routing_config": null,
+    "model_selection_config": null,
+    "safety_settings": null,
+    "tools": [
+      {
+        "retrieval": null,
+        "computer_use": {
+          "environment": "ENVIRONMENT_BROWSER",
+          "excluded_predefined_functions": []
+        },
+        "file_search": null,
+        "code_execution": null,
+        "enterprise_web_search": null,
+        "function_declarations": null,
+        "google_maps": null,
+        "google_search": null,
+        "google_search_retrieval": null,
+        "url_context": null
+      },
+      {
+        "retrieval": null,
+        "computer_use": null,
+        "file_search": null,
+        "code_execution": null,
+        "enterprise_web_search": null,
+        "function_declarations": [
+          {
+            "description": "Mark that add-to-cart was clicked on the current PDP.",
+            "name": "pdp_complete",
+            "parameters": null,
+            "parameters_json_schema": {
+              "type": "object",
+              "properties": {
+                "label": {
+                  "type": "string"
+                },
+                "has_variants": {
+                  "type": "boolean",
+                  "description": "Whether this PDP has selectable variants (size/color/etc.)."
+                }
+              },
+              "additionalProperties": false
+            },
+            "response": null,
+            "response_json_schema": null,
+            "behavior": null
+          },
+          {
+            "description": "Signal that the task is complete.",
+            "name": "finish",
+            "parameters": null,
+            "parameters_json_schema": {
+              "type": "object",
+              "properties": {},
+              "additionalProperties": false
+            },
+            "response": null,
+            "response_json_schema": null,
+            "behavior": null
+          }
+        ],
+        "google_maps": null,
+        "google_search": null,
+        "google_search_retrieval": null,
+        "url_context": null
+      }
+    ],
+    "tool_config": null,
+    "labels": null,
+    "cached_content": null,
+    "response_modalities": null,
+    "media_resolution": null,
+    "speech_config": null,
+    "audio_timestamp": null,
+    "automatic_function_calling": {
+      "disable": true,
+      "maximum_remote_calls": 10,
+      "ignore_call_history": null
+    },
+    "thinking_config": null,
+    "image_config": null,
+    "enable_enhanced_civic_answers": null
+  },
+  "contents": [
+    {
+      "parts": [
+        {
+          "media_resolution": null,
+          "code_execution_result": null,
+          "executable_code": null,
+          "file_data": null,
+          "function_call": null,
+          "function_response": null,
+          "inline_data": null,
+          "text": "Starting from the site homepage, navigate to product detail pages (PDPs). Collect at least 1 PDP(s) with variants and at least 0 PDP(s) without variants, up to a maximum of 2 total PDPs. For each PDP, click the Add to Cart button, then call pdp_complete. For variant PDPs, click multiple variant options to capture their elements. When all PDPs are done, call finish.",
+          "thought": null,
+          "thought_signature": null,
+          "video_metadata": null
+        },
+        {
+          "media_resolution": null,
+          "code_execution_result": null,
+          "executable_code": null,
+          "file_data": null,
+          "function_call": null,
+          "function_response": null,
+          "inline_data": {
+            "data": "<omitted>",
+            "display_name": null,
+            "mime_type": "image/png"
+          },
+          "text": null,
+          "thought": null,
+          "thought_signature": null,
+          "video_metadata": null
+        }
+      ],
+      "role": "user"
+    },
+    {
+      "parts": [
+        {
+          "media_resolution": null,
+          "code_execution_result": null,
+          "executable_code": null,
+          "file_data": null,
+          "function_call": {
+            "id": null,
+            "args": {},
+            "name": "open_web_browser",
+            "partial_args": null,
+            "will_continue": null
+          },
+          "function_response": null,
+          "inline_data": null,
+          "text": null,
+          "thought": null,
+          "thought_signature": null,
+          "video_metadata": null
+        }
+      ],
+      "role": "model"
+    },
+    {
+      "parts": [
+        {
+          "media_resolution": null,
+          "code_execution_result": null,
+          "executable_code": null,
+          "file_data": null,
+          "function_call": null,
+          "function_response": {
+            "will_continue": null,
+            "scheduling": null,
+            "parts": [
+              {
+                "inline_data": {
+                  "mime_type": "image/png",
+                  "data": "<omitted>",
+                  "display_name": null
+                },
+                "file_data": null
+              }
+            ],
+            "id": null,
+            "name": "open_web_browser",
+            "response": {
+              "status": "ok",
+              "url": "https://www.nike.com/"
+            }
+          },
+          "inline_data": null,
+          "text": null,
+          "thought": null,
+          "thought_signature": null,
+          "video_metadata": null
+        }
+      ],
+      "role": "user"
+    },
+    {
+      "parts": [
+        {
+          "media_resolution": null,
+          "code_execution_result": null,
+          "executable_code": null,
+          "file_data": null,
+          "function_call": null,
+          "function_response": null,
+          "inline_data": null,
+          "text": "I have successfully navigated to the Nike homepage.\nThe task is to find at least one PDP *with* variants and optionally one without, up to two total.\n\nI need to find products. I can either use the search bar in the top right or click one of the category links like \"Men\", \"Women\", \"Kids\", etc.\nSince I need at least one with variants, shoes or clothing are good candidates. I'll try clicking \"Men\" first to see men's products.",
+          "thought": null,
+          "thought_signature": null,
+          "video_metadata": null
+        },
+        {
+          "media_resolution": null,
+          "code_execution_result": null,
+          "executable_code": null,
+          "file_data": null,
+          "function_call": {
+            "id": null,
+            "args": {
+              "x": 371,
+              "y": 71
+            },
+            "name": "click_at",
+            "partial_args": null,
+            "will_continue": null
+          },
+          "function_response": null,
+          "inline_data": null,
+          "text": null,
+          "thought": null,
+          "thought_signature": null,
+          "video_metadata": null
+        }
+      ],
+      "role": "model"
+    },
+    {
+      "parts": [
+        {
+          "media_resolution": null,
+          "code_execution_result": null,
+          "executable_code": null,
+          "file_data": null,
+          "function_call": null,
+          "function_response": {
+            "will_continue": null,
+            "scheduling": null,
+            "parts": [
+              {
+                "inline_data": {
+                  "mime_type": "image/png",
+                  "data": "<omitted>",
+                  "display_name": null
+                },
+                "file_data": null
+              }
+            ],
+            "id": null,
+            "name": "click_at",
+            "response": {
+              "status": "ok",
+              "url": "https://www.nike.com/"
+            }
+          },
+          "inline_data": null,
+          "text": null,
+          "thought": null,
+          "thought_signature": null,
+          "video_metadata": null
+        }
+      ],
+      "role": "user"
+    }
+  ],
+  "new_content": {
+    "role": "user",
+    "parts": [
+      {
+        "function_response": {
+          "name": "click_at",
+          "response": {
+            "status": "ok",
+            "url": "https://www.nike.com/"
+          },
+          "parts": [
+            {
+              "inline_data": {
+                "mime_type": "image/png",
+                "note": "screenshot attached"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "history_count": 5
+}

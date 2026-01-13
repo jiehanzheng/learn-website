@@ -1,0 +1,304 @@
+{
+  "actions": [
+    {
+      "name": "click_at",
+      "args": {
+        "x": 724,
+        "y": 956
+      },
+      "note": null,
+      "call_id": null
+    }
+  ],
+  "results": [
+    {
+      "name": "click_at",
+      "call_id": null,
+      "result": {
+        "status": "ok",
+        "url": "https://www.nike.com/t/gato-mens-shoes-IZnqPPCC/IB6650-200",
+        "click": {
+          "raw": {
+            "x": 724.0,
+            "y": 956.0,
+            "normalized": true
+          },
+          "resolved": {
+            "x": 1042.56,
+            "y": 860.4
+          },
+          "element": {
+            "tag": "span",
+            "id": null,
+            "classes": [
+              "ripple"
+            ],
+            "text": "",
+            "attributes": {
+              "class": "ripple"
+            },
+            "ariaLabel": null,
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 754,
+              "y": 571,
+              "width": 580,
+              "height": 580
+            },
+            "selector": "div > main.d-sm-flx.flx-dir-sm-c.flx-jc-sm-c > div.nds-grid.pdp-grid.css-qqclnk > div.grid-item.price.pl6-lg > div.add-to-bag.mb8-sm > div > button.nds-btn.mb3-sm.css-dnr0el > span.ripple",
+            "ancestors": [
+              {
+                "tag": "span",
+                "id": null,
+                "classes": [
+                  "ripple"
+                ],
+                "text": "",
+                "attributes": {
+                  "class": "ripple"
+                },
+                "ariaLabel": null,
+                "role": null,
+                "href": null,
+                "rect": {
+                  "x": 754,
+                  "y": 571,
+                  "width": 580,
+                  "height": 580
+                },
+                "selector": "div > main.d-sm-flx.flx-dir-sm-c.flx-jc-sm-c > div.nds-grid.pdp-grid.css-qqclnk > div.grid-item.price.pl6-lg > div.add-to-bag.mb8-sm > div > button.nds-btn.mb3-sm.css-dnr0el > span.ripple"
+              },
+              {
+                "tag": "button",
+                "id": null,
+                "classes": [
+                  "nds-btn",
+                  "mb3-sm",
+                  "css-dnr0el",
+                  "btn-primary-dark",
+                  "btn-lg"
+                ],
+                "text": "Add to Bag",
+                "attributes": {
+                  "aria-label": "Add to Bag",
+                  "class": "nds-btn mb3-sm css-dnr0el btn-primary-dark  btn-lg",
+                  "type": "button",
+                  "data-testid": "atb-button"
+                },
+                "ariaLabel": "Add to Bag",
+                "role": null,
+                "href": null,
+                "rect": {
+                  "x": 856,
+                  "y": 831,
+                  "width": 376,
+                  "height": 60
+                },
+                "selector": "div > div > main.d-sm-flx.flx-dir-sm-c.flx-jc-sm-c > div.nds-grid.pdp-grid.css-qqclnk > div.grid-item.price.pl6-lg > div.add-to-bag.mb8-sm > div > button.nds-btn.mb3-sm.css-dnr0el"
+              },
+              {
+                "tag": "div",
+                "id": null,
+                "classes": [],
+                "text": "Add to Bag",
+                "attributes": {},
+                "ariaLabel": null,
+                "role": null,
+                "href": null,
+                "rect": {
+                  "x": 856,
+                  "y": 831,
+                  "width": 376,
+                  "height": 60
+                },
+                "selector": "body > div > div > main.d-sm-flx.flx-dir-sm-c.flx-jc-sm-c > div.nds-grid.pdp-grid.css-qqclnk > div.grid-item.price.pl6-lg > div.add-to-bag.mb8-sm > div"
+              },
+              {
+                "tag": "div",
+                "id": null,
+                "classes": [
+                  "add-to-bag",
+                  "mb8-sm"
+                ],
+                "text": "Add to Bag Favorite",
+                "attributes": {
+                  "class": "add-to-bag mb8-sm",
+                  "data-testid": "buying-tools-container"
+                },
+                "ariaLabel": null,
+                "role": null,
+                "href": null,
+                "rect": {
+                  "x": 856,
+                  "y": 831,
+                  "width": 376,
+                  "height": 132
+                },
+                "selector": "html > body > div > div > main.d-sm-flx.flx-dir-sm-c.flx-jc-sm-c > div.nds-grid.pdp-grid.css-qqclnk > div.grid-item.price.pl6-lg > div.add-to-bag.mb8-sm"
+              },
+              {
+                "tag": "div",
+                "id": null,
+                "classes": [
+                  "grid-item",
+                  "price",
+                  "pl6-lg",
+                  "z1",
+                  "css-1jk6ulu",
+                  "nds-grid-item"
+                ],
+                "text": "$115 Select Size Size Guide M 6 / W 7.5 M 6.5 / W 8 M 7 / W 8.5 M 7.5 / W 9 M 8 / W 9.5 M 8.5 / W 10 M 9 / W 10.5 M 9.5 / W 11 M 10 / W 11.5 M 10.5 / W 12 M 11 / W 12.5 M 11.5 / W 13 M 12 / W 13.5 M 1\u2026",
+                "attributes": {
+                  "class": "grid-item price pl6-lg z1 css-1jk6ulu nds-grid-item"
+                },
+                "ariaLabel": null,
+                "role": null,
+                "href": null,
+                "rect": {
+                  "x": 832,
+                  "y": -100,
+                  "width": 400,
+                  "height": 2615
+                },
+                "selector": "html > body > div > div > main.d-sm-flx.flx-dir-sm-c.flx-jc-sm-c > div.nds-grid.pdp-grid.css-qqclnk > div.grid-item.price.pl6-lg"
+              },
+              {
+                "tag": "div",
+                "id": null,
+                "classes": [
+                  "nds-grid",
+                  "pdp-grid",
+                  "css-qqclnk",
+                  "ehf3nt20"
+                ],
+                "text": "image 1 of 8 Highly Rated Nike Gato Men's Shoes $115 Select Size Size Guide M 6 / W 7.5 M 6.5 / W 8 M 7 / W 8.5 M 7.5 / W 9 M 8 / W 9.5 M 8.5 / W 10 M 9 / W 10.5 M 9.5 / W 11 M 10 / W 11.5 M 10.5 / W \u2026",
+                "attributes": {
+                  "class": "nds-grid pdp-grid css-qqclnk ehf3nt20",
+                  "style": "width:100%;max-width:1920px;margin:auto"
+                },
+                "ariaLabel": null,
+                "role": null,
+                "href": null,
+                "rect": {
+                  "x": 0,
+                  "y": -204,
+                  "width": 1440,
+                  "height": 2817
+                },
+                "selector": "html > body > div > div > main.d-sm-flx.flx-dir-sm-c.flx-jc-sm-c > div.nds-grid.pdp-grid.css-qqclnk"
+              },
+              {
+                "tag": "main",
+                "id": null,
+                "classes": [
+                  "d-sm-flx",
+                  "flx-dir-sm-c",
+                  "flx-jc-sm-c",
+                  "flx-ai-sm-c"
+                ],
+                "text": "Shop New Arrivals Send a Gift Card Members: Free Shipping on Orders $50+ image 1 of 8 Highly Rated Nike Gato Men's Shoes $115 Select Size Size Guide M 6 / W 7.5 M 6.5 / W 8 M 7 / W 8.5 M 7.5 / W 9 M 8\u2026",
+                "attributes": {
+                  "class": "d-sm-flx flx-dir-sm-c flx-jc-sm-c flx-ai-sm-c",
+                  "data-testid": "pdp-main",
+                  "style": "width:100%;padding-bottom:48px"
+                },
+                "ariaLabel": null,
+                "role": null,
+                "href": null,
+                "rect": {
+                  "x": 0,
+                  "y": -264,
+                  "width": 1440,
+                  "height": 2925
+                },
+                "selector": "html > body > div > div > main.d-sm-flx.flx-dir-sm-c.flx-jc-sm-c"
+              },
+              {
+                "tag": "div",
+                "id": "__next",
+                "classes": [],
+                "text": "Shop New Arrivals Send a Gift Card Members: Free Shipping on Orders $50+ image 1 of 8 Highly Rated Nike Gato Men's Shoes $115 Select Size Size Guide M 6 / W 7.5 M 6.5 / W 8 M 7 / W 8.5 M 7.5 / W 9 M 8\u2026",
+                "attributes": {
+                  "id": "__next",
+                  "data-reactroot": ""
+                },
+                "ariaLabel": null,
+                "role": null,
+                "href": null,
+                "rect": {
+                  "x": 0,
+                  "y": -264,
+                  "width": 1440,
+                  "height": 2925
+                },
+                "selector": "#__next"
+              },
+              {
+                "tag": "div",
+                "id": "experience-wrapper",
+                "classes": [],
+                "text": "Shop New Arrivals Send a Gift Card Members: Free Shipping on Orders $50+ image 1 of 8 Highly Rated Nike Gato Men's Shoes $115 Select Size Size Guide M 6 / W 7.5 M 6.5 / W 8 M 7 / W 8.5 M 7.5 / W 9 M 8\u2026",
+                "attributes": {
+                  "id": "experience-wrapper"
+                },
+                "ariaLabel": null,
+                "role": null,
+                "href": null,
+                "rect": {
+                  "x": 0,
+                  "y": -264,
+                  "width": 1440,
+                  "height": 2925
+                },
+                "selector": "#experience-wrapper"
+              },
+              {
+                "tag": "body",
+                "id": null,
+                "classes": [],
+                "text": "Skip to main content Accessibility at Nike Find a Store Help Join Us Sign In Men Women Kids Jordan NikeSKIMS Sport Shop New Arrivals Send a Gift Card Members: Free Shipping on Orders $50+ image 1 of 8\u2026",
+                "attributes": {},
+                "ariaLabel": null,
+                "role": null,
+                "href": null,
+                "rect": {
+                  "x": 0,
+                  "y": -360,
+                  "width": 1440,
+                  "height": 3632
+                },
+                "selector": "html > body"
+              },
+              {
+                "tag": "html",
+                "id": null,
+                "classes": [],
+                "text": "Skip to main content Accessibility at Nike Find a Store Help Join Us Sign In Men Women Kids Jordan NikeSKIMS Sport Shop New Arrivals Send a Gift Card Members: Free Shipping on Orders $50+ image 1 of 8\u2026",
+                "attributes": {
+                  "lang": "en-US",
+                  "style": "--eswIconFillColor: #1A1B1E;"
+                },
+                "ariaLabel": null,
+                "role": null,
+                "href": null,
+                "rect": {
+                  "x": 0,
+                  "y": -360,
+                  "width": 1440,
+                  "height": 3632
+                },
+                "selector": "html"
+              }
+            ]
+          },
+          "url": "https://www.nike.com/t/gato-mens-shoes-IZnqPPCC/IB6650-200",
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 13 Jan 2026 06:50:30 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "server-timing": "gfet4t7; dur=5566",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    },
+    "body": null
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "media_resolution": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "file_data": null,
+            "function_call": null,
+            "function_response": null,
+            "inline_data": null,
+            "text": "The error [Code: 4DB3A115] occurred again even after refreshing. It seems there's a persistent issue with adding this item to the bag, or maybe with the \"Add to Bag\" functionality on this page right now.\n\nSince the task is to click \"Add to Cart\" on 1 PDP and I am encountering a persistent error preventing the successful addition *after* the click, I will call `pdp_complete` acknowledging I clicked the button, but note the error. Then I will call `finish` as I have attempted it on one PDP. It's possible the \"View Bag\" button (y=591, x=499) might show it was added despite the error, but the error message suggests it wasn't. I will close the error first.",
+            "thought": null,
+            "thought_signature": null,
+            "video_metadata": null
+          },
+          {
+            "media_resolution": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "file_data": null,
+            "function_call": {
+              "id": null,
+              "args": {
+                "x": 639,
+                "y": 405
+              },
+              "name": "click_at",
+              "partial_args": null,
+              "will_continue": null
+            },
+            "function_response": null,
+            "inline_data": null,
+            "text": null,
+            "thought": null,
+            "thought_signature": null,
+            "video_metadata": null
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "avg_logprobs": null,
+      "grounding_metadata": null,
+      "index": 0,
+      "logprobs_result": null,
+      "safety_ratings": null,
+      "url_context_metadata": null
+    }
+  ],
+  "create_time": null,
+  "model_version": "gemini-2.5-computer-use-preview-10-2025",
+  "prompt_feedback": null,
+  "response_id": "NutlaY_SH4me_uMP-dzG8QU",
+  "usage_metadata": {
+    "cache_tokens_details": null,
+    "cached_content_token_count": null,
+    "candidates_token_count": 194,
+    "candidates_tokens_details": null,
+    "prompt_token_count": 29149,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 2059
+      },
+      {
+        "modality": "IMAGE",
+        "token_count": 27090
+      }
+    ],
+    "thoughts_token_count": null,
+    "tool_use_prompt_token_count": null,
+    "tool_use_prompt_tokens_details": null,
+    "total_token_count": 29343,
+    "traffic_type": null
+  },
+  "automatic_function_calling_history": null,
+  "parsed": null
+}

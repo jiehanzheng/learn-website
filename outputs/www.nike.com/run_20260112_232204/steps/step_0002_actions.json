@@ -1,0 +1,360 @@
+{
+  "actions": [
+    {
+      "name": "click_at",
+      "args": {
+        "x": 371,
+        "y": 71
+      },
+      "note": null,
+      "call_id": null
+    }
+  ],
+  "results": [
+    {
+      "name": "click_at",
+      "call_id": null,
+      "result": {
+        "status": "ok",
+        "url": "https://www.nike.com/",
+        "click": {
+          "raw": {
+            "x": 371.0,
+            "y": 71.0,
+            "normalized": true
+          },
+          "resolved": {
+            "x": 534.24,
+            "y": 63.89999999999999
+          },
+          "element": {
+            "tag": "a",
+            "id": null,
+            "classes": [
+              "menu-hover-trigger-link"
+            ],
+            "text": "Men",
+            "attributes": {
+              "class": "menu-hover-trigger-link",
+              "data-testid": "link",
+              "href": "https://www.nike.com/men"
+            },
+            "ariaLabel": null,
+            "role": null,
+            "href": "https://www.nike.com/men",
+            "rect": {
+              "x": 509.890625,
+              "y": 51,
+              "width": 32.3046875,
+              "height": 30
+            },
+            "selector": "div.css-cssveg > div.nds-grid.css-394a00 > div.shopping-menu-grid.css-10kvx9.e4lt99o0 > nav.css-1q2uc33 > ul.desktop-category > li > div.css-jq32a0 > a.menu-hover-trigger-link",
+            "ancestors": [
+              {
+                "tag": "a",
+                "id": null,
+                "classes": [
+                  "menu-hover-trigger-link"
+                ],
+                "text": "Men",
+                "attributes": {
+                  "class": "menu-hover-trigger-link",
+                  "data-testid": "link",
+                  "href": "https://www.nike.com/men"
+                },
+                "ariaLabel": null,
+                "role": null,
+                "href": "https://www.nike.com/men",
+                "rect": {
+                  "x": 509.890625,
+                  "y": 51,
+                  "width": 32.3046875,
+                  "height": 30
+                },
+                "selector": "div.css-cssveg > div.nds-grid.css-394a00 > div.shopping-menu-grid.css-10kvx9.e4lt99o0 > nav.css-1q2uc33 > ul.desktop-category > li > div.css-jq32a0 > a.menu-hover-trigger-link"
+              },
+              {
+                "tag": "div",
+                "id": null,
+                "classes": [
+                  "css-jq32a0"
+                ],
+                "text": "Men",
+                "attributes": {
+                  "class": " css-jq32a0",
+                  "data-testid": "desktop-drop-down-styled-wrapper-div"
+                },
+                "ariaLabel": null,
+                "role": null,
+                "href": null,
+                "rect": {
+                  "x": 497.890625,
+                  "y": 36,
+                  "width": 56.3046875,
+                  "height": 60
+                },
+                "selector": "header.no-animation.css-gpek3 > div.css-cssveg > div.nds-grid.css-394a00 > div.shopping-menu-grid.css-10kvx9.e4lt99o0 > nav.css-1q2uc33 > ul.desktop-category > li > div.css-jq32a0"
+              },
+              {
+                "tag": "li",
+                "id": null,
+                "classes": [],
+                "text": "Men",
+                "attributes": {},
+                "ariaLabel": null,
+                "role": null,
+                "href": null,
+                "rect": {
+                  "x": 497.890625,
+                  "y": 36,
+                  "width": 56.3046875,
+                  "height": 60
+                },
+                "selector": "nav.no-peekaboo.pre-l-header-container.css-gyxam0 > header.no-animation.css-gpek3 > div.css-cssveg > div.nds-grid.css-394a00 > div.shopping-menu-grid.css-10kvx9.e4lt99o0 > nav.css-1q2uc33 > ul.desktop-category > li"
+              },
+              {
+                "tag": "ul",
+                "id": null,
+                "classes": [
+                  "desktop-category"
+                ],
+                "text": "Men Women Kids Jordan NikeSKIMS Sport",
+                "attributes": {
+                  "class": "desktop-category",
+                  "role": "menu"
+                },
+                "ariaLabel": null,
+                "role": "menu",
+                "href": null,
+                "rect": {
+                  "x": 308,
+                  "y": 36,
+                  "width": 824,
+                  "height": 60
+                },
+                "selector": "div > nav.no-peekaboo.pre-l-header-container.css-gyxam0 > header.no-animation.css-gpek3 > div.css-cssveg > div.nds-grid.css-394a00 > div.shopping-menu-grid.css-10kvx9.e4lt99o0 > nav.css-1q2uc33 > ul.desktop-category"
+              },
+              {
+                "tag": "nav",
+                "id": null,
+                "classes": [
+                  "css-1q2uc33"
+                ],
+                "text": "Men Women Kids Jordan NikeSKIMS Sport",
+                "attributes": {
+                  "aria-label": "Main Navigation",
+                  "data-testid": "desktop-menu-container",
+                  "class": "css-1q2uc33"
+                },
+                "ariaLabel": "Main Navigation",
+                "role": null,
+                "href": null,
+                "rect": {
+                  "x": 0,
+                  "y": 36,
+                  "width": 1440,
+                  "height": 60
+                },
+                "selector": "div > div > nav.no-peekaboo.pre-l-header-container.css-gyxam0 > header.no-animation.css-gpek3 > div.css-cssveg > div.nds-grid.css-394a00 > div.shopping-menu-grid.css-10kvx9.e4lt99o0 > nav.css-1q2uc33"
+              },
+              {
+                "tag": "div",
+                "id": null,
+                "classes": [
+                  "shopping-menu-grid",
+                  "css-10kvx9",
+                  "e4lt99o0",
+                  "nds-grid-item"
+                ],
+                "text": "Men Women Kids Jordan NikeSKIMS Sport",
+                "attributes": {
+                  "class": "shopping-menu-grid css-10kvx9 e4lt99o0 nds-grid-item"
+                },
+                "ariaLabel": null,
+                "role": null,
+                "href": null,
+                "rect": {
+                  "x": 272,
+                  "y": 36,
+                  "width": 784,
+                  "height": 60
+                },
+                "selector": "body > div > div > nav.no-peekaboo.pre-l-header-container.css-gyxam0 > header.no-animation.css-gpek3 > div.css-cssveg > div.nds-grid.css-394a00 > div.shopping-menu-grid.css-10kvx9.e4lt99o0"
+              },
+              {
+                "tag": "div",
+                "id": null,
+                "classes": [
+                  "nds-grid",
+                  "css-394a00"
+                ],
+                "text": "Men Women Kids Jordan NikeSKIMS Sport",
+                "attributes": {
+                  "class": "nds-grid css-394a00",
+                  "data-testid": "grid-container"
+                },
+                "ariaLabel": null,
+                "role": null,
+                "href": null,
+                "rect": {
+                  "x": 0,
+                  "y": 36,
+                  "width": 1440,
+                  "height": 60
+                },
+                "selector": "html > body > div > div > nav.no-peekaboo.pre-l-header-container.css-gyxam0 > header.no-animation.css-gpek3 > div.css-cssveg > div.nds-grid.css-394a00"
+              },
+              {
+                "tag": "div",
+                "id": null,
+                "classes": [
+                  "css-cssveg"
+                ],
+                "text": "Men Women Kids Jordan NikeSKIMS Sport",
+                "attributes": {
+                  "class": "css-cssveg"
+                },
+                "ariaLabel": null,
+                "role": null,
+                "href": null,
+                "rect": {
+                  "x": 0,
+                  "y": 36,
+                  "width": 1440,
+                  "height": 60
+                },
+                "selector": "html > body > div > div > nav.no-peekaboo.pre-l-header-container.css-gyxam0 > header.no-animation.css-gpek3 > div.css-cssveg"
+              },
+              {
+                "tag": "header",
+                "id": null,
+                "classes": [
+                  "no-animation",
+                  "css-gpek3"
+                ],
+                "text": "Men Women Kids Jordan NikeSKIMS Sport",
+                "attributes": {
+                  "class": "no-animation css-gpek3"
+                },
+                "ariaLabel": null,
+                "role": null,
+                "href": null,
+                "rect": {
+                  "x": 0,
+                  "y": 36,
+                  "width": 1440,
+                  "height": 60
+                },
+                "selector": "html > body > div > div > nav.no-peekaboo.pre-l-header-container.css-gyxam0 > header.no-animation.css-gpek3"
+              },
+              {
+                "tag": "nav",
+                "id": null,
+                "classes": [
+                  "no-peekaboo",
+                  "pre-l-header-container",
+                  "css-gyxam0"
+                ],
+                "text": "Skip to main content Accessibility at Nike Find a Store Help Join Us Sign In Men Women Kids Jordan NikeSKIMS Sport",
+                "attributes": {
+                  "aria-label": "Global Navigation",
+                  "class": "no-peekaboo pre-l-header-container css-gyxam0"
+                },
+                "ariaLabel": "Global Navigation",
+                "role": null,
+                "href": null,
+                "rect": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 1440,
+                  "height": 96
+                },
+                "selector": "html > body > div > div > nav.no-peekaboo.pre-l-header-container.css-gyxam0"
+              },
+              {
+                "tag": "div",
+                "id": "gen-nav-commerce-header-v2",
+                "classes": [],
+                "text": "Skip to main content Accessibility at Nike Find a Store Help Join Us Sign In Men Women Kids Jordan NikeSKIMS Sport",
+                "attributes": {
+                  "id": "gen-nav-commerce-header-v2"
+                },
+                "ariaLabel": null,
+                "role": null,
+                "href": null,
+                "rect": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 1440,
+                  "height": 96
+                },
+                "selector": "#gen-nav-commerce-header-v2"
+              },
+              {
+                "tag": "div",
+                "id": "commerce-header-v2-wrapper",
+                "classes": [],
+                "text": "Skip to main content Accessibility at Nike Find a Store Help Join Us Sign In Men Women Kids Jordan NikeSKIMS Sport",
+                "attributes": {
+                  "id": "commerce-header-v2-wrapper"
+                },
+                "ariaLabel": null,
+                "role": null,
+                "href": null,
+                "rect": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 1440,
+                  "height": 96
+                },
+                "selector": "#commerce-header-v2-wrapper"
+              },
+              {
+                "tag": "body",
+                "id": null,
+                "classes": [],
+                "text": "Skip to main content Accessibility at Nike Find a Store Help Join Us Sign In Men Women Kids Jordan NikeSKIMS Sport JUST DO THE WORK Gym wear that goes as hard as you do. Explore Watch LUKA 5 Every def\u2026",
+                "attributes": {},
+                "ariaLabel": null,
+                "role": null,
+                "href": null,
+                "rect": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 1440,
+                  "height": 3928.3828125
+                },
+                "selector": "html > body"
+              },
+              {
+                "tag": "html",
+                "id": null,
+                "classes": [],
+                "text": "Skip to main content Accessibility at Nike Find a Store Help Join Us Sign In Men Women Kids Jordan NikeSKIMS Sport JUST DO THE WORK Gym wear that goes as hard as you do. Explore Watch LUKA 5 Every def\u2026",
+                "attributes": {
+                  "lang": "en-US",
+                  "style": "--eswIconFillColor: #1A1B1E;"
+                },
+                "ariaLabel": null,
+                "role": null,
+                "href": null,
+                "rect": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 1440,
+                  "height": 3928.3828125
+                },
+                "selector": "html"
+              }
+            ]
+          },
+          "url": "https://www.nike.com/",
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          }
+        }
+      }
+    }
+  ]
+}

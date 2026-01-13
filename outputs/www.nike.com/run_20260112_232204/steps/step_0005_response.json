@@ -1,0 +1,100 @@
+{
+  "sdk_http_response": {
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "vary": "Origin, X-Origin, Referer",
+      "content-encoding": "gzip",
+      "date": "Tue, 13 Jan 2026 07:22:35 GMT",
+      "server": "scaffolding on HTTPServer2",
+      "x-xss-protection": "0",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "server-timing": "gfet4t7; dur=6514",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "transfer-encoding": "chunked"
+    },
+    "body": null
+  },
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "media_resolution": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "file_data": null,
+            "function_call": null,
+            "function_response": null,
+            "inline_data": null,
+            "text": "I am on the PDP for \"Nike Gato\".\nI can see color variants (swatches around y=400-500, x=600-850) and size variants (buttons below \"Select Size\" starting around y=680). This is definitely a PDP with variants.\n\nThe task requires me to click multiple variant options before adding to cart.\nFirst, I'll select a different color, maybe the second one (y=398, x=668).\nThen I'll select a size, say \"M 8 / W 9.5\" (y=809, x=662).\nAfter that, I need to find and click the \"Add to Cart\" button, which is likely further down.",
+            "thought": null,
+            "thought_signature": null,
+            "video_metadata": null
+          },
+          {
+            "media_resolution": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "file_data": null,
+            "function_call": {
+              "id": null,
+              "args": {
+                "x": 668,
+                "y": 398
+              },
+              "name": "click_at",
+              "partial_args": null,
+              "will_continue": null
+            },
+            "function_response": null,
+            "inline_data": null,
+            "text": null,
+            "thought": null,
+            "thought_signature": null,
+            "video_metadata": null
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "avg_logprobs": null,
+      "grounding_metadata": null,
+      "index": 0,
+      "logprobs_result": null,
+      "safety_ratings": null,
+      "url_context_metadata": null
+    }
+  ],
+  "create_time": null,
+  "model_version": "gemini-2.5-computer-use-preview-10-2025",
+  "prompt_feedback": null,
+  "response_id": "u_JlaaDoHeaPjMcPg_er0Qk",
+  "usage_metadata": {
+    "cache_tokens_details": null,
+    "cached_content_token_count": null,
+    "candidates_token_count": 192,
+    "candidates_tokens_details": null,
+    "prompt_token_count": 9809,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 779
+      },
+      {
+        "modality": "IMAGE",
+        "token_count": 9030
+      }
+    ],
+    "thoughts_token_count": null,
+    "tool_use_prompt_token_count": null,
+    "tool_use_prompt_tokens_details": null,
+    "total_token_count": 10001,
+    "traffic_type": null
+  },
+  "automatic_function_calling_history": null,
+  "parsed": null
+}

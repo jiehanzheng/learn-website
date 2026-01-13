@@ -1,0 +1,15 @@
+{
+  "version": "0.3",
+  "created_at": "2026-01-12T23:02:27.443178",
+  "model": "gemini-3-flash-preview",
+  "rules": {
+    "pdp_url_regex": "/t/[^/]+/[A-Z0-9-]+$",
+    "pdp_url_reason": "Based on the captured PDP URL, Nike uses a '/t/' path followed by the product slug and a product-specific alphanumeric code (e.g., IQ0543-010).",
+    "add_to_cart_selector": "button[data-testid='atb-button']",
+    "add_to_cart_selector_reason": "The 'Add to Bag' button uses a stable 'data-testid' attribute with the value 'atb-button', which is more reliable than the dynamic CSS classes present.",
+    "clickable_js": "el.getAttribute('data-testid') === 'atb-button' && !el.disabled && el.offsetParent !== null",
+    "clickable_js_reason": "Ensures the element is the correct 'Add to Bag' button, is not disabled (which happens if a size is not selected), and is visible on the page.",
+    "assertion_proposal": "document.querySelector('div[data-testid=\"modal-backdrop\"]') !== null || document.querySelector('button[data-testid=\"view-bag\"]') !== null",
+    "assertion_proposal_reason": "Successful addition to the bag on Nike typically triggers a mini-cart modal or a confirmation popup. Checking for the modal backdrop or a 'View Bag' button within that modal confirms the action was processed."
+  }
+}

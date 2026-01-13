@@ -1,0 +1,333 @@
+{
+  "actions": [
+    {
+      "name": "click_at",
+      "args": {
+        "y": 405,
+        "x": 640
+      },
+      "note": null,
+      "call_id": null
+    }
+  ],
+  "results": [
+    {
+      "name": "click_at",
+      "call_id": null,
+      "result": {
+        "status": "ok",
+        "url": "https://www.nike.com/t/jordan-flight-club-mens-t-shirt-lWpLnAXE/IQ0543-010",
+        "click": {
+          "raw": {
+            "x": 640.0,
+            "y": 405.0,
+            "normalized": true
+          },
+          "resolved": {
+            "x": 921.6,
+            "y": 364.5
+          },
+          "element": {
+            "tag": "button",
+            "id": null,
+            "classes": [
+              "nds-btn",
+              "nds-button--icon-only",
+              "modal-ui-close",
+              "css-1pto8ls",
+              "ex41m6f0",
+              "btn-secondary-dark"
+            ],
+            "text": "",
+            "attributes": {
+              "aria-label": "Close",
+              "class": "nds-btn nds-button--icon-only modal-ui-close css-1pto8ls ex41m6f0 btn-secondary-dark ",
+              "type": "button",
+              "modalappearance": "base",
+              "data-testid": "modal-close-button"
+            },
+            "ariaLabel": "Close",
+            "role": null,
+            "href": null,
+            "rect": {
+              "x": 903,
+              "y": 347.6015625,
+              "width": 36,
+              "height": 36
+            },
+            "selector": "div.modal-portal-content-wrapper.modal-enter-done > div > div.css-lulp55.e1mocx0m0 > div.e1i5x44y0.base.css-113jcce > section.css-1f379of.e1k4uanx0 > div.css-a6yc7c.eqelnlg0 > div.close-btn-container > button.nds-btn.nds-button--icon-only.modal-ui-close",
+            "ancestors": [
+              {
+                "tag": "button",
+                "id": null,
+                "classes": [
+                  "nds-btn",
+                  "nds-button--icon-only",
+                  "modal-ui-close",
+                  "css-1pto8ls",
+                  "ex41m6f0",
+                  "btn-secondary-dark"
+                ],
+                "text": "",
+                "attributes": {
+                  "aria-label": "Close",
+                  "class": "nds-btn nds-button--icon-only modal-ui-close css-1pto8ls ex41m6f0 btn-secondary-dark ",
+                  "type": "button",
+                  "modalappearance": "base",
+                  "data-testid": "modal-close-button"
+                },
+                "ariaLabel": "Close",
+                "role": null,
+                "href": null,
+                "rect": {
+                  "x": 903,
+                  "y": 347.6015625,
+                  "width": 36,
+                  "height": 36
+                },
+                "selector": "div.modal-portal-content-wrapper.modal-enter-done > div > div.css-lulp55.e1mocx0m0 > div.e1i5x44y0.base.css-113jcce > section.css-1f379of.e1k4uanx0 > div.css-a6yc7c.eqelnlg0 > div.close-btn-container > button.nds-btn.nds-button--icon-only.modal-ui-close"
+              },
+              {
+                "tag": "div",
+                "id": null,
+                "classes": [
+                  "close-btn-container"
+                ],
+                "text": "",
+                "attributes": {
+                  "class": "close-btn-container"
+                },
+                "ariaLabel": null,
+                "role": null,
+                "href": null,
+                "rect": {
+                  "x": 903,
+                  "y": 347.6015625,
+                  "width": 36,
+                  "height": 36
+                },
+                "selector": "div > div.modal-portal-content-wrapper.modal-enter-done > div > div.css-lulp55.e1mocx0m0 > div.e1i5x44y0.base.css-113jcce > section.css-1f379of.e1k4uanx0 > div.css-a6yc7c.eqelnlg0 > div.close-btn-container"
+              },
+              {
+                "tag": "div",
+                "id": null,
+                "classes": [
+                  "css-a6yc7c",
+                  "eqelnlg0"
+                ],
+                "text": "Error We had an issue with your request. If you continue experiencing issues, try refreshing the page. [ Code: 4DB3A115 ] View Bag",
+                "attributes": {
+                  "class": "css-a6yc7c eqelnlg0"
+                },
+                "ariaLabel": null,
+                "role": null,
+                "href": null,
+                "rect": {
+                  "x": 500,
+                  "y": 343.6015625,
+                  "width": 460,
+                  "height": 212.796875
+                },
+                "selector": "div > div > div.modal-portal-content-wrapper.modal-enter-done > div > div.css-lulp55.e1mocx0m0 > div.e1i5x44y0.base.css-113jcce > section.css-1f379of.e1k4uanx0 > div.css-a6yc7c.eqelnlg0"
+              },
+              {
+                "tag": "section",
+                "id": null,
+                "classes": [
+                  "css-1f379of",
+                  "e1k4uanx0"
+                ],
+                "text": "Error We had an issue with your request. If you continue experiencing issues, try refreshing the page. [ Code: 4DB3A115 ] View Bag",
+                "attributes": {
+                  "class": "css-1f379of e1k4uanx0",
+                  "appearance": "base"
+                },
+                "ariaLabel": null,
+                "role": null,
+                "href": null,
+                "rect": {
+                  "x": 452,
+                  "y": 295.6015625,
+                  "width": 536,
+                  "height": 308.796875
+                },
+                "selector": "body.nds-no-scroll > div > div > div.modal-portal-content-wrapper.modal-enter-done > div > div.css-lulp55.e1mocx0m0 > div.e1i5x44y0.base.css-113jcce > section.css-1f379of.e1k4uanx0"
+              },
+              {
+                "tag": "div",
+                "id": null,
+                "classes": [
+                  "e1i5x44y0",
+                  "base",
+                  "css-113jcce",
+                  "ejfruub0"
+                ],
+                "text": "Error We had an issue with your request. If you continue experiencing issues, try refreshing the page. [ Code: 4DB3A115 ] View Bag",
+                "attributes": {
+                  "class": "e1i5x44y0 base css-113jcce ejfruub0",
+                  "role": "modal",
+                  "aria-labelledby": "modal-error"
+                },
+                "ariaLabel": null,
+                "role": "modal",
+                "href": null,
+                "rect": {
+                  "x": 452,
+                  "y": 295.6015625,
+                  "width": 536,
+                  "height": 308.796875
+                },
+                "selector": "html > body.nds-no-scroll > div > div > div.modal-portal-content-wrapper.modal-enter-done > div > div.css-lulp55.e1mocx0m0 > div.e1i5x44y0.base.css-113jcce"
+              },
+              {
+                "tag": "div",
+                "id": null,
+                "classes": [
+                  "css-lulp55",
+                  "e1mocx0m0"
+                ],
+                "text": "Error We had an issue with your request. If you continue experiencing issues, try refreshing the page. [ Code: 4DB3A115 ] View Bag",
+                "attributes": {
+                  "class": "css-lulp55 e1mocx0m0",
+                  "data-testid": "modal-backdrop"
+                },
+                "ariaLabel": null,
+                "role": null,
+                "href": null,
+                "rect": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 1440,
+                  "height": 900
+                },
+                "selector": "html > body.nds-no-scroll > div > div > div.modal-portal-content-wrapper.modal-enter-done > div > div.css-lulp55.e1mocx0m0"
+              },
+              {
+                "tag": "div",
+                "id": null,
+                "classes": [],
+                "text": "Error We had an issue with your request. If you continue experiencing issues, try refreshing the page. [ Code: 4DB3A115 ] View Bag",
+                "attributes": {},
+                "ariaLabel": null,
+                "role": null,
+                "href": null,
+                "rect": {
+                  "x": 0,
+                  "y": -360,
+                  "width": 1440,
+                  "height": 0
+                },
+                "selector": "html > body.nds-no-scroll > div > div > div.modal-portal-content-wrapper.modal-enter-done > div"
+              },
+              {
+                "tag": "div",
+                "id": null,
+                "classes": [
+                  "modal-portal-content-wrapper",
+                  "modal-enter-done"
+                ],
+                "text": "Error We had an issue with your request. If you continue experiencing issues, try refreshing the page. [ Code: 4DB3A115 ] View Bag",
+                "attributes": {
+                  "class": "modal-portal-content-wrapper modal-enter-done"
+                },
+                "ariaLabel": null,
+                "role": null,
+                "href": null,
+                "rect": {
+                  "x": 0,
+                  "y": -360,
+                  "width": 1440,
+                  "height": 0
+                },
+                "selector": "html > body.nds-no-scroll > div > div > div.modal-portal-content-wrapper.modal-enter-done"
+              },
+              {
+                "tag": "div",
+                "id": null,
+                "classes": [],
+                "text": "Error We had an issue with your request. If you continue experiencing issues, try refreshing the page. [ Code: 4DB3A115 ] View Bag",
+                "attributes": {},
+                "ariaLabel": null,
+                "role": null,
+                "href": null,
+                "rect": {
+                  "x": 0,
+                  "y": -360,
+                  "width": 1440,
+                  "height": 0
+                },
+                "selector": "html > body.nds-no-scroll > div > div"
+              },
+              {
+                "tag": "div",
+                "id": "modal-root",
+                "classes": [],
+                "text": "Error We had an issue with your request. If you continue experiencing issues, try refreshing the page. [ Code: 4DB3A115 ] View Bag",
+                "attributes": {
+                  "id": "modal-root"
+                },
+                "ariaLabel": null,
+                "role": null,
+                "href": null,
+                "rect": {
+                  "x": 0,
+                  "y": -360,
+                  "width": 1440,
+                  "height": 0
+                },
+                "selector": "#modal-root"
+              },
+              {
+                "tag": "body",
+                "id": null,
+                "classes": [
+                  "nds-no-scroll"
+                ],
+                "text": "Error We had an issue with your request. If you continue experiencing issues, try refreshing the page. [ Code: 4DB3A115 ] View Bag Skip to main content Accessibility at Nike Find a Store Help Join Us \u2026",
+                "attributes": {
+                  "class": "nds-no-scroll",
+                  "style": "position: fixed; top: -360px; left: 0px; right: 0px; overflow: hidden;"
+                },
+                "ariaLabel": null,
+                "role": null,
+                "href": null,
+                "rect": {
+                  "x": 0,
+                  "y": -360,
+                  "width": 1440,
+                  "height": 2370.5
+                },
+                "selector": "html > body.nds-no-scroll"
+              },
+              {
+                "tag": "html",
+                "id": null,
+                "classes": [],
+                "text": "Error We had an issue with your request. If you continue experiencing issues, try refreshing the page. [ Code: 4DB3A115 ] View Bag Skip to main content Accessibility at Nike Find a Store Help Join Us \u2026",
+                "attributes": {
+                  "lang": "en-US",
+                  "style": "--eswIconFillColor: #1A1B1E;"
+                },
+                "ariaLabel": null,
+                "role": null,
+                "href": null,
+                "rect": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 1440,
+                  "height": 0
+                },
+                "selector": "html"
+              }
+            ]
+          },
+          "url": "https://www.nike.com/t/jordan-flight-club-mens-t-shirt-lWpLnAXE/IQ0543-010",
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          }
+        }
+      }
+    }
+  ]
+}

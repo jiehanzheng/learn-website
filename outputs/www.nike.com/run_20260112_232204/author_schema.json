@@ -1,0 +1,120 @@
+{
+  "type": "object",
+  "properties": {
+    "pdp_url_regex": {
+      "type": "string",
+      "description": "Regex that matches PDP URLs for the target site."
+    },
+    "pdp_url_reason": {
+      "type": "string",
+      "description": "Reasoning in English for the PDP URL regex."
+    },
+    "add_to_cart_selector": {
+      "type": "string",
+      "description": "A single CSS selector for the Add to Cart button."
+    },
+    "add_to_cart_selector_reason": {
+      "type": "string",
+      "description": "Reasoning in English for the selector."
+    },
+    "clickable_js": {
+      "type": "string",
+      "description": "JS expression that returns truthy when the Add to Cart button is clickable. Use variable name 'el'."
+    },
+    "clickable_js_reason": {
+      "type": "string",
+      "description": "Reasoning in English for the clickable expression."
+    },
+    "assertion_proposal": {
+      "type": "string",
+      "description": "English proposal for client-side assertions after Add to Cart."
+    },
+    "assertion_proposal_reason": {
+      "type": "string",
+      "description": "Reasoning in English for the assertion proposal."
+    },
+    "variant_extraction": {
+      "type": "object",
+      "description": "Variant extraction logic for size/color/etc.",
+      "properties": {
+        "groups": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "group_type": {
+                "type": "string",
+                "description": "Variant group type, e.g. size, color, width."
+              },
+              "group_reason": {
+                "type": "string",
+                "description": "Reasoning for why this group is a variant selector."
+              },
+              "variant_selector": {
+                "type": "string",
+                "description": "Selector that matches each variant option."
+              },
+              "variant_selector_reason": {
+                "type": "string",
+                "description": "Reasoning for the variant selector."
+              },
+              "variant_text_selector": {
+                "type": "string",
+                "description": "Selector (relative to variant element) for the variant text."
+              },
+              "variant_text_selector_reason": {
+                "type": "string",
+                "description": "Reasoning for the variant text selector."
+              },
+              "variant_image_selector": {
+                "type": "string",
+                "description": "Selector (relative to variant element) for the variant image URL, if available."
+              },
+              "variant_image_selector_reason": {
+                "type": "string",
+                "description": "Reasoning for the image selector (use empty string if not applicable)."
+              },
+              "variant_availability_selector": {
+                "type": "string",
+                "description": "Selector (relative to variant element) that indicates availability/disabled state."
+              },
+              "variant_availability_selector_reason": {
+                "type": "string",
+                "description": "Reasoning for the availability selector."
+              }
+            },
+            "required": [
+              "group_type",
+              "group_reason",
+              "variant_selector",
+              "variant_selector_reason",
+              "variant_text_selector",
+              "variant_text_selector_reason",
+              "variant_image_selector",
+              "variant_image_selector_reason",
+              "variant_availability_selector",
+              "variant_availability_selector_reason"
+            ],
+            "additionalProperties": false
+          }
+        }
+      },
+      "required": [
+        "groups"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "pdp_url_regex",
+    "pdp_url_reason",
+    "add_to_cart_selector",
+    "add_to_cart_selector_reason",
+    "clickable_js",
+    "clickable_js_reason",
+    "assertion_proposal",
+    "assertion_proposal_reason",
+    "variant_extraction"
+  ],
+  "additionalProperties": false
+}

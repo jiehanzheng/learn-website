@@ -1,0 +1,417 @@
+{
+  "actions": [
+    {
+      "name": "click_at",
+      "args": {
+        "x": 426,
+        "y": 233
+      },
+      "note": null,
+      "call_id": null
+    }
+  ],
+  "results": [
+    {
+      "name": "click_at",
+      "call_id": null,
+      "result": {
+        "status": "ok",
+        "url": "https://www.nike.com/men",
+        "click": {
+          "raw": {
+            "x": 426.0,
+            "y": 233.0,
+            "normalized": true
+          },
+          "resolved": {
+            "x": 613.4399999999999,
+            "y": 209.70000000000002
+          },
+          "element": {
+            "tag": "a",
+            "id": null,
+            "classes": [
+              "JSftBPEZ"
+            ],
+            "text": "Shoes",
+            "attributes": {
+              "href": "https://www.nike.com/w/mens-shoes-nik1zy7ok",
+              "data-analytics-action-id": "aa0b72ec-ba88-453a-884e-28b28999a431",
+              "class": "JSftBPEZ",
+              "aria-label": "Shoes"
+            },
+            "ariaLabel": "Shoes",
+            "role": null,
+            "href": "https://www.nike.com/w/mens-shoes-nik1zy7ok",
+            "rect": {
+              "x": 586.875,
+              "y": 195,
+              "width": 47.1875,
+              "height": 32
+            },
+            "selector": "div.grid-col.va-sm-t.ncss-col-lg-12 > div.sticky-outer-wrapper._150uLfzq > div.sticky-inner-wrapper > nav.ncss-container.fixed-fluid._1gSEALx7 > div._1uZt26F- > ul._AKr_3ox > li > a.JSftBPEZ",
+            "ancestors": [
+              {
+                "tag": "a",
+                "id": null,
+                "classes": [
+                  "JSftBPEZ"
+                ],
+                "text": "Shoes",
+                "attributes": {
+                  "href": "https://www.nike.com/w/mens-shoes-nik1zy7ok",
+                  "data-analytics-action-id": "aa0b72ec-ba88-453a-884e-28b28999a431",
+                  "class": "JSftBPEZ",
+                  "aria-label": "Shoes"
+                },
+                "ariaLabel": "Shoes",
+                "role": null,
+                "href": "https://www.nike.com/w/mens-shoes-nik1zy7ok",
+                "rect": {
+                  "x": 586.875,
+                  "y": 195,
+                  "width": 47.1875,
+                  "height": 32
+                },
+                "selector": "div.grid-col.va-sm-t.ncss-col-lg-12 > div.sticky-outer-wrapper._150uLfzq > div.sticky-inner-wrapper > nav.ncss-container.fixed-fluid._1gSEALx7 > div._1uZt26F- > ul._AKr_3ox > li > a.JSftBPEZ"
+              },
+              {
+                "tag": "li",
+                "id": null,
+                "classes": [],
+                "text": "Shoes",
+                "attributes": {},
+                "ariaLabel": null,
+                "role": null,
+                "href": null,
+                "rect": {
+                  "x": 586.875,
+                  "y": 197,
+                  "width": 47.1875,
+                  "height": 28
+                },
+                "selector": "div.ncss-row.grid-row > div.grid-col.va-sm-t.ncss-col-lg-12 > div.sticky-outer-wrapper._150uLfzq > div.sticky-inner-wrapper > nav.ncss-container.fixed-fluid._1gSEALx7 > div._1uZt26F- > ul._AKr_3ox > li"
+              },
+              {
+                "tag": "ul",
+                "id": null,
+                "classes": [
+                  "_AKr_3ox"
+                ],
+                "text": "ShoesClothingAccessories",
+                "attributes": {
+                  "class": "_AKr_3ox"
+                },
+                "ariaLabel": null,
+                "role": null,
+                "href": null,
+                "rect": {
+                  "x": 586.875,
+                  "y": 197,
+                  "width": 266.25,
+                  "height": 28
+                },
+                "selector": "div.grid.Z25uR9U5.fixed-fluid > div.ncss-row.grid-row > div.grid-col.va-sm-t.ncss-col-lg-12 > div.sticky-outer-wrapper._150uLfzq > div.sticky-inner-wrapper > nav.ncss-container.fixed-fluid._1gSEALx7 > div._1uZt26F- > ul._AKr_3ox"
+              },
+              {
+                "tag": "div",
+                "id": null,
+                "classes": [
+                  "_1uZt26F-"
+                ],
+                "text": "ShoesClothingAccessories",
+                "attributes": {
+                  "class": "_1uZt26F-"
+                },
+                "ariaLabel": null,
+                "role": null,
+                "href": null,
+                "rect": {
+                  "x": 581.875,
+                  "y": 192,
+                  "width": 276.25,
+                  "height": 38
+                },
+                "selector": "div > div.grid.Z25uR9U5.fixed-fluid > div.ncss-row.grid-row > div.grid-col.va-sm-t.ncss-col-lg-12 > div.sticky-outer-wrapper._150uLfzq > div.sticky-inner-wrapper > nav.ncss-container.fixed-fluid._1gSEALx7 > div._1uZt26F-"
+              },
+              {
+                "tag": "nav",
+                "id": null,
+                "classes": [
+                  "ncss-container",
+                  "fixed-fluid",
+                  "_1gSEALx7"
+                ],
+                "text": "Men ShoesClothingAccessories",
+                "attributes": {
+                  "aria-label": "secondary",
+                  "class": "ncss-container fixed-fluid _1gSEALx7"
+                },
+                "ariaLabel": "secondary",
+                "role": null,
+                "href": null,
+                "rect": {
+                  "x": 48,
+                  "y": 154,
+                  "width": 1344,
+                  "height": 110
+                },
+                "selector": "div > div > div.grid.Z25uR9U5.fixed-fluid > div.ncss-row.grid-row > div.grid-col.va-sm-t.ncss-col-lg-12 > div.sticky-outer-wrapper._150uLfzq > div.sticky-inner-wrapper > nav.ncss-container.fixed-fluid._1gSEALx7"
+              },
+              {
+                "tag": "div",
+                "id": null,
+                "classes": [
+                  "sticky-inner-wrapper"
+                ],
+                "text": "Men ShoesClothingAccessories",
+                "attributes": {
+                  "class": "sticky-inner-wrapper",
+                  "style": "position: relative; top: 0px;"
+                },
+                "ariaLabel": null,
+                "role": null,
+                "href": null,
+                "rect": {
+                  "x": 0,
+                  "y": 154,
+                  "width": 1440,
+                  "height": 110
+                },
+                "selector": "div > div > div > div.grid.Z25uR9U5.fixed-fluid > div.ncss-row.grid-row > div.grid-col.va-sm-t.ncss-col-lg-12 > div.sticky-outer-wrapper._150uLfzq > div.sticky-inner-wrapper"
+              },
+              {
+                "tag": "div",
+                "id": null,
+                "classes": [
+                  "sticky-outer-wrapper",
+                  "_150uLfzq"
+                ],
+                "text": "Men ShoesClothingAccessories",
+                "attributes": {
+                  "class": "sticky-outer-wrapper _150uLfzq"
+                },
+                "ariaLabel": null,
+                "role": null,
+                "href": null,
+                "rect": {
+                  "x": 0,
+                  "y": 154,
+                  "width": 1440,
+                  "height": 104
+                },
+                "selector": "div > div > div > div > div.grid.Z25uR9U5.fixed-fluid > div.ncss-row.grid-row > div.grid-col.va-sm-t.ncss-col-lg-12 > div.sticky-outer-wrapper._150uLfzq"
+              },
+              {
+                "tag": "div",
+                "id": "44eeadf6-d524-47ad-9892-0a4cc2cbe421",
+                "classes": [
+                  "grid-col",
+                  "va-sm-t",
+                  "ncss-col-lg-12",
+                  "ncss-col-md-12",
+                  "ncss-col-sm-12",
+                  "ncss-col-lg-offset-0",
+                  "ncss-col-md-offset-0",
+                  "ncss-col-sm-offset-0"
+                ],
+                "text": "Men ShoesClothingAccessories",
+                "attributes": {
+                  "id": "44eeadf6-d524-47ad-9892-0a4cc2cbe421",
+                  "data-qa": "grid-col",
+                  "class": "grid-col va-sm-t ncss-col-lg-12 ncss-col-md-12 ncss-col-sm-12 ncss-col-lg-offset-0 ncss-col-md-offset-0 ncss-col-sm-offset-0"
+                },
+                "ariaLabel": null,
+                "role": null,
+                "href": null,
+                "rect": {
+                  "x": 0,
+                  "y": 154,
+                  "width": 1440,
+                  "height": 104
+                },
+                "selector": "#44eeadf6-d524-47ad-9892-0a4cc2cbe421"
+              },
+              {
+                "tag": "div",
+                "id": "4bbae376-8cfe-45fa-9651-0dcd852f3c4d",
+                "classes": [
+                  "ncss-row",
+                  "grid-row"
+                ],
+                "text": "Men ShoesClothingAccessories",
+                "attributes": {
+                  "id": "4bbae376-8cfe-45fa-9651-0dcd852f3c4d",
+                  "data-qa": "grid-row",
+                  "class": "ncss-row grid-row"
+                },
+                "ariaLabel": null,
+                "role": null,
+                "href": null,
+                "rect": {
+                  "x": 0,
+                  "y": 154,
+                  "width": 1440,
+                  "height": 104
+                },
+                "selector": "#4bbae376-8cfe-45fa-9651-0dcd852f3c4d"
+              },
+              {
+                "tag": "div",
+                "id": "d8446e2b-3f39-4d43-95a6-5efd08e6c1b6",
+                "classes": [
+                  "grid",
+                  "Z25uR9U5",
+                  "fixed-fluid",
+                  "_3cz-03q-",
+                  "_2IK2ad9n",
+                  "css-17qcvnv",
+                  "css-1vtn5w7"
+                ],
+                "text": "Men ShoesClothingAccessories",
+                "attributes": {
+                  "id": "d8446e2b-3f39-4d43-95a6-5efd08e6c1b6",
+                  "data-qa": "grid",
+                  "data-container-type": "local_menu",
+                  "data-fluid-grid": "false",
+                  "class": "grid Z25uR9U5 fixed-fluid _3cz-03q- _2IK2ad9n css-17qcvnv css-1vtn5w7",
+                  "style": "position: relative;"
+                },
+                "ariaLabel": null,
+                "role": null,
+                "href": null,
+                "rect": {
+                  "x": 0,
+                  "y": 154,
+                  "width": 1440,
+                  "height": 104
+                },
+                "selector": "#d8446e2b-3f39-4d43-95a6-5efd08e6c1b6"
+              },
+              {
+                "tag": "div",
+                "id": null,
+                "classes": [],
+                "text": "Shop New Arrivals Send a Gift Card Members: Free Shipping on Orders $50+ Men ShoesClothingAccessories Nike Training JUST DO THE WORK Gym wear that goes as hard as you do. Explore Watch Shop by Sport S\u2026",
+                "attributes": {
+                  "role": "main"
+                },
+                "ariaLabel": null,
+                "role": "main",
+                "href": null,
+                "rect": {
+                  "x": 0,
+                  "y": 96,
+                  "width": 1440,
+                  "height": 3974.796875
+                },
+                "selector": "html > body > div > div > div > div"
+              },
+              {
+                "tag": "div",
+                "id": "ciclp-app",
+                "classes": [],
+                "text": "Shop New Arrivals Send a Gift Card Members: Free Shipping on Orders $50+ Men ShoesClothingAccessories Nike Training JUST DO THE WORK Gym wear that goes as hard as you do. Explore Watch Shop by Sport S\u2026",
+                "attributes": {
+                  "id": "ciclp-app",
+                  "class": ""
+                },
+                "ariaLabel": null,
+                "role": null,
+                "href": null,
+                "rect": {
+                  "x": 0,
+                  "y": 96,
+                  "width": 1440,
+                  "height": 4030.796875
+                },
+                "selector": "#ciclp-app"
+              },
+              {
+                "tag": "div",
+                "id": "__next",
+                "classes": [],
+                "text": "Shop New Arrivals Send a Gift Card Members: Free Shipping on Orders $50+ Men ShoesClothingAccessories Nike Training JUST DO THE WORK Gym wear that goes as hard as you do. Explore Watch Shop by Sport S\u2026",
+                "attributes": {
+                  "id": "__next",
+                  "data-reactroot": ""
+                },
+                "ariaLabel": null,
+                "role": null,
+                "href": null,
+                "rect": {
+                  "x": 0,
+                  "y": 96,
+                  "width": 1440,
+                  "height": 4030.796875
+                },
+                "selector": "#__next"
+              },
+              {
+                "tag": "div",
+                "id": "experience-wrapper",
+                "classes": [],
+                "text": "Shop New Arrivals Send a Gift Card Members: Free Shipping on Orders $50+ Men ShoesClothingAccessories Nike Training JUST DO THE WORK Gym wear that goes as hard as you do. Explore Watch Shop by Sport S\u2026",
+                "attributes": {
+                  "id": "experience-wrapper"
+                },
+                "ariaLabel": null,
+                "role": null,
+                "href": null,
+                "rect": {
+                  "x": 0,
+                  "y": 96,
+                  "width": 1440,
+                  "height": 4030.796875
+                },
+                "selector": "#experience-wrapper"
+              },
+              {
+                "tag": "body",
+                "id": null,
+                "classes": [],
+                "text": "Skip to main content Accessibility at Nike Find a Store Help Join Us Sign In Men Women Kids Jordan NikeSKIMS Sport Shop New Arrivals Send a Gift Card Members: Free Shipping on Orders $50+ Men ShoesClo\u2026",
+                "attributes": {},
+                "ariaLabel": null,
+                "role": null,
+                "href": null,
+                "rect": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 1440,
+                  "height": 4765.796875
+                },
+                "selector": "html > body"
+              },
+              {
+                "tag": "html",
+                "id": null,
+                "classes": [],
+                "text": "Skip to main content Accessibility at Nike Find a Store Help Join Us Sign In Men Women Kids Jordan NikeSKIMS Sport Shop New Arrivals Send a Gift Card Members: Free Shipping on Orders $50+ Men ShoesClo\u2026",
+                "attributes": {
+                  "lang": "en-US",
+                  "style": "--eswIconFillColor: #1A1B1E;"
+                },
+                "ariaLabel": null,
+                "role": null,
+                "href": null,
+                "rect": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 1440,
+                  "height": 4765.796875
+                },
+                "selector": "html"
+              }
+            ]
+          },
+          "url": "https://www.nike.com/men",
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          }
+        }
+      }
+    }
+  ]
+}

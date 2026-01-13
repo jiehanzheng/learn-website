@@ -1,0 +1,23 @@
+{
+  "actions": [
+    {
+      "name": "scroll_document",
+      "args": {
+        "magnitude": 400,
+        "direction": "down"
+      },
+      "note": null,
+      "call_id": null
+    }
+  ],
+  "results": [
+    {
+      "name": "scroll_document",
+      "call_id": null,
+      "result": {
+        "status": "ok",
+        "url": "https://www.nike.com/t/gato-mens-shoes-IZnqPPCC/IB6650-200"
+      }
+    }
+  ]
+}
