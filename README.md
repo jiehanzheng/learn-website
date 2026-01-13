@@ -121,3 +121,12 @@ Run folders are self-contained for later analysis: they include step logs (reque
 - `src/cua/capture.py` — element capture at (x, y)
 - `src/cua/models.py` — model adapters (Gemini)
 - `src/cua/output.py` — per-PDP JSON writer
+- `src/cua/cobrowse.py` — co-browse rule evaluator
+
+## Co-browse (rules evaluation)
+```bash
+PYTHONPATH=src uv run python -m cua.cobrowse \
+  --run-dir outputs/<host>/<run_name> \
+  --url https://www.nike.com \
+  --interval 1
+```
