@@ -1,0 +1,12 @@
+[project]
+name = "cua-explore"
+version = "0.1.0"
+description = "CUA exploration skeleton"
+requires-python = ">=3.10"
+dependencies = [
+  "google-genai>=0.5.0",
+  "playwright>=1.42.0",
+]
+
+[tool.uv]
+# Keep uv config minimal for now.
